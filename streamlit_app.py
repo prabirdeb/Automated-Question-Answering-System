@@ -172,7 +172,7 @@ question=quest.title() # .title() is used to get the input question string
 
 ans = tellme(question)
 
-if(st.button('Submit')):   # display the ans when the submit button is clicked
+if(st.button('tellme')):   # display the ans when the submit button is clicked
   st.success(ans)
 
 # pip install streamlit
