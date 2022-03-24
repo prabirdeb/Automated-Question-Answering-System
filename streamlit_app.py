@@ -165,7 +165,7 @@ def tellme(question):
 # Streamlit Project
 import streamlit as st # All the text cell will be displayed after this import statement
 
-st.title("Welcome to 'tellme' Data Science and ML Q&A Platform")
+st.title("Welcome to 'drona' Data Science and ML Q&A Platform")
 
 quest = st.text_input("Ask your question (BEGINNERS MAY TYPE 'HELP LINES')")
 question=quest.title() # .title() is used to get the input question string
