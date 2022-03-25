@@ -1671,7 +1671,8 @@ CRUD Meaning: CRUD is an acronym that comes from the world of computer programmi
 > Development of Microservices
 > Python code for creating a Streamlit file
 > Creating a file for streamlit inside the session
-> Creating a Streamlit Project",subtop microservicesbas streamlit understand micro,"['subtop', 'microservicesbas', 'streamlit', 'understand', 'micro']",subtopics of microservices-basics & streamlit  > understanding microservices > application programmi
+> Creating a Streamlit Project
+> Deploying streamlit app in Google Cloud",subtop microservicesbas streamlit understand micro,"['subtop', 'microservicesbas', 'streamlit', 'understand', 'micro']",subtopics of microservices-basics & streamlit  > understanding microservices > application programmi
 154,"Subtopics of ML Lifecycle
 
 > Machine learning engineering
@@ -9297,7 +9298,7 @@ st.title('The Taste of My Mango')
 !streamlit run file_name.py",creat file streamlit insid session writefil filena,"['creat', 'file', 'streamlit', 'insid', 'session', 'writefil', 'filena']",creating a file for streamlit inside the session  %%writefile file_name.py  import streamlit as st  
 864,"Creating a Streamlit Project
 
-> Commit the following code as project_name.py along with requirements.txt, README and data file (if any) in github and deploy the demo app in https://share.streamlit.io/
+> Commit the following code as app.py along with requirements.txt, README and data file (may also be accessed via url) in github and deploy the demo app in https://share.streamlit.io/
 
 from drona import text_process
 
@@ -9311,7 +9312,7 @@ text=text.title() # .title() is used to get the input string
 ans = text_process(text)
 
 if(st.button('Submit')):   # display the processed text when the submit button is clicked
-  st.success(ans)",creat streamlit project commit follow code project,"['creat', 'streamlit', 'project', 'commit', 'follow', 'code', 'project']",creating a streamlit project  > commit the following code as project_name.py along with requirements
+  st.success(ans)",creat streamlit project commit follow code apppi a,"['creat', 'streamlit', 'project', 'commit', 'follow', 'code', 'apppi', 'a']","creating a streamlit project  > commit the following code as app.py along with requirements.txt, rea"
 865,"Computer Networking
 
 In computer networking, a port is a communication endpoint. At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. A port is identified for each transport protocol and address combination by a 16-bit unsigned number, known as the port number. 
@@ -9321,7 +9322,25 @@ In computer networking, a port is a communication endpoint. At the software leve
 192.168.0.1:80 (Socket address)
 192.168.0.1 (IP address)
 80 (port number)",comput network comput network port communic endpoi,"['comput', 'network', 'comput', 'network', 'port', 'communic', 'endpoi']","computer networking  in computer networking, a port is a communication endpoint. at the software lev"
-866,"4 Phases to ML Lifecycle
+866,"Deploying streamlit app in Google Cloud
+
+At first we need to create an account in GCP.
+
+It needs following files:
+> app.py
+> requirements.txt
+> README (md or txt file)
+> Dockerfile (available in github)
+
+> Command to build the application (change the ProjectID and AppName) 
+>  ProjectID needs to be copied from gcp console
+
+gcloud builds submit --tag gcr.io/<ProjectID>/<AppName>  --project=<ProjectID>
+
+> Command to deploy the application
+
+gcloud run deploy --image gcr.io/<ProjectID>/<AppName> --platform managed  --project=<ProjectID> --allow-unauthenticated",deploy streamlit app googl cloud first need creat ,"['deploy', 'streamlit', 'app', 'googl', 'cloud', 'first', 'need', 'creat']",deploying streamlit app in google cloud  at first we need to create an account in gcp.  it needs fol
+867,"4 Phases to ML Lifecycle
 
 Phase 1 is Project Planning and Project Setup
 
@@ -9330,21 +9349,21 @@ Phase 2 is Data Collection and Data Labeling
 Phase 3 is Model Training, Testing and Model Debugging (model explainability check)
 
 Phase 4 is Model Deployment (API>Docker>Cloud) and Model Real Time Testing",4 phase machin learn lifecycl phase 1 project plan,"['4', 'phase', 'machin', 'learn', 'lifecycl', 'phase', '1', 'project', 'plan']",4 phases to machine learning lifecycle  phase 1 is project planning and project setup  phase 2 is da
-867,"Challenges with ML during development
+868,"Challenges with ML during development
 
 > Development, training and deployment environment can be different
 > Tools, libraries and dependencies can complicate deployment
 > Tracking and analyzing experiment can become tedious to handle
 > Difficult to reproduce experiment as input data changes
 > ML Code end up in a spaghetti jungle",challeng machin learn develop develop train deploy,"['challeng', 'machin', 'learn', 'develop', 'develop', 'train', 'deploy']","challenges with machine learning during development  > development, training and deployment environm"
-868,"Challenges with ML in production
+869,"Challenges with ML in production
 
 > Live data is not equal to training data
 > Feature engineering pipeline must match between training and serving infrastructure
 > Seamlessly scale up and scale down deployed model
 > Continuous training and champion challenger model deployment
 > Different technology landscape between development and deployment (check versions of the libraries)",challeng machin learn product live data equal trai,"['challeng', 'machin', 'learn', 'product', 'live', 'data', 'equal', 'trai']",challenges with machine learning in production  > live data is not equal to training data > feature 
-869,"Data drift and Model drift
+870,"Data drift and Model drift
 
 In model deployment, there can be data drift or model drift issues. 
 
@@ -9355,9 +9374,9 @@ Model drift refers to the degradation of model performance due to changes in dat
 So, drift analysis must be done.
 
 ",data drift model drift model deploy data drift mod,"['data', 'drift', 'model', 'drift', 'model', 'deploy', 'data', 'drift', 'mod']","data drift and model drift  in model deployment, there can be data drift or model drift issues.   da"
-870,"Machine learning engineering (MLE) is the process of using software engineering principles, and analytical and data science knowledge, and combining both of those in order to take an ML model that’s created and making it available for use by the product or the consumers.
+871,"Machine learning engineering (MLE) is the process of using software engineering principles, and analytical and data science knowledge, and combining both of those in order to take an ML model that’s created and making it available for use by the product or the consumers.
 ",machin learn engin machin learning process use sof,"['machin', 'learn', 'engin', 'machin', 'learning', 'process', 'use', 'sof']",machine learning engineering (machine learninge) is the process of using software engineering princi
-871,"Cloud computing advantages
+872,"Cloud computing advantages
 
 Azure fundamental is basically a cloud computing fundamental
 
@@ -9371,30 +9390,30 @@ Azure fundamental is basically a cloud computing fundamental
 ● Geo-distribution: Applications and data can be deployed to regional datacenters around the globe, so our customers always have the best performance in their region.
 
 ● Disaster recovery: By taking advantage of cloud-based backup services, data replication, and geo-distribution, we can deploy our applications with the confidence that comes from knowing that our data is safe in the event that disaster should occur",cloud comput advantag azur fundament basic cloud c,"['cloud', 'comput', 'advantag', 'azur', 'fundament', 'basic', 'cloud', 'c']",cloud computing advantages  azure fundamental is basically a cloud computing fundamental  ● reliabil
-872,"Cloud service models
+873,"Cloud service models
 
 IaaS-Infrastructure as a Service (Provides storage, computational power and networking (like DNS, Azure VMs and storage services)
 
 PaaS-Platform as a Service (along with IaaS services, it provides OS and runtime)-This is the most popular one
 
 SaaS-Software as a Service. (along with PaaS services, it provides applications as needed. Example is Office 365)",cloud servic model iaasinfrastructur servic provid,"['cloud', 'servic', 'model', 'iaasinfrastructur', 'servic', 'provid']","cloud service models  iaas-infrastructure as a service (provides storage, computational power and ne"
-873,"A runtime system refers to the collection of software and hardware resources that enable a software program to be executed on a computer system. 
+874,"A runtime system refers to the collection of software and hardware resources that enable a software program to be executed on a computer system. 
 
 Ex. Docker is a runtime system",runtim system refer collect softwar hardwar resour,"['runtim', 'system', 'refer', 'collect', 'softwar', 'hardwar', 'resour']",a runtime system refers to the collection of software and hardware resources that enable a software 
-874,"CPU vs GPU
+875,"CPU vs GPU
 
 The main difference between CPU and GPU architecture is that a CPU is designed to handle a wide-range of tasks quickly, a GPU (Graphics processing unit) is designed to quickly render high-resolution images and video concurrently.
 
 CPU reads Cache Memory data before reading RAM.
 
 RAM is a hardware element where the data being currently used is stored. It is a volatile memory.",central process unit vs graphic process unit main ,"['central', 'process', 'unit', 'vs', 'graphic', 'process', 'unit', 'main']",central processing unit vs graphics processing unit  the main difference between central processing 
-875,"Azure machine learning platform 
+876,"Azure machine learning platform 
 
 (end to end service means it provides all services staring from development to deployment)
 
 -It is getting very popular day by day because it helps us to build, train and deploy our
 ML models faster and foster team collaboration.",azur machin learn platform end end servic mean pro,"['azur', 'machin', 'learn', 'platform', 'end', 'end', 'servic', 'mean', 'pro']",azure machine learning platform   (end to end service means it provides all services staring from de
-876,"Azure ML Workspace and Azure ML piplines
+877,"Azure ML Workspace and Azure ML piplines
 
 > In azureml every run is called an Experiment
 
@@ -9402,7 +9421,7 @@ ML models faster and foster team collaboration.",azur machin learn platform end 
 > from the environment file azure creates the docker image
 
 > Azure Resource Manager and Azure Portal are used to manage resources.",azur machin learn workspac azur machin learn pipli,"['azur', 'machin', 'learn', 'workspac', 'azur', 'machin', 'learn', 'pipli']",azure machine learning workspace and azure machine learning piplines  > in azuremachine learning eve
-877,"Connecting to azure ml
+878,"Connecting to azure ml
 
 We can access azureml through web interface or through python coding by using azureml web api
 
@@ -9423,18 +9442,18 @@ myenv = Environment.get(workspace=ws, name=experiment_name)
 
 src = ScriptRunConfig(source_directory=project_folder, script='train.py',
 compute_target=my_compute_target, environment=myenv)",connect azur machin learn access azuremachin learn,"['connect', 'azur', 'machin', 'learn', 'access', 'azuremachin', 'learn']",connecting to azure machine learning  we can access azuremachine learning through web interface or t
-878,Blob storage-Blob stands for Binary Large Object,blob storageblob stand binari larg object,"['blob', 'storageblob', 'stand', 'binari', 'larg', 'object']",blob storage-blob stands for binary large object
-879,"import os
+879,Blob storage-Blob stands for Binary Large Object,blob storageblob stand binari larg object,"['blob', 'storageblob', 'stand', 'binari', 'larg', 'object']",blob storage-blob stands for binary large object
+880,"import os
 
 The OS module in Python provides functions for interacting with the operating system. OS comes under Python's standard utility modules.",import oper system oper system modul python provid,"['import', 'oper', 'system', 'oper', 'system', 'modul', 'python', 'provid']",import operating system  the operating system module in python provides functions for interacting wi
-880,"Different cloud deployment models
+881,"Different cloud deployment models
 
 1. Private cloud: Privately owned and manged with restricted access
 
 2. Public Cloud: Service provider owned and managed.
 
 3. Hybrid cloud: combination of private and public cloud",differ cloud deploy model 1 privat cloud privat ow,"['differ', 'cloud', 'deploy', 'model', '1', 'privat', 'cloud', 'privat', 'ow']",different cloud deployment models  1. private cloud: privately owned and manged with restricted acce
-881,"ML Lifecycle management
+882,"ML Lifecycle management
 
 MLOps is one of the field in ML lifecycle, mainly a part of ML engineering.
 
@@ -9445,7 +9464,7 @@ MLOps reduces technical debt across machine learning models
 ML Lifecycle (MLOps) management tools  are MLFlow, Azure ML, AWS Sagemaker and Google Cloud ML
 
 > Technical debt (or design debt or code debt) is reflects the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer.",machin learn lifecycl manag machin learningop one ,"['machin', 'learn', 'lifecycl', 'manag', 'machin', 'learningop', 'one']",machine learning lifecycle management  machine learningops is one of the field in machine learning l
-882,"MLOps and DevOps
+883,"MLOps and DevOps
 
 When we only use github we can not compare metrices between different versions of our model. But when we use github along with ML lifecycle management tools, we can compare metrices
 
@@ -9456,19 +9475,19 @@ Software development process includes Plan, Code, Build (an executable program t
 IT operation process includes Release, Deploy, Operate and Monitor
 
 DevOps breaks the wall of confusion between the development team and operation team by automating the process of delivery or deployment through CI/CD",machin learn lifecycl devop use github compar metr,"['machin', 'learn', 'lifecycl', 'devop', 'use', 'github', 'compar', 'metr']",machine learning lifecycle and devops  when we only use github we can not compare metrices between d
-883,"Agile software development refers to a group of software development methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams.
+884,"Agile software development refers to a group of software development methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams.
 
 MLOps enables the application of agile principles to machine learning projects.
 
 > Agile is a process of colaboration and DevOps is an automation of colaboration",agil softwar develop refer group softwar develop m,"['agil', 'softwar', 'develop', 'refer', 'group', 'softwar', 'develop', 'm']",agile software development refers to a group of software development methodologies based on iterativ
-884,"Key components of MLOps
+885,"Key components of MLOps
 
 1. Machine learning
 
 2.  DevOps (IT)
 
 3. Data Engineering",key compon ml lifecycl 1 machin learn 2 devop 3 da,"['key', 'compon', 'ml', 'lifecycl', '1', 'machin', 'learn', '2', 'devop', '3', 'da']",key components of ml lifecycle  1. machine learning  2.  devops (it)  3. data engineering
-885,"Advantages of MLOps
+886,"Advantages of MLOps
 
 MLOps is more vibrant than DevOps (ML + DevOps = MLOps)
 
@@ -9481,7 +9500,7 @@ Distribution, Model performance, feature importance etc)
 6. Capture sensitivity of key features to target 
 
 > MLOps is simpler than DevOps",advantag ml lifecycl ml lifecycl vibrant devop ml ,"['advantag', 'ml', 'lifecycl', 'ml', 'lifecycl', 'vibrant', 'devop', 'ml']",advantages of ml lifecycle  ml lifecycle is more vibrant than devops (ml + devops = ml lifecycle)  1
-886,"Key outcomes of MLOps
+887,"Key outcomes of MLOps
 
 1. Model Packaging and Validation
 
@@ -9491,7 +9510,7 @@ Distribution, Model performance, feature importance etc)
 
 4. Model Explainability,
 Monitoring and Re-training",key outcom ml lifecycl 1 model packag valid 2 mode,"['key', 'outcom', 'ml', 'lifecycl', '1', 'model', 'packag', 'valid', '2', 'mode']",key outcomes of ml lifecycle  1. model packaging and validation  2. model reproducibility  3. model 
-887,"Model registry and Metadata 
+888,"Model registry and Metadata 
 
 Model registry is for model versioning
 
@@ -9500,7 +9519,7 @@ Model registry is for model versioning
 ML metadata store is for tracking experiments
 
 > Metadata is a set of data that describes and gives information about other data.",model registri metadata model registri model versi,"['model', 'registri', 'metadata', 'model', 'registri', 'model', 'versi']",model registry and metadata   model registry is for model versioning  (there are three kinds of vers
-888,"MLFLow Basics
+889,"MLFLow Basics
 
 MLFLow starts from modeling to deployment.
 
@@ -9521,7 +9540,7 @@ logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
 
  mlflow.log_metric(""rmse"", rmse)",machin learningflow basic machin learningflow star,"['machin', 'learningflow', 'basic', 'machin', 'learningflow', 'star']",machine learningflow basics  machine learningflow starts from modeling to deployment.  >> it is an o
-889,"Apache Spark (PySpark)
+890,"Apache Spark (PySpark)
 
 Apache Spark is an open-source unified analytics engine for large-scale data processing which requires multiple virtual machines. 
 
@@ -9532,14 +9551,14 @@ Spark and its RDDs were developed in 2012 in response to limitations in the MapR
 > Spark was built on the top of Hadoop MapReduce module and adds superb speed
 
 Hadoop is an open-source software framework for storing and processing big data in a distributed computing environment. The core of Hadoop consists of a storage part “HDFS” (Hadoop Distributed File System) and a processing part “MapReduce”. ",apach spark pyspark apach spark opensourc unifi an,"['apach', 'spark', 'pyspark', 'apach', 'spark', 'opensourc', 'unifi', 'an']",apache spark (pyspark)  apache spark is an open-source unified analytics engine for large-scale data
-890,"Advantages of Spark
+891,"Advantages of Spark
 
 1. Speed: Spark is 100 times faster than MapReduce (because spark uses RAM)
 
 2. Ease of use: allows to quickly write applications in Java, Scala, R and Python
 
 3. Advanced analytics: support sql quaries, streaming data and advanced analytics",advantag spark 1 speed spark 100 time faster mapre,"['advantag', 'spark', '1', 'speed', 'spark', '100', 'time', 'faster', 'mapre']",advantages of spark  1. speed: spark is 100 times faster than mapreduce (because spark uses ram)  2.
-891,"Spark Modules
+892,"Spark Modules
 
 1. Spark Core: It is the underlying general execution engine. It provides an RDD (Resilient Distributed Dataset) and in-memory (RAM) computing capabilities.
 
@@ -9555,21 +9574,21 @@ Spark Core is responsible for:
 ● Scheduling, distributing and monitoring jobs on a cluster
 ● Interacting with storage systems
 ",spark modul 1 spark core under general execut engi,"['spark', 'modul', '1', 'spark', 'core', 'under', 'general', 'execut', 'engi']",spark modules  1. spark core: it is the underlying general execution engine. it provides an resilien
-892,"RDD operations
+893,"RDD operations
 
 A Cluster manager breaks the main csv files into multiple RDD blocks for parallel processing in multiple nodes. Then different transformation occurs on RDD's and generates new RDD's. Then through actions we extract our required datasets
 
 > Here the concept of driver node and worker node (can run application code in the cluster) comes in.
 
 > RDD is an immutable and fault-tolerant system",resili distribut dataset oper cluster manag break ,"['resili', 'distribut', 'dataset', 'oper', 'cluster', 'manag', 'break']",resilient distributed dataset operations  a cluster manager breaks the main csv files into multiple 
-893,"Transformations: map,
+894,"Transformations: map,
 filter, join, union, and so on
 
 Actions: collect, reduce, count,
 first, and so on
 
 ",transform map filter join union action collect red,"['transform', 'map', 'filter', 'join', 'union', 'action', 'collect', 'red']","transformations: map, filter, join, union, and so on  actions: collect, reduce, count, first, and so"
-894,"Anatomy of Spark Application
+895,"Anatomy of Spark Application
 
 • Driver
 
@@ -9580,7 +9599,7 @@ first, and so on
 • Resource Manager (Cluster Manager)
 
 • Executors",anatomi spark applic • driver • applic master • sp,"['anatomi', 'spark', 'applic', '•', 'driver', '•', 'applic', 'master', '•', 'sp']",anatomy of spark application  • driver  • application master  • spark context (this is the object fo
-895,"Spark application coding
+896,"Spark application coding
 
 spark dataframe functions and methods are very similar as pandas data frame (but they are distributed and immutable)
 
@@ -9595,7 +9614,7 @@ my_spark_df.show(5)
 Git command for linking the Python API to Spark Core and initializing SparkContext
 
 PySpark Shell",spark applic code spark datafram function method s,"['spark', 'applic', 'code', 'spark', 'datafram', 'function', 'method', 's']",spark application coding  spark dataframe functions and methods are very similar as pandas data fram
-896,"Directed Acyclic Graph (DAG)
+897,"Directed Acyclic Graph (DAG)
 
 When a task is defined with simple pandas df like commands, spark builds a logical flow of operations that can be represented as directed acyclic graph (DAG) where node represents a RDD partition and the edge represents a data transformation.
 
@@ -9606,13 +9625,13 @@ When a task is defined with simple pandas df like commands, spark builds a logic
 > DAG is a collection of all the tasks we want to run, organized in a way that reflects their relationships and dependencies.
 
 > In Graph view, we can visualize each and every step of our workflow with their dependencies and their current status",direct acycl graph direct acycl graph task defin s,"['direct', 'acycl', 'graph', 'direct', 'acycl', 'graph', 'task', 'defin', 's']",directed acyclic graph (directed acyclic graph)  when a task is defined with simple pandas df like c
-897,"Azure Databricks is a data analytics platform optimized for the Microsoft Azure cloud services platform. Azure Databricks offers three environments for developing data intensive applications: Databricks SQL, Databricks Data Science & Engineering, and Databricks Machine Learning.
+898,"Azure Databricks is a data analytics platform optimized for the Microsoft Azure cloud services platform. Azure Databricks offers three environments for developing data intensive applications: Databricks SQL, Databricks Data Science & Engineering, and Databricks Machine Learning.
 
 > Databricks was built on top of Spark and adds High reliability ",azur databrick data analyt platform optim microsof,"['azur', 'databrick', 'data', 'analyt', 'platform', 'optim', 'microsof']",azure databricks is a data analytics platform optimized for the microsoft azure cloud services platf
-898,"Spark application deploy modes
+899,"Spark application deploy modes
 
 There are two deploy modes that can be used to launch Spark applications on Apache Hadoop YARN - client mode and cluster mode",spark applic deploy mode two deploy mode use launc,"['spark', 'applic', 'deploy', 'mode', 'two', 'deploy', 'mode', 'use', 'launc']",spark application deploy modes  there are two deploy modes that can be used to launch spark applicat
-899,"Apache Airflow
+900,"Apache Airflow
 
 Platform to programmatically author, schedule and monitor
 workflows
@@ -9620,12 +9639,12 @@ workflows
 Luigi, Jenkins, AWS Step Functions, and Pachyderm are the most popular alternatives and competitors to Airflow.
 
 > Airbnb created Apache Airflow",apach airflow platform programmat author schedul m,"['apach', 'airflow', 'platform', 'programmat', 'author', 'schedul', 'm']","apache airflow  platform to programmatically author, schedule and monitor workflows  luigi, jenkins,"
-900,"Introduction to Jenkins
+901,"Introduction to Jenkins
 
 Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration (CI) and continuous deployment or delivery (CD).
 
 Jenkins creates workflows using Declarative Pipelines, which are similar to GitHub Actions workflow files. ",introduct jenkin jenkin open sourc autom server he,"['introduct', 'jenkin', 'jenkin', 'open', 'sourc', 'autom', 'server', 'he']",introduction to jenkins  jenkins is an open source automation server. it helps automate the parts of
-901,"Use of Apache Airflow
+902,"Use of Apache Airflow
 
 1. Manage scheduling and running jobs and data pipelines
 
@@ -9634,10 +9653,10 @@ Jenkins creates workflows using Declarative Pipelines, which are similar to GitH
 3. Ensures jobs are ordered correctly based on dependencies
 
 >> The strongest point of airflow is it can trigger any workflow including spark",use apach airflow 1 manag schedul run job data pip,"['use', 'apach', 'airflow', '1', 'manag', 'schedul', 'run', 'job', 'data', 'pip']",use of apache airflow  1. manage scheduling and running jobs and data pipelines  2. provides mechani
-902,"Airflow Components
+903,"Airflow Components
 
 Airflow Components are Web server, Scheduler, Executor and Metadata database",airflow compon airflow compon web server schedul e,"['airflow', 'compon', 'airflow', 'compon', 'web', 'server', 'schedul', 'e']","airflow components  airflow components are web server, scheduler, executor and metadata database"
-903,"
+904,"
 ● Web Server and Scheduler: The Airflow web server and Scheduler are separate processes run (in this
 case) on the local machine and interact with the database mentioned above.
 
@@ -9651,9 +9670,9 @@ Workers.
 > By Airflow we can create variables where we can store and retrieve data at runtime in the multiple DAGS
 
 from airflow.models import DAG",● web server schedul airflow web server schedul se,"['●', 'web', 'server', 'schedul', 'airflow', 'web', 'server', 'schedul', 'se']", ● web server and scheduler: the airflow web server and scheduler are separate processes run (in thi
-904,"● Metadata Database: Airflow uses a SQL database to store metadata about the data pipelines being run.
+905,"● Metadata Database: Airflow uses a SQL database to store metadata about the data pipelines being run.
 Postgres is extremely popular with Airflow. Alternate databases supported with Airflow include MySQL.",● metadata databas airflow use structur queri lang,"['●', 'metadata', 'databas', 'airflow', 'use', 'structur', 'queri', 'lang']",● metadata database: airflow uses a structured query language database to store metadata about the d
-905," Executor, Worker and Operator
+906," Executor, Worker and Operator
 
 ● The Executor is shown separately in architecture but runs within the Scheduler.
 
@@ -9666,7 +9685,7 @@ Executors are the mechanism by which task instances get run. E.g. SequentialExec
 > Azure Kubernetes Service (AKS) and few others offers serverless capabilities
 
 > By Task duration we will be able to compare the duration of our tasks run at different time intervals",executor worker oper ● executor shown separ archit,"['executor', 'worker', 'oper', '●', 'executor', 'shown', 'separ', 'archit']"," executor, worker and operator  ● the executor is shown separately in architecture but runs within t"
-906,"Applications of Airflow
+907,"Applications of Airflow
 
 Apache Airflow can be used to schedule:
 
@@ -9675,14 +9694,14 @@ transformations
 ● Training machine learning models
 ● Report generation
 ● Backups and similar DevOps operations",applic airflow apach airflow use schedul ● etl pip,"['applic', 'airflow', 'apach', 'airflow', 'use', 'schedul', '●', 'etl', 'pip']",applications of airflow  apache airflow can be used to schedule:  ● etl pipelines that extract data 
-907,"Understanding Celery
+908,"Understanding Celery
 
 Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages, while providing
 operations with the tools required to maintain such a system.
 
 Celery instance / Celery application or just celery app used as the entry-point for everything we want to do in
 Celery, like creating tasks and managing workers, it must be possible for other modules to import it.",understand celeri celeri simpl flexibl reliabl dis,"['understand', 'celeri', 'celeri', 'simpl', 'flexibl', 'reliabl', 'dis']","understanding celery  celery is a simple, flexible, and reliable distributed system to process vast "
-908,"Basic of Deep Neural Networks
+909,"Basic of Deep Neural Networks
 
 Neural Network/Deep learning models are supervised learning models. Means we need labeled data for it's functioning.
 
@@ -9696,7 +9715,7 @@ A small neural network can also beat the performance of any other ML model. That
 > Deep learning is a type of machine learning based on artificial neural networks in which multiple layers of processing are used to extract progressively higher level features from data.
 
 In deep learning, at a very basic level, we convert an unstructured data (text, audio, image) into structured data (matrix)",basic deep neural network neural networkdeep learn,"['basic', 'deep', 'neural', 'network', 'neural', 'networkdeep', 'learn']",basic of deep neural networks  neural network/deep learning models are supervised learning models. m
-909,"SNN, CNN and RNN
+910,"SNN, CNN and RNN
 
 Types of Neural Network
 
@@ -9707,7 +9726,7 @@ Types of Neural Network
 3. RNN-Recurrent Neural Network (used for sequencial input like text, audio)
 
 4. Custom NN (for solving complex problems, like autonomous driving)",sneural network convolut neural network recurr neu,"['sneural', 'network', 'convolut', 'neural', 'network', 'recurr', 'neu']","sneural network, convolutional neural network and recurrent neural network  types of neural network "
-910,"Channels of RGB image
+911,"Channels of RGB image
 
 An RGB image has three channels: red, green, and blue. RGB channels roughly follow the color receptors in the human eye, and are used in computer displays and image scanners.
 
@@ -9722,7 +9741,7 @@ Seven colours of Rainbow:
 Red, Orange, Yellow, Green, Blue, Indigo and Violet.
 
 Red, Green and Blue are additive primary colours because they can make all other colors, even yellow. When mixed together, red, green and blue lights make white. ",channel rgb imag rgb imag three channel red green ,"['channel', 'rgb', 'imag', 'rgb', 'imag', 'three', 'channel', 'red', 'green']","channels of rgb image  an rgb image has three channels: red, green, and blue. rgb channels roughly f"
-911,"Deeper understanding of deep neural network
+912,"Deeper understanding of deep neural network
 
 We can think a neural network as ensembles of linear regression with kernel and does feature engineering in multiple layers. 
 
@@ -9731,7 +9750,7 @@ As we initialize the weights of the features randomly, every node of the first l
 In backpropagation feature importances (weights) are adjusted to get the desired label.
 
 Regularization can be used to train models that generalize better on unseen data, by preventing the algorithm from overfitting the training dataset.",deeper understand deep neural network think neural,"['deeper', 'understand', 'deep', 'neural', 'network', 'think', 'neural']",deeper understanding of deep neural network  we can think a neural network as ensembles of linear re
-912,"Loss function and Cost Function in DNN
+913,"Loss function and Cost Function in DNN
 
 when Loss function is denoted by L(ŷ,y) and 'm' is the number of observations
 
@@ -9746,14 +9765,14 @@ Loss function for logistic regression
 L(ŷ,y)= -[ylogŷ-(1-y)log(1-ŷ)]
 
 Hyperparameter tuning for neural network is an iterative process, for minimizing the cost fuction(loss or error)",loss function cost function deep neural network lo,"['loss', 'function', 'cost', 'function', 'deep', 'neural', 'network', 'lo']","loss function and cost function in deep neural network  when loss function is denoted by l(ŷ,y) and "
-913,"Coputation graph
+914,"Coputation graph
 
 A computational graph is defined as a directed graph where the nodes correspond to mathematical operations.
 
 > We can create the computation graph for linear regression or logistic regression or deep learning model
 
 > feed_dict feeds external data into computational graphs",coput graph comput graph defin direct graph node c,"['coput', 'graph', 'comput', 'graph', 'defin', 'direct', 'graph', 'node', 'c']",coputation graph  a computational graph is defined as a directed graph where the nodes correspond to
-914,"Calculation behind gradient descent
+915,"Calculation behind gradient descent
 
 > Calculation of 'z' values, 'a' values and cost function in forward propagation considering random weights
 > Calculation of da, dz, dw and db in back propagation 
@@ -9769,14 +9788,14 @@ A computational graph is defined as a directed graph where the nodes correspond 
 > Effect of false minima is reduced by stochastic update of weights
 
 > For a non-continuous objective during optimization in deep neural net Subgradient method is used",calcul behind gradient descent calcul z valu valu ,"['calcul', 'behind', 'gradient', 'descent', 'calcul', 'z', 'valu', 'valu']","calculation behind gradient descent  > calculation of z values, a values and cost function in forwar"
-915,"Understanding vectorization
+916,"Understanding vectorization
 
 > Z=W-transpose.X+b 
 > CPU or GPU has the ability of parallel processing (which is called SIMD, single instruction multiple data). Numpy utilizes this ability of the computer
 > for Z calculation in non-vectorized form, we use explicit for loop (Explicit describes something that is very clear), which is series calculation and very slow. So, we alway need to avoid for loops.
 >> During numpy dot product of two vectors W-transpose and X, SIMD is utilized making the caculation very fast
 >> X is a matrix (or vector) in which each row is one feature and each column is one training example. (For other ml algorithm it is transposed)",understand vector zwtransposexb central process un,"['understand', 'vector', 'zwtransposexb', 'central', 'process', 'un']",understanding vectorization  > z=w-transpose.x+b  > central processing unit or graphics processing u
-916,"Vectorized implementation of forward propagation for layer l
+917,"Vectorized implementation of forward propagation for layer l
 
 Z [l]=W [l]A [l - 1]+b [l]
 
@@ -9789,15 +9808,15 @@ A [l]=g [l] (Z [l])
 > A neural network with 1 input layer and 2 hidden layers and 1 output layer have total 3 layers
 
 > Shape of X is (nx,m) where nx= total no. of features and m= total no. of observations",vector implement forward propag layer l z lw la l ,"['vector', 'implement', 'forward', 'propag', 'layer', 'l', 'z', 'lw', 'la', 'l']",vectorized implementation of forward propagation for layer l  z [l]=w [l]a [l - 1]+b [l]  a [l]=g [l
-917,"Notations in DNN
+918,"Notations in DNN
 
 > When we represent a single observation, we use small letter notation (z,w,x)
 
 > When we represent the entire dataset, we use capital letter notation (Z,W,X). So, Z,W and X are all vectors  not single numbers
 
 > For multiple observations, Z,W,X are all matrices",notat deep neural network repres singl observ use ,"['notat', 'deep', 'neural', 'network', 'repres', 'singl', 'observ', 'use']","notations in deep neural network  > when we represent a single observation, we use small letter nota"
-918,"SIMD units refer to hardware components that perform the same operation on multiple data operands concurrently. Typically, a SIMD unit receives as input two vectors (each one with a set of operands), performs the same operation on both sets of operands (one operand from each vector), and outputs a vector.",simd unit refer hardwar compon perform oper multip,"['simd', 'unit', 'refer', 'hardwar', 'compon', 'perform', 'oper', 'multip']",simd units refer to hardware components that perform the same operation on multiple data operands co
-919," Vector dot product
+919,"SIMD units refer to hardware components that perform the same operation on multiple data operands concurrently. Typically, a SIMD unit receives as input two vectors (each one with a set of operands), performs the same operation on both sets of operands (one operand from each vector), and outputs a vector.",simd unit refer hardwar compon perform oper multip,"['simd', 'unit', 'refer', 'hardwar', 'compon', 'perform', 'oper', 'multip']",simd units refer to hardware components that perform the same operation on multiple data operands co
+920," Vector dot product
 
 If vector,
 a.shape=(2,3) and b.shape=(3,1)
@@ -9808,7 +9827,7 @@ Then,
 > vector addition with transpose, a+b.T will give result and shape of resultant vector will be (2,3)
 
 > vector dot product, np.dot(a,b) will give result and the shape of the resultant vector will be (2,1). Vector dot product gives the result of matrix multiplication because dot products are done between the rows of the first matrix and the columns of the second matrix.",vector dot product vector ashape23 bshape31 vector,"['vector', 'dot', 'product', 'vector', 'ashape23', 'bshape31', 'vector']"," vector dot product  if vector, a.shape=(2,3) and b.shape=(3,1)  then,   > vector addition, a+b will"
-920,"Element-wise matrix multiplication
+921,"Element-wise matrix multiplication
 
 a = np.random.randn(3, 3)
 b = np.random.randn(3, 1)
@@ -9822,7 +9841,7 @@ Why is an RNN used for machine translation?
 > It is applicable when the input/output is a sequence (e.g., a sequence of words).
 
 ",elementwis matrix multipl nprandomrandn3 3 b npran,"['elementwis', 'matrix', 'multipl', 'nprandomrandn3', '3', 'b', 'npran']","element-wise matrix multiplication  a = np.random.randn(3, 3) b = np.random.randn(3, 1) c = a * b c."
-921,"Notation for multiple layers
+922,"Notation for multiple layers
 
 In the superscript of Z, W, X or b if we write in parenthesis, it denotes the observation no.
 
@@ -9835,7 +9854,7 @@ Z[1] means the Z value in the first layer
 Neurons are also called nodes or units
 
 In the subscript we denote the node number",notat multipl layer superscript z w x b write pare,"['notat', 'multipl', 'layer', 'superscript', 'z', 'w', 'x', 'b', 'write', 'pare']","notation for multiple layers  in the superscript of z, w, x or b if we write in parenthesis, it deno"
-922,"Activation functions
+923,"Activation functions
 
 > In general activation function is denoted by 'g'
 1. sigmoid function
@@ -9859,12 +9878,12 @@ The range of ReLU is 0 to z
 The range of Leaky ReLU is -0.01z to z
 
 In different layer we can use different activation functions",activ function general activ function denot g 1 si,"['activ', 'function', 'general', 'activ', 'function', 'denot', 'g', '1', 'si']",activation functions  > in general activation function is denoted by g 1. sigmoid function if z is l
-923,"Linear and nonlinear activation function
+924,"Linear and nonlinear activation function
 
 We apply linear activation function (similar to not applying any activation) in neural network for regression problems
 
 Non linear activation functions (Sigmoid, Tanh, ReLU or Leaky ReLU) are called kernel approximation or kernel functions.",linear nonlinear activ function appli linear activ,"['linear', 'nonlinear', 'activ', 'function', 'appli', 'linear', 'activ']",linear and nonlinear activation function  we apply linear activation function (similar to not applyi
-924,"Keras and TensorFlow
+925,"Keras and TensorFlow
 
 Keras is a neural network library while TensorFlow is the open-source library for a number of various tasks in machine learning. 
 
@@ -9874,12 +9893,12 @@ Keras is a deep learning wrapper on TensorFlow
 
 Wrapper methods measure the “usefulness” of features based on the classifier performance
 >> TensorFlow architecture works in 3 parts (Data pre-processing, Model building and Train and estimate the model)",kera tensorflow kera neural network librari tensor,"['kera', 'tensorflow', 'kera', 'neural', 'network', 'librari', 'tensor']",keras and tensorflow  keras is a neural network library while tensorflow is the open-source library 
-925,"Problem of zero initialization
+926,"Problem of zero initialization
 
 > When all the intial weights and biases are considered as zero, all the nodes in a particular layer will learn the same function even after multiple iterations of gradient descent. This is same as taking single node.
 >> That is why random weights are initialized but very small values. This breaks the symmetry and allows different nodes to learn independently of each other 
 >> Also for other ml model if all the weights are initiallized as same, after many iterations the model learns same weight for all the features. This is the “symmetry”",problem zero initi intial weight bias consid zero ,"['problem', 'zero', 'initi', 'intial', 'weight', 'bias', 'consid', 'zero']","problem of zero initialization  > when all the intial weights and biases are considered as zero, all"
-926,"Initializing parameters for the model
+927,"Initializing parameters for the model
 
 > suppose we store the values of n[l] in layer_dims=[nx,4,3,1]
 
@@ -9890,7 +9909,7 @@ parameter['W'+str(i)]= np.random.randn(layer_dims[i],layer_dims[i-1])*0.01
 parameter['b'+str(i)]= np.random.randn(layer_dims[i],1)*0.01
 
 # The above code is for understanding the concept not for running",initi paramet model suppos store valu nl layerdims,"['initi', 'paramet', 'model', 'suppos', 'store', 'valu', 'nl', 'layerdims']","initializing parameters for the model  > suppose we store the values of n[l] in layer_dims=[nx,4,3,1"
-927," Deep Learning capabilities:
+928," Deep Learning capabilities:
 
 1. Classification Only (C)
 
@@ -9903,7 +9922,7 @@ parameter['b'+str(i)]= np.random.randn(layer_dims[i],1)*0.01
 5. Collaborative Classification with Imperfect Knowledge (CCIK)-ensembles of weak learners
 
 > As range of hidden layers boom, model capability will increase",deep learn capabl 1 classif c 2 classif memori cm ,"['deep', 'learn', 'capabl', '1', 'classif', 'c', '2', 'classif', 'memori', 'cm']", deep learning capabilities:  1. classification only (c)  2. classification with memory (cm)  3. cla
-928,"Mathematics behind 4L neural network for multiple observation
+929,"Mathematics behind 4L neural network for multiple observation
 
 L= layers no.
 
@@ -9914,12 +9933,12 @@ g[l]= activation function of layer l
 parameters (which the model learns) for a neural network
 
 W[1], b[1], W[2], b[2],…. W[l], b[l]",mathemat behind 4l neural network multipl observ l,"['mathemat', 'behind', '4l', 'neural', 'network', 'multipl', 'observ', 'l']",mathematics behind 4l neural network for multiple observation  l= layers no.  g[l]= activation funct
-929,"Layer dimension notation in Neural Network
+930,"Layer dimension notation in Neural Network
 
 n[l] means no. of nodes in l th layer
 n[0]= no. of nodes in the input layer (=no. of features in the dataset)
 n[1]=no. of nodes in the first hidden layer",layer dimens notat neural network nl mean node l t,"['layer', 'dimens', 'notat', 'neural', 'network', 'nl', 'mean', 'node', 'l', 't']",layer dimension notation in neural network  n[l] means no. of nodes in l th layer n[0]= no. of nodes
-930,"Weight notation in Neural Network
+931,"Weight notation in Neural Network
 
 For a two layer network, say there are three input nodes (X1,X2 and X3) and one hidden layer with two nodes, h1[1] and h2[1] and one output layer, h1[2]
 
@@ -9934,7 +9953,7 @@ Weight notation in vectorized form
 Weight vector for the first layer W[1]=W.T= [[w11,w21,w31],[w12,w22,w32]]
 
 Thus, the shape of W[1] is (2,3) or shape of W[l] is (n[l], n[l-1])",weight notat neural network two layer network say ,"['weight', 'notat', 'neural', 'network', 'two', 'layer', 'network', 'say']","weight notation in neural network  for a two layer network, say there are three input nodes (x1,x2 a"
-931,"Bias notation in vectorized form in Neural Network
+932,"Bias notation in vectorized form in Neural Network
 
 b[1]= [[b1],[b2]]
 
@@ -9943,24 +9962,24 @@ shape of b[l] is (n[l],1)
 for all the training example, m, shape of b[l] is (n[l],m)
 
 > Shape of Z and A will be same as shape of b",bias notat vector form neural network b1 b1b2 shap,"['bias', 'notat', 'vector', 'form', 'neural', 'network', 'b1', 'b1b2', 'shap']","bias notation in vectorized form in neural network  b[1]= [[b1],[b2]]  shape of b[l] is (n[l],1)  fo"
-932,"Network notation for i th experience
+933,"Network notation for i th experience
 
 For a two layer network, say there are three input nodes (X1,X2 and X3) and one hidden layer with two nodes, h1[1] and h2[1] and one output layer, h1[2]
 
 X1(i)--a1[1]--
 X2(i)--a2[1]--a1[2]--y(i)
 x3(i)--",network notat th experi two layer network say thre,"['network', 'notat', 'th', 'experi', 'two', 'layer', 'network', 'say', 'thre']","network notation for i th experience  for a two layer network, say there are three input nodes (x1,x"
-933,"Forward propagation and backpropagation
+934,"Forward propagation and backpropagation
 
 During forward propagation, in the forward function for layer II we need to know what is the activation function in a layer.
 
 During backpropagation, the corresponding backward function also needs to know what is the activation function for layer II, since the gradient depends on it.
 
 We use catche to pass variables computed during forward propagation to corresponding backward propagation step. It contains useful values for backward propagation to compute derivatives",forward propag backpropag forward propag forward f,"['forward', 'propag', 'backpropag', 'forward', 'propag', 'forward', 'f']","forward propagation and backpropagation  during forward propagation, in the forward function for lay"
-934,"""shallow"" neural network is a term used to describe NN that usually have only one hidden layer (Standard NN) as opposed to deep NN which have several hidden layers, often of various types.
+935,"""shallow"" neural network is a term used to describe NN that usually have only one hidden layer (Standard NN) as opposed to deep NN which have several hidden layers, often of various types.
 
 If we need a large shallow network (large no. of nodes or logic gates) to compute any function, using deep NN will be exponentially smaller.",shallow neural network term use describ neural net,"['shallow', 'neural', 'network', 'term', 'use', 'describ', 'neural', 'net']","""shallow"" neural network is a term used to describe neural network that usually have only one hidden"
-935,"Basics of Improving Deep Neural Networks
+936,"Basics of Improving Deep Neural Networks
 
 We can split the dataset into three parts: Training, Development and Testing (fully untouched one, used as unseen data) as an improvement method
 
@@ -9969,7 +9988,7 @@ In case of big data, there is no need to follow 70-30 train-test split (old way 
 > But for human learning model, testing data also contribute in learning when we perform error analysis. This is the case like reinforcement learning model
 
 > Always make sure that our train,dev and test have similar distribution of data",basic improv deep neural network split dataset thr,"['basic', 'improv', 'deep', 'neural', 'network', 'split', 'dataset', 'thr']","basics of improving deep neural networks  we can split the dataset into three parts: training, devel"
-936,"Basic 'recipe' for all machine learning models
+937,"Basic 'recipe' for all machine learning models
 
 > Build our first simple model or system quickly and then slowly keep on increasing complexity
 
@@ -9985,7 +10004,7 @@ In deep learning we do not concentrate on bias variance trade off. But our model
 
 Our optimal model must have
 1. low bias and low variance (optimum)",basic recip machin learn model build first simpl m,"['basic', 'recip', 'machin', 'learn', 'model', 'build', 'first', 'simpl', 'm']",basic recipe for all machine learning models  > build our first simple model or system quickly and t
-937,"DNN model complexity
+938,"DNN model complexity
 
 Big neural network may make our model overfitting (so, we can easily control model complexity by adjusting the layers and nodes. We can also reduce model complexity of big neural network by applying regularization)
 
@@ -10004,12 +10023,12 @@ For classification problem,
 Every neuron in a neural network learns a classification boundary.
 
 More the classification boundary becomes non-linear, more the model becomes complex. ",deep neural network model complex big neural netwo,"['deep', 'neural', 'network', 'model', 'complex', 'big', 'neural', 'netwo']","deep neural network model complexity  big neural network may make our model overfitting (so, we can "
-938,"Dropout regularization
+939,"Dropout regularization
 
 Apart from L1 and L2 regularization, there is another Dropout regularization (here we randomly make some node zero to make the model simpler)
 
 > Weight decay is a regularization technique (such as L2 regularization) that results in gradient descent shrinking the weights on every iteration",dropout regular apart l1 l2 regular anoth dropout ,"['dropout', 'regular', 'apart', 'l1', 'l2', 'regular', 'anoth', 'dropout']","dropout regularization  apart from l1 and l2 regularization, there is another dropout regularization"
-939,"Implementing dropout ('inverted dropout'): 
+940,"Implementing dropout ('inverted dropout'): 
 
 Here in a certain layer (l=3), we define keep prob=0.8 Means, with probability 0.2 the nodes will become zero in layer 3. So, if in layer 3 there were 10 nodes, 2 nodes will be deleted randomly
 
@@ -10018,29 +10037,29 @@ Here in a certain layer (l=3), we define keep prob=0.8 Means, with probability 0
 > Generally used in computer vision (CNN architecture)
 
 > Dropout can not be used in input and output layers",implement dropout invert dropout certain layer l3 ,"['implement', 'dropout', 'invert', 'dropout', 'certain', 'layer', 'l3']","implementing dropout (inverted dropout):   here in a certain layer (l=3), we define keep prob=0.8 me"
-940,"Data Augmentation
+941,"Data Augmentation
 
 When there is less data and more data can not be made available (generally in case of images), we generate more data by twisting, rotating or zooming the orginal iamge. This is an useful technique to reduce variance",data augment less data data made avail general cas,"['data', 'augment', 'less', 'data', 'data', 'made', 'avail', 'general', 'cas']",data augmentation  when there is less data and more data can not be made available (generally in cas
-941,"Early stopping technique to stop overfitting
+942,"Early stopping technique to stop overfitting
 
 When the cost function for train and dev set diverge after certain no. of iterations, then we need to stop training at that iteration.
 
 > This is not a very good technique to deal with overfitting",earli stop techniqu stop overfit cost function tra,"['earli', 'stop', 'techniqu', 'stop', 'overfit', 'cost', 'function', 'tra']",early stopping technique to stop overfitting  when the cost function for train and dev set diverge a
-942,"Importance of normalized inputs
+943,"Importance of normalized inputs
 
 When cost function is drawn from normalized inputs, the curve becomes symmetric and gradient descent reaches minima faster",import normal input cost function drawn normal inp,"['import', 'normal', 'input', 'cost', 'function', 'drawn', 'normal', 'inp']","importance of normalized inputs  when cost function is drawn from normalized inputs, the curve becom"
-943,"Vanishing/exploding gradients
+944,"Vanishing/exploding gradients
 
 If there is very large no. of layers, 
 Then lower (<1) weights becomes very very small or vanishes when multiplied in every layer to reach final activation and thus the gradient also vanishes.(curve of y or J becomes parallel to x or weight axis). Means with the change in feature value there is no change in prediction. 
 
 And higher (>1) weights becomes very very large or explodes when multiplied in every layer to reach final activation and thus the gradient also explodes. (curve of y or J becomes perpendicular to x or weight axis)",vanishingexplod gradient larg layer lower 1 weight,"['vanishingexplod', 'gradient', 'larg', 'layer', 'lower', '1', 'weight']","vanishing/exploding gradients  if there is very large no. of layers,  then lower (<1) weights become"
-944,"Batch size and iteration
+945,"Batch size and iteration
 
 Batch size is a term used in machine learning and refers to the number of training examples utilized in one iteration.
 
 Iteration is one time processing for forward and backward for a batch of images (say one batch is defined as 16, then 16 images are processed in one iteration). Epoch is once all images are processed one time individually of forward and backward to the network, then that is one epoch.",batch size iter batch size term use machin learn r,"['batch', 'size', 'iter', 'batch', 'size', 'term', 'use', 'machin', 'learn', 'r']",batch size and iteration  batch size is a term used in machine learning and refers to the number of 
-945,"Optimization Algorithms
+946,"Optimization Algorithms
 
 1. Mini-Batch gradient descent
 
@@ -10054,7 +10073,7 @@ Iteration is one time processing for forward and backward for a batch of images 
 
 
 ",optim algorithm 1 minibatch gradient descent 2 gra,"['optim', 'algorithm', '1', 'minibatch', 'gradient', 'descent', '2', 'gra']",optimization algorithms  1. mini-batch gradient descent  2. gradient descent with momentum  3. rmspr
-946,"1. Mini-Batch gradient descent
+947,"1. Mini-Batch gradient descent
 
 For extremely large dataset, instead of passing the entire dataset at once, we can pass the entire dataset in small batches or mini batches.
 
@@ -10065,12 +10084,12 @@ This will solve the memory issue (RAM) for this extremely large computation
 > In case of mini-batch gradient descent, the cost function decreases with oscillation with increase in no. of iterations (because here iterations are performed with mini batches. Thus for some iteration cost function increases slightly and for some iteration decreases slightly)
 
 > Average of the training samples produces stable error gradients and convergence.",1 minibatch gradient descent extrem larg dataset i,"['1', 'minibatch', 'gradient', 'descent', 'extrem', 'larg', 'dataset', 'i']","1. mini-batch gradient descent  for extremely large dataset, instead of passing the entire dataset a"
-947,"> Notation of Mini-batch
+948,"> Notation of Mini-batch
 
 In the superscript of Z, W, X or b if we write in curly braces, it denotes the mini-batch no.
 
 Z{1} means the Z value for the first mini-batch",notat minibatch superscript z w x b write cur brac,"['notat', 'minibatch', 'superscript', 'z', 'w', 'x', 'b', 'write', 'cur', 'brac']","> notation of mini-batch  in the superscript of z, w, x or b if we write in curly braces, it denotes"
-948,"> Choosing our mini-batch size
+949,"> Choosing our mini-batch size
 
 If mini-batch size=m: Batch gradient descent (we face memory shortage issue)-(here m is the total no. of observations)
 
@@ -10081,7 +10100,7 @@ Thus, choosing the mini-batch size in between 1 and m is important
 > For <2k data points (for images or audio), we can use mini-batch size=m
 
 > For larger dataset, we typically use mini-batch size=64(2^6), 128(2^7), 256(2^8), 512(2^9) because parallelization of neural network is best when the memory is used optimally",choos minibatch size minibatch sizem batch gradien,"['choos', 'minibatch', 'size', 'minibatch', 'sizem', 'batch', 'gradien']",> choosing our mini-batch size  if mini-batch size=m: batch gradient descent (we face memory shortag
-949,"2. Gradient Descent with momentum
+950,"2. Gradient Descent with momentum
 
 > To speed up our algorithm to reach the global minima, we use weighted gradient in the weight update equation, in place of using simple gradients (dw & db)
 
@@ -10091,7 +10110,7 @@ Additional hyperparameter=  β # It controls the amount of history (momentum)
 
 > With increase in the value of momemtum (β), learning becomes fast to reach the global minima for the cost function
 > If β =0, it is like simple gradient descent with lowest learning speed.",2 gradient descent momentum speed algorithm reach ,"['2', 'gradient', 'descent', 'momentum', 'speed', 'algorithm', 'reach']","2. gradient descent with momentum  > to speed up our algorithm to reach the global minima, we use we"
-950,"Exponentially weighted averages
+951,"Exponentially weighted averages
 
 weighted avg. of 't' th observation= β*weighted avg. of (t-1) th observation+ (1-β)*value of 't' th observation
 
@@ -10104,13 +10123,13 @@ weighted avg. of 't' th observation= β*weighted avg. of (t-1) th observation+ (
 Bias correction in exponentially weighted averages
 
 We use a bias correction factor to the weighted avg. to handle the bias in the initial period.",exponenti weight averag weight avg th observ βweig,"['exponenti', 'weight', 'averag', 'weight', 'avg', 'th', 'observ', 'βweig']",exponentially weighted averages  weighted avg. of t th observation= β*weighted avg. of (t-1) th obse
-951,"
+952,"
 3. RMSprop
 
 > To speed up our algorithm to reach the global minima, we use RMS gradient in the weight update equation, in place of using simple gradients (dw & db)
 
 Hyperparameter =β≈0.9",3 rmsprop speed algorithm reach global minima use ,"['3', 'rmsprop', 'speed', 'algorithm', 'reach', 'global', 'minima', 'use']"," 3. rmsprop  > to speed up our algorithm to reach the global minima, we use rms gradient in the weig"
-952,"4. Adam Optimization Algorithm 
+953,"4. Adam Optimization Algorithm 
 
 It is a combination of Gradient Descent with momentum (AdaGrad) and RMSprop
 
@@ -10119,19 +10138,19 @@ Adam stands for Adaptive moment estimation
 Hyperparameter =β1≈0.9,β2≈0.999,ε=10^-8
 
 > Here, batch gradient descent or mini batch gradient descent can be used.",4 adam optim algorithm combin gradient descent mom,"['4', 'adam', 'optim', 'algorithm', 'combin', 'gradient', 'descent', 'mom']",4. adam optimization algorithm   it is a combination of gradient descent with momentum (adagrad) and
-953,"5. Learning rate decay
+954,"5. Learning rate decay
 
 > SGD wonder arround the global minima, it never reaches global minima.
 > To solve this issue, if the learning rate (step size) decays with progress, SGD will wonder arround very close vicinity of the global minima.
 > We can define any function of alpha so that its value decreases with increase in epoch",5 learn rate decay stochast gradient descent wonde,"['5', 'learn', 'rate', 'decay', 'stochast', 'gradient', 'descent', 'wonde']","5. learning rate decay  > stochastic gradient descent wonder arround the global minima, it never rea"
-954,"Problem of local optima
+955,"Problem of local optima
 
 In neural network, it is unlikely to get stuck in a bad local optima. 
 
 There are milions of dimensions (weights) in neural network, so it is impossible to get all the partial derivates as zero at one point giviing a bad local optima.
 
 > But problem of plateau can make the learning slow",problem local optima neural network unlik get stuc,"['problem', 'local', 'optima', 'neural', 'network', 'unlik', 'get', 'stuc']","problem of local optima  in neural network, it is unlikely to get stuck in a bad local optima.   the"
-955,"Hyperparameters tuning in DNN 
+956,"Hyperparameters tuning in DNN 
 
 There is a long list of hyperparameters in neural network to get the best set of weights
 
@@ -10146,7 +10165,7 @@ Hyperparameter tuning in pandas is like babysitting one model
 Hyperparameter tuning in Caviar is like training many models in parallel
 
 > During hyperparameter search, whether we try to babysit one model (“Panda” strategy) or train a lot of models in parallel (“Caviar”) is largely determined by the amount of computational power we can access",hyperparamet tune deep neural network long list hy,"['hyperparamet', 'tune', 'deep', 'neural', 'network', 'long', 'list', 'hy']",hyperparameters tuning in deep neural network   there is a long list of hyperparameters in neural ne
-956,"Batch normalization
+957,"Batch normalization
 
 > This is actually a standardization technique
 > We know the normalizing of inputs for a layer is to make the learning faster. 
@@ -10165,13 +10184,13 @@ Hyperparameter tuning in Caviar is like training many models in parallel
 z_norm = (z – μ) /√(σ^2 - ε) # z is the output for i th observation
 
 After training a neural network with Batch Norm, at test time, to evaluate the neural network on a new example we should perform the needed normalizations, use μ and σ^2 estimated using an exponentially weighted average across mini-batches seen during training",batch normal actual standard techniqu know normal ,"['batch', 'normal', 'actual', 'standard', 'techniqu', 'know', 'normal']",batch normalization  > this is actually a standardization technique > we know the normalizing of inp
-957,"Multi-class classification
+958,"Multi-class classification
 (softmax classifer)
 
 > So far we have discussed about binary classification of audio or iamges through deep neural network 
 
 > For multi-class classification, softmax activation function works well",multiclass classif softmax classif far discuss bin,"['multiclass', 'classif', 'softmax', 'classif', 'far', 'discuss', 'bin']",multi-class classification (softmax classifer)  > so far we have discussed about binary classificati
-958,"Deep learning programming framework
+959,"Deep learning programming framework
 
 Caffe/Caffe2
 CNTK
@@ -10183,7 +10202,7 @@ PaddlePaddle
 TensorFlow
 Theano
 Torch",deep learn program framework caffecaffe2 cntk dl4j,"['deep', 'learn', 'program', 'framework', 'caffecaffe2', 'cntk', 'dl4j']",deep learning programming framework  caffe/caffe2 cntk dl4j keras (simplest one) lasagne mxnet paddl
-959,"Python coding for DNN
+960,"Python coding for DNN
 
 import numpy as np
 import tensorflow as tf
@@ -10204,7 +10223,7 @@ Alternate session initialization
 with tf.Session() as session:
 session.run(init)
 print(session.run(w))",python code deep neural network import numpi np im,"['python', 'code', 'deep', 'neural', 'network', 'import', 'numpi', 'np', 'im']",python coding for deep neural network  import numpy as np import tensorflow as tf # define all the t
-960,"Different vector operations in tensor flow
+961,"Different vector operations in tensor flow
 
 for matrix multiplication tf.matmul(m1, m2)
 
@@ -10215,14 +10234,14 @@ Thus Linear Regression equation can be represented as follows:
 out=tf.add(tf.matmul(X,W), b)
 
 for reducing along rows  tf.reduce_sum(x, 0) # means we are squeezing from bottom and top so that two separate rows become one row.",differ vector oper tensor flow matrix multipl tfma,"['differ', 'vector', 'oper', 'tensor', 'flow', 'matrix', 'multipl', 'tfma']","different vector operations in tensor flow  for matrix multiplication tf.matmul(m1, m2)  for matrix "
-961,"Cross entropy loss function (for classification problem), 
+962,"Cross entropy loss function (for classification problem), 
 
 C= Σ y(i)*log(y_pred(i)) can be written as follows:
 
 C= tf.reduce_sum(Y*tf.log(out))
 
 ",cross entropi loss function classif problem c σ yi,"['cross', 'entropi', 'loss', 'function', 'classif', 'problem', 'c', 'σ', 'yi']","cross entropy loss function (for classification problem),   c= σ y(i)*log(y_pred(i)) can be written "
-962,"Computational graph 
+963,"Computational graph 
 
 > Variables in TensorFlow are also known as tensor objects
 
@@ -10231,21 +10250,21 @@ TensorFlow we launch the computational graph in a
 session
 
 > Calculations can be done in parallel in computational graph",comput graph variabl tensorflow also known tensor ,"['comput', 'graph', 'variabl', 'tensorflow', 'also', 'known', 'tensor']",computational graph   > variables in tensorflow are also known as tensor objects  > to perform cacul
-963,"Basics Structuring ML project
+964,"Basics Structuring ML project
 
 Structuring ML project means, having clear strategies for creating a good deep learning model
 
 As there are too many parameters to tune a neural network, a clear strategy must be decided.",basic structur machin learn project structur machi,"['basic', 'structur', 'machin', 'learn', 'project', 'structur', 'machi']","basics structuring machine learning project  structuring machine learning project means, having clea"
-964,"Orthogonalization Basics
+965,"Orthogonalization Basics
 
 Orthogonalization is a system design property that ensures that modification of an instruction or an algorithm component (hyperparameter) does not create or propagate side effects to other system components (hyperparameter)",orthogon basic orthogon system design properti ens,"['orthogon', 'basic', 'orthogon', 'system', 'design', 'properti', 'ens']",orthogonalization basics  orthogonalization is a system design property that ensures that modificati
-965," Fundamental assumptions of supervised learning
+966," Fundamental assumptions of supervised learning
 
 1. We can fit training set well on cost function
 2. The training set performance generalizes pretty well to the dev/test set.
 
 ",fundament assumpt supervis learn 1 fit train set w,"['fundament', 'assumpt', 'supervis', 'learn', '1', 'fit', 'train', 'set', 'w']", fundamental assumptions of supervised learning  1. we can fit training set well on cost function 2.
-966,"Setting up our goal
+967,"Setting up our goal
 
 1. Single number evaluation metric
 
@@ -10254,7 +10273,7 @@ Orthogonalization is a system design property that ensures that modification of 
 2. Satisficing and optimizing metrics
 
 When the requirement of the model is not suitable for single number evaluation metric, then we shall create one optimizing meric and N-1 satisficing merics meeting different criterias.",set goal 1 singl number evalu metric exampl metric,"['set', 'goal', '1', 'singl', 'number', 'evalu', 'metric', 'exampl', 'metric']","setting up our goal  1. single number evaluation metric  > for example, if a metric shows multiple n"
-967,"Train/dev/test distribution
+968,"Train/dev/test distribution
 
 > We should mix and shuffle randomly all the data coming from different regions before train/dev/test distribution.
 
@@ -10271,17 +10290,17 @@ Size of test set
 > If our model takes weeks to get trained, then it is worthy to buy faster computers that could speed up our teams’ iteration speed and thus our team’s productivity.
 
 > If we have a large training set, then we should mix the data comming from different distributions (e.g from internet and from front facing camera) and split for train/dev/test set",traindevtest distribut mix shuffl random data come,"['traindevtest', 'distribut', 'mix', 'shuffl', 'random', 'data', 'come']",train/dev/test distribution  > we should mix and shuffle randomly all the data coming from different
-968,"Changing dev/test sets and metrics
+969,"Changing dev/test sets and metrics
 
 > If there is any special criteria (say, in no way the model should classify pornographic image as cat) for choosing the best model, then the weightage of that criteria must be included in our evaluation metric (the weightage may also be included in the cost function for the improvement in model performance) ",chang devtest set metric special criteria say way ,"['chang', 'devtest', 'set', 'metric', 'special', 'criteria', 'say', 'way']","changing dev/test sets and metrics  > if there is any special criteria (say, in no way the model sho"
-969,"Bias/Variance Analysis
+970,"Bias/Variance Analysis
 
 Comparing to human level performance
 
 > For structured data, our model generally takes less time to reach human level performance
 
 > For the natural perception  (audio or images), it takes lot of time to surpass human level performance and reach bayes optimal error level.(There is very less difference between human error and bayes error)",biasvari analysi compar human level perform struct,"['biasvari', 'analysi', 'compar', 'human', 'level', 'perform', 'struct']","bias/variance analysis  comparing to human level performance  > for structured data, our model gener"
-970,"Human level error and avoidable bias
+971,"Human level error and avoidable bias
 
 Human level error does not indicate to the performance of a single human, it indicates to the performance of whole human kind or team of expert human beings.
 
@@ -10297,7 +10316,7 @@ Problems where ML  significantly surpasses human-level performance
 -Product recommendations
 -Logistics (predicting transit time)
 -Loan approvals",human level error avoid bias human level error ind,"['human', 'level', 'error', 'avoid', 'bias', 'human', 'level', 'error', 'ind']",human level error and avoidable bias  human level error does not indicate to the performance of a si
-971,"Error Analysis
+972,"Error Analysis
 
 > Look at dev examples (which our model misclassified) to get ideas to improve performance
 
@@ -10306,12 +10325,12 @@ Problems where ML  significantly surpasses human-level performance
 > If there is incorrectly labeled data (substantial percentage), clean up incorrectly labeled data 
 
 > If we correct the incorrectly labeled data on the dev set, then we should also correct the incorrectly labeled data in the test set, so that the dev and test sets continue to come from the same distribution.",error analysi look dev exampl model misclassifi ge,"['error', 'analysi', 'look', 'dev', 'exampl', 'model', 'misclassifi', 'ge']",error analysis  > look at dev examples (which our model misclassified) to get ideas to improve perfo
-972,"Mislabeled data
+973,"Mislabeled data
 
 Systematic mislabeled data/example in the training set, hamper our model performance. So, we must pay attention.
 
 But if there is randomly mislabeled data/example, they do not impack our model much.",mislabel data systemat mislabel dataexampl train s,"['mislabel', 'data', 'systemat', 'mislabel', 'dataexampl', 'train', 's']","mislabeled data  systematic mislabeled data/example in the training set, hamper our model performanc"
-973,"Mismatched training and dev/test data (if the training and dev data are from different distribution)
+974,"Mismatched training and dev/test data (if the training and dev data are from different distribution)
 
 > In this case, how can we identify how much error is due to variance and how much error is due to mismatched data
 
@@ -10319,12 +10338,12 @@ But if there is randomly mislabeled data/example, they do not impack our model m
 > Then compare the errors for all the sets for clear understanding
 
 > We have a large data-mismatch problem when our model does a lot better on the training-dev set than on the dev set",mismatch train devtest data train dev data differ ,"['mismatch', 'train', 'devtest', 'data', 'train', 'dev', 'data', 'differ']",mismatched training and dev/test data (if the training and dev data are from different distribution)
-974,"Learning from multiple tasks
+975,"Learning from multiple tasks
  
 1. Transfer learning
 
 2. Multi-task learning",learn multipl task 1 transfer learn 2 multitask le,"['learn', 'multipl', 'task', '1', 'transfer', 'learn', '2', 'multitask', 'le']",learning from multiple tasks   1. transfer learning  2. multi-task learning
-975,"1. Transfer learning 
+976,"1. Transfer learning 
 
 (here learned weights for one task is utilized for classifying another task) Eg. LeNet-5
 When transfer learning makes sense?
@@ -10343,7 +10362,7 @@ A pre-trained model is nothing but a deep learning model someone else built and 
 Transfer Learning is a machine learning technique where we use a pre-trained neural network to solve a problem that is similar to the problem the network was originally trained to solve. We can use partial network and edit the final layer to fit our objectives.
 
 Many pre-trained models are available online.",1 transfer learn learn weight one task util classi,"['1', 'transfer', 'learn', 'learn', 'weight', 'one', 'task', 'util', 'classi']",1. transfer learning   (here learned weights for one task is utilized for classifying another task) 
-976,"2. Multi-task learning
+977,"2. Multi-task learning
 
 > For identifying multiple objects from a picture, we can utilize multiple neural network with binary classification.
 
@@ -10356,14 +10375,14 @@ use of multi-task neural network
 > Training on a set of tasks that could benefit from having shared lower-level features.
 
 > Usually: Amount of data we have for each task is quite similar",2 multitask learn identifi multipl object pictur u,"['2', 'multitask', 'learn', 'identifi', 'multipl', 'object', 'pictur', 'u']","2. multi-task learning  > for identifying multiple objects from a picture, we can utilize multiple n"
-977,"End to end deep learning
+978,"End to end deep learning
 
 > The biggest advantage of deep learning is that, if we have big enough data, there is no need of feature engineering and lots of human efforts to develop a model, a neural network can do every thing to achieve the goal. This is called end to end deep learning.
 
 Applying end-to-end deep learning
 
 Key question: Do we have sufficient data to learn a function of the complexity need to map x to y?",end end deep learn biggest advantag deep learn big,"['end', 'end', 'deep', 'learn', 'biggest', 'advantag', 'deep', 'learn', 'big']","end to end deep learning  > the biggest advantage of deep learning is that, if we have big enough da"
-978,"Pros and cons of end to end deep learning
+979,"Pros and cons of end to end deep learning
 
 Pros: 
 > Let the data speak
@@ -10372,15 +10391,15 @@ Pros:
 Cons:
 > May need large amount of data
 > Excludes potentially useful hand-designed components which may be useful to improve model performance",pros con end end deep learn pros let data speak le,"['pros', 'con', 'end', 'end', 'deep', 'learn', 'pros', 'let', 'data', 'speak', 'le']",pros and cons of end to end deep learning  pros:  > let the data speak > less hand designing of comp
-979,"Difference between Multi-class and multi-task learning
+980,"Difference between Multi-class and multi-task learning
 
 Multi-class learning is the terminology used when we predict a single label for each input, but each label is a single element from a set of possible labels. Multi-task learning is when we have different problems that need to be solved simultaneously (multiple labels for each input)",differ multiclass multitask learn multiclass learn,"['differ', 'multiclass', 'multitask', 'learn', 'multiclass', 'learn']",difference between multi-class and multi-task learning  multi-class learning is the terminology used
-980,"Testing the model for the entire dataset
+981,"Testing the model for the entire dataset
 
 This would cause the dev and test set distributions to become different. This is a bad idea because we’re not aiming where we want to hit
 
 If a teacher is teaching mathematics to a child. She teaches him some examples such as 1+1=2, 2+2=4 and 1+3 = 4. If she takes a test of that child and asks him only 1+1 or 2+2 or 1+3, he will give the exact answer. Based on this test she can not tell if the child has learned mathematics or not.",test model entir dataset would caus dev test set d,"['test', 'model', 'entir', 'dataset', 'would', 'caus', 'dev', 'test', 'set', 'd']",testing the model for the entire dataset  this would cause the dev and test set distributions to bec
-981,"Perceptual task 
+982,"Perceptual task 
 
 Perceptual tasks consist of studies aimed at distinguishing various biomarkers of perception including visual-spatial attention, auditory attention and olfactory attention
 
@@ -10400,7 +10419,7 @@ Here, perceptual task means computer vision through CNN
 > When a high resolution image is used in a neural network, for RGB channels, what a huge number of feature inputs (3300*4200*3) it will be for one  observation, that is why for simplification CNN came into picture. 
 
 We should always try to use famous architectures like LeNet-5, AlexNet, VGG, ResNet, Inception etc. in our model instead of building it from the scratch.",perceptu task perceptu task consist studi aim dist,"['perceptu', 'task', 'perceptu', 'task', 'consist', 'studi', 'aim', 'dist']",perceptual task   perceptual tasks consist of studies aimed at distinguishing various biomarkers of 
-982,"Basics of Pixel 
+983,"Basics of Pixel 
 
 Pixel  means a minute area of illumination on a display screen, one of many from which an image is composed.
 
@@ -10419,7 +10438,7 @@ W=3300/300=11'
 H=4200/300=14'
 
 Early digital camera: 100x100 pixels (0.01 megapixels)",basic pixel pixel mean minut area illumin display ,"['basic', 'pixel', 'pixel', 'mean', 'minut', 'area', 'illumin', 'display']","basics of pixel   pixel  means a minute area of illumination on a display screen, one of many from w"
-983,"Convolution on Black-and-white Image
+984,"Convolution on Black-and-white Image
 
 For Edge detection, we use filters (a 3x3 matrix) to perform convolution operation with the picture intensity matrix:
 >> vertical edge detection filter
@@ -10431,7 +10450,7 @@ Thus, total no. of pixel= total no. of feature= total no. of inputs
 All the values of one picture intensity matrix are the feature values for one observation 
 
 In CNN, we use filter but the weights are not defined. We leave it to the model to learn by itself.",convolut blackandwhit imag edg detect use filter 3,"['convolut', 'blackandwhit', 'imag', 'edg', 'detect', 'use', 'filter', '3']","convolution on black-and-white image  for edge detection, we use filters (a 3x3 matrix) to perform c"
-984,"Convolution operation
+985,"Convolution operation
 
 > convolution operator is *
 Say, picture intensity matrix is I with size 4X4 and filter size is 2X2 
@@ -10445,7 +10464,7 @@ Z11= I11*F11+I12*F12+I21*F21+I22*F22
 Here the equation of Z is similar like linear regression equation. It  is only a refinement of raw data (picture intensity matrix) to refined data (output matrix)
 
 > Convolution operation can be compared with PCA for better understanding of important features",convolut oper convolut oper say pictur intens matr,"['convolut', 'oper', 'convolut', 'oper', 'say', 'pictur', 'intens', 'matr']","convolution operation  > convolution operator is * say, picture intensity matrix is i with size 4x4 "
-985,"Padding in CNN
+986,"Padding in CNN
 
 During convolution operation, the size of the intensity matrix is reduced. This is not a best practice because we are loosing informations.
 
@@ -10460,19 +10479,19 @@ Valid Convolution= convolution with no padding (size of the resultant volume is 
 Same Convolution= convolution with  padding (size of input volume and size of resulting volume are same). Also known as  Zero Padding or Same padding
 
 > A 3D matrix is called volume",pad convolut neural network convolut oper size int,"['pad', 'convolut', 'neural', 'network', 'convolut', 'oper', 'size', 'int']","padding in convolutional neural network  during convolution operation, the size of the intensity mat"
-986,"Strided Convolution
+987,"Strided Convolution
 
 extra hyperparameter, stride (step size)=2,3, etc.
 
 Size of the input matrix is very much reduced in this case
 
 > Stride is the distance between two consecutive receptive fields",stride convolut extra hyperparamet stride step siz,"['stride', 'convolut', 'extra', 'hyperparamet', 'stride', 'step', 'siz']","strided convolution  extra hyperparameter, stride (step size)=2,3, etc.  size of the input matrix is"
-987,"Convolution on RGB image (Coloured image)
+988,"Convolution on RGB image (Coloured image)
 
 Here instead of 2D filter we need 3D filter (3x3x3 matrix) but the output is a 2D matrix
 
 If we need 3D matrix output instead of 2D matrix output, then we need to apply mutiple 3D filters",convolut rgb imag colour imag instead 2d filter ne,"['convolut', 'rgb', 'imag', 'colour', 'imag', 'instead', '2d', 'filter', 'ne']",convolution on rgb image (coloured image)  here instead of 2d filter we need 3d filter (3x3x3 matrix
-988,"Types of layer in a convolutional network:
+989,"Types of layer in a convolutional network:
 
 1. Convolution (CONV) layer-it has parameters to learn 
 
@@ -10480,7 +10499,7 @@ If we need 3D matrix output instead of 2D matrix output, then we need to apply m
 > Though they do not have parameters to learn, but they affect the backpropagation (derivatives) calculation.
 
 3. Fully connected (FC) layer-This is nothing but a single layer of standard NN, it has parameters to learn",type layer convolut network 1 convolut conv layeri,"['type', 'layer', 'convolut', 'network', '1', 'convolut', 'conv', 'layeri']",types of layer in a convolutional network:  1. convolution (conv) layer-it has parameters to learn  
-989,"Pooling Layer
+990,"Pooling Layer
 
 Max pooling-it is similar like convolution operation but instead of taking the summation of all the numbers, here max number is considered in the output matrix.
 
@@ -10490,7 +10509,7 @@ Here hyperparameters are: Filter size(f) and stride (s)
 
 from keras.layers import MaxPooling2D
 Average Pooling (rarely used)-instead of max we take average",pool layer max poolingit similar like convolut ope,"['pool', 'layer', 'max', 'poolingit', 'similar', 'like', 'convolut', 'ope']",pooling layer  max pooling-it is similar like convolution operation but instead of taking the summat
-990,"Necessity of Convolution
+991,"Necessity of Convolution
 
 > By the use of CONV+POOL layer we are actually reducing the number of inputs features and then using a FC layer. Thus the parameter to learn decreases significantly
 > Parameter sharing
@@ -10503,7 +10522,7 @@ means each activation in the next layer depends on only a small number of activa
 As the number of features are extreamly large for an image, CONV+POOL layers are used combinedly and repeatedly as a feature reduction technique
 
 > Training a deeper network (adding additional layers to the network) allows the network to fit more complex functions (or complex feature) and thus almost always results in lower training error.",necess convolut use convpool layer actual reduc nu,"['necess', 'convolut', 'use', 'convpool', 'layer', 'actual', 'reduc', 'nu']",necessity of convolution  > by the use of conv+pool layer we are actually reducing the number of inp
-991,"Calulating the size of output volume for convolution or pooling
+992,"Calulating the size of output volume for convolution or pooling
 
 say, 
 size of input matrix= W X H
@@ -10538,7 +10557,7 @@ Then, size of output volume,
 {(W-F(W)+2P)/S(W)+1}X {(H-F(H)+2P)/S(H)+1} Xn
 
 > If 2D pooling is applied on 3D input, output will be= input width, C",calul size output volum convolut pool say size inp,"['calul', 'size', 'output', 'volum', 'convolut', 'pool', 'say', 'size', 'inp']","calulating the size of output volume for convolution or pooling  say,  size of input matrix= w x h  "
-992,"Notation for multiple CONV layers
+993,"Notation for multiple CONV layers
 
 > First feature map or the input volume 39X39X3
 n_W[0]=n_H[0]=39, n_C[0]=3
@@ -10570,14 +10589,14 @@ Because, (f-1)/2 = (7-1)/2=3
 >  For an input volume 63x63x16, and convolve it with 32 filters that are each 7x7, using a stride of 2 and no padding. The output volume is 29x29x32
 
 > Suppose we have an input volume of dimension 64x64x16. Then a single 1x1 convolutional filter have 17 parameters (including the bias)",notat multipl conv layer first featur map input vo,"['notat', 'multipl', 'conv', 'layer', 'first', 'featur', 'map', 'input', 'vo']","notation for multiple conv layers  > first feature map or the input volume 39x39x3 n_w[0]=n_h[0]=39,"
-993,"Common behavior of all the CNN architecture
+994,"Common behavior of all the CNN architecture
 
 > Dimensions of the intensity matrix changes as follows:
 
 H and W reduces and Depth increases with the progress in layer.
 
 Then the intensity matrix is flattened out and used in FC layer for final output. ",common behavior convolut neural network architectu,"['common', 'behavior', 'convolut', 'neural', 'network', 'architectu']",common behavior of all the convolutional neural network architecture  > dimensions of the intensity 
-994,"LeNet-5 architecture
+995,"LeNet-5 architecture
 
 It was intially built to identify hand written digits (black-and-white)
 
@@ -10586,7 +10605,7 @@ It is an old architecture (sigmoid and tanh activation used)
 AVG POOL is used
 
 Output layer-softmax",lenet5 architectur intial built identifi hand writ,"['lenet5', 'architectur', 'intial', 'built', 'identifi', 'hand', 'writ']",lenet-5 architecture  it was intially built to identify hand written digits (black-and-white)  it is
-995,"AlexNet architecture
+996,"AlexNet architecture
 
 Modern architecture
 
@@ -10595,7 +10614,7 @@ MAX POOL is used
 ReLU activation is being used
 
 Output layer-softmax",alexnet architectur modern architectur max pool us,"['alexnet', 'architectur', 'modern', 'architectur', 'max', 'pool', 'us']",alexnet architecture  modern architecture  max pool is used  relu activation is being used  output l
-996,"VGG-16 architecture
+997,"VGG-16 architecture
 
 Modern architecture 
 
@@ -10608,7 +10627,7 @@ ReLU activation is being used
 Output layer-softmax
 
 ",vgg16 architectur modern architectur multipl conv ,"['vgg16', 'architectur', 'modern', 'architectur', 'multipl', 'conv']",vgg-16 architecture  modern architecture   multiple conv layers are being used  16 signifies 16 numb
-997,"ResNet and Inception architecture
+998,"ResNet and Inception architecture
 
 More Advance and Complex Networks
 
@@ -10624,7 +10643,7 @@ More Advance and Complex Networks
 > A single inception block allows the network to use a combination of 1x1, 3x3, 5x5 convolutions and pooling.
 
 > Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions.",resnet incept architectur advanc complex network 1,"['resnet', 'incept', 'architectur', 'advanc', 'complex', 'network', '1']",resnet and inception architecture  more advance and complex networks  1. resnet- residual network  >
-998,"Network in Network
+999,"Network in Network
 
 Network in Network is actually 1X1 convolution
 
@@ -10642,7 +10661,7 @@ We can also use ConvNet for 3D image like CT Scan image
 
 e.g. 
 For 3D image, input volume has size 32x32x32x16 (this volume has 16 channels)",network network network network actual 1x1 convolu,"['network', 'network', 'network', 'network', 'actual', '1x1', 'convolu']",network in network  network in network is actually 1x1 convolution  > mainly used for 3d pictures  >
-999,"Using open-source implementation
+1000,"Using open-source implementation
 
 For computer vision, always try to use as much open source implementation as possible
 
@@ -10659,7 +10678,7 @@ Use in-built implementations present in deep learning frameworks
 Use transfer learning as much as possible
 
 transfer learning is very useful when we have very less inputs (say 100 pictures)",use opensourc implement comput vision alway tri us,"['use', 'opensourc', 'implement', 'comput', 'vision', 'alway', 'tri', 'us']","using open-source implementation  for computer vision, always try to use as much open source impleme"
-1000,"Common Augmentation methods
+1001,"Common Augmentation methods
 
 > Mirroring
 
@@ -10674,7 +10693,7 @@ transfer learning is very useful when we have very less inputs (say 100 pictures
 > Local warping
 
 > Colour shifting etc.",common augment method mirror crop rotat blur shear,"['common', 'augment', 'method', 'mirror', 'crop', 'rotat', 'blur', 'shear']",common augmentation methods  > mirroring  > cropping  > rotation  > blurring  > shearing  > local wa
-1001,"Sources of data for any ML model
+1002,"Sources of data for any ML model
 
 There are two sources of data for any ML model
 
@@ -10682,20 +10701,20 @@ There are two sources of data for any ML model
 2. Engineered or hand engineered or synthesised data
 
 ",sourc data machin learn model two sourc data machi,"['sourc', 'data', 'machin', 'learn', 'model', 'two', 'sourc', 'data', 'machi']",sources of data for any machine learning model  there are two sources of data for any machine learni
-1002,"Object detection 
+1003,"Object detection 
 
 Object detection (multi-task) requires less data than image recognition /classification (multi-class)
 
 Speech recognition model need much more data than image recognition/ classification model",object detect object detect multitask requir less ,"['object', 'detect', 'object', 'detect', 'multitask', 'requir', 'less']",object detection   object detection (multi-task) requires less data than image recognition /classifi
-1003,"Tips for winning competitions
+1004,"Tips for winning competitions
 
 > Ensembling: Train several networks independently and average their outputs
 
 > Multi-crop at test time: Run clssifier on multiple versions of test images and average results",tip win competit ensembl train sever network indep,"['tip', 'win', 'competit', 'ensembl', 'train', 'sever', 'network', 'indep']",tips for winning competitions  > ensembling: train several networks independently and average their 
-1004,"Difference between image classification and object detection
+1005,"Difference between image classification and object detection
 
 Image Classification helps us to classify what is contained in an image. Image Classification with Localization will specify the location of single object in an image whereas Object Detection specifies the location of multiple objects in the image. ",differ imag classif object detect imag classif hel,"['differ', 'imag', 'classif', 'object', 'detect', 'imag', 'classif', 'hel']",difference between image classification and object detection  image classification helps us to class
-1005," Image Classification with Localization
+1006," Image Classification with Localization
 
 Similar to ConvNet (image classification) but output is slightly different.
 > also called semantic segmentation (Locating objects in an image by predicting each pixel as to which class it belongs to)
@@ -10716,19 +10735,19 @@ y=[0,?,?,?,?,?,?]
 size of y is 1 X (5+no. of classes) 
 
 size of y is 1 X 7 for 2 classes, 1 X 25 for 20 classes",imag classif local similar convnet imag classif ou,"['imag', 'classif', 'local', 'similar', 'convnet', 'imag', 'classif', 'ou']", image classification with localization  similar to convnet (image classification) but output is sli
-1006,"Landmark detection
+1007,"Landmark detection
 
 This is similar to Image classification with localization.
 
 Here, we can analyze the object in the image by defining multiple landmarks (points) during training
 
 All the landmarks are like individual task. Thus, if there are N landmarks, there will  be 2N (yes+no) output units",landmark detect similar imag classif local analyz ,"['landmark', 'detect', 'similar', 'imag', 'classif', 'local', 'analyz']","landmark detection  this is similar to image classification with localization.  here, we can analyze"
-1007,"Object detection
+1008,"Object detection
 
 > If we take sliding window or multiple cropped image for detecting multiple objects in a picture and then pass all the cropped images to the same ConvNet, then this will become computationally very expensive
 
 > To substantially reduce the computational cost, there is convolutional implementation of sliding windows where single image is fed to a single ConvNet",object detect take slide window multipl crop imag ,"['object', 'detect', 'take', 'slide', 'window', 'multipl', 'crop', 'imag']",object detection  > if we take sliding window or multiple cropped image for detecting multiple objec
-1008,"Object detection algorithm
+1009,"Object detection algorithm
 
 Steps towards outputting a single and accurate bounding box
 
@@ -10740,7 +10759,7 @@ Steps towards outputting a single and accurate bounding box
 
 4. anchor box algorithm
 ",object detect algorithm step toward output singl a,"['object', 'detect', 'algorithm', 'step', 'toward', 'output', 'singl', 'a']",object detection algorithm  steps towards outputting a single and accurate bounding box  1. yolo alg
-1009,"1. YOLO algorithm
+1010,"1. YOLO algorithm
 
 YOLO stands for You Only Look Once
 
@@ -10749,7 +10768,7 @@ YOLO stands for You Only Look Once
 label for training: For each grid cell
 
 Here, y is a 3D array",1 yolo algorithm yolo stand look biggest advantag ,"['1', 'yolo', 'algorithm', 'yolo', 'stand', 'look', 'biggest', 'advantag']",1. yolo algorithm  yolo stands for you only look once  > the biggest advantage of using yolo is its 
-1010,"Steps in YOLO algorithm
+1011,"Steps in YOLO algorithm
 
 (for finding the bounding box)
 >> YOLO first takes an input image
@@ -10762,7 +10781,7 @@ output volume for 19X 19 grid and 20 classes will be 19 X19X25
 As there are 5 anchor boxes, 
 Then output volume will be 
 19x19x(5x25)",step yolo algorithm find bound box yolo first take,"['step', 'yolo', 'algorithm', 'find', 'bound', 'box', 'yolo', 'first', 'take']",steps in yolo algorithm  (for finding the bounding box) >> yolo first takes an input image >> the fr
-1011," Intersection over union  algorithm
+1012," Intersection over union  algorithm
 
 For finding accurate bounding box
 
@@ -10771,14 +10790,14 @@ For finding accurate bounding box
 correct if IoU >=0.5
 
 If, the upper-left box is 2x2, and the lower-right box is 2x3. The overlapping region is 1x1, Then IoU=1*1/(2*2+2*3-1*1)=1/9",intersect union algorithm find accur bound box 2 i,"['intersect', 'union', 'algorithm', 'find', 'accur', 'bound', 'box', '2', 'i']", intersection over union  algorithm  for finding accurate bounding box  2. intersection over union (
-1012,"3. Non-max supression
+1013,"3. Non-max supression
 
 For finding single bounding box
 
 When there are multiple bounding boxes for same object, then this algorithm ignores the non-max bounding boxes (probabillity of less than maximum).
 
 > Finally we get non-max supressed output",3 nonmax supress find singl bound box multipl boun,"['3', 'nonmax', 'supress', 'find', 'singl', 'bound', 'box', 'multipl', 'boun']",3. non-max supression  for finding single bounding box  when there are multiple bounding boxes for s
-1013,"4. anchor box algorithm
+1014,"4. anchor box algorithm
 
 If there are multiple objects in a single grid
 
@@ -10787,13 +10806,13 @@ Overlapping objects have same center of bounding box.
 Then, we define overlapping bounding boxes as anchor box-1, anchor box-2 etc.
 
 Output for each anchor box will be stacked in the width of output volume",4 anchor box algorithm multipl object singl grid o,"['4', 'anchor', 'box', 'algorithm', 'multipl', 'object', 'singl', 'grid', 'o']",4. anchor box algorithm  if there are multiple objects in a single grid  overlapping objects have sa
-1014,"Face Verification 
+1015,"Face Verification 
 
 > Input image, name/ID
 > Output whether the input image is that of the claimed person
 
 ",face verif input imag nameid output whether input ,"['face', 'verif', 'input', 'imag', 'nameid', 'output', 'whether', 'input']","face verification   > input image, name/id > output whether the input image is that of the claimed p"
-1015,"Face Recognition
+1016,"Face Recognition
 
 > Has a database of K persons
 > Get an input image
@@ -10814,7 +10833,7 @@ Face recognition is one step ahead. So, ConvNet alone will not serve the purpose
 
 
 ",face recognit databas k person get input imag outp,"['face', 'recognit', 'databas', 'k', 'person', 'get', 'input', 'imag', 'outp']",face recognition  > has a database of k persons > get an input image > output id if the image is nay
-1016,"Siamese network
+1017,"Siamese network
 
 Here, an image is passed through a ConvNet and stopped before the softmax layer and we get the encoded image.
 
@@ -10841,16 +10860,16 @@ Triplet loss = L(A,P,N)
 Choose triplets that are hard to train on (N image is very much similar as A) to make the model robust
 
 So, A,P, N should not be choosen randomly",siames network imag pass convnet stop softmax laye,"['siames', 'network', 'imag', 'pass', 'convnet', 'stop', 'softmax', 'laye']","siamese network  here, an image is passed through a convnet and stopped before the softmax layer and"
-1017,"Training set for calculating Triplet loss 
+1018,"Training set for calculating Triplet loss 
 
 Each training example consists of one anchor image, one positive image and one negative image",train set calcul triplet loss train exampl consist,"['train', 'set', 'calcul', 'triplet', 'loss', 'train', 'exampl', 'consist']","training set for calculating triplet loss   each training example consists of one anchor image, one "
-1018,"Neural Style Transfer
+1019,"Neural Style Transfer
 
 From a content image (C) and style image (S), the model will generate a stylish content image (G)
 
 Neural style transfer is not really machine learning, but an interesting side effect/output of machine learning on image tasks.
 ",neural style transfer content imag c style imag mo,"['neural', 'style', 'transfer', 'content', 'imag', 'c', 'style', 'imag', 'mo']","neural style transfer  from a content image (c) and style image (s), the model will generate a styli"
-1019,"Finding generated image
+1020,"Finding generated image
 
 1. Initiate G randomly (G=1000x1000x3)
 
@@ -10859,14 +10878,14 @@ Neural style transfer is not really machine learning, but an interesting side ef
 J(G)=αJ-content(C,G)+βJ-style (S,G)
 
 >  In each iteration the pixel values of the generated image G is optimized through gradient descent",find generat imag 1 initi g random g1000x1000x3 2 ,"['find', 'generat', 'imag', '1', 'initi', 'g', 'random', 'g1000x1000x3', '2']",finding generated image  1. initiate g randomly (g=1000x1000x3)  2. use gradient descent to minimize
-1020,"Style and style matrix 
+1021,"Style and style matrix 
 
 Style is defined as the correlation between activations across channels
 
 In the deeper layers of a ConvNet, each channel corresponds to a different feature detector. 
 
 The style matrix G[l] measures the degree to which the activations of different feature detectors in layer l vary (or correlate) together with each other.",style style matrix style defin correl activ across,"['style', 'style', 'matrix', 'style', 'defin', 'correl', 'activ', 'across']",style and style matrix   style is defined as the correlation between activations across channels  in
-1021,"Examples of Models with sequence data
+1022,"Examples of Models with sequence data
 
 1. Speech recognition
 2. Music generation
@@ -10877,7 +10896,7 @@ The style matrix G[l] measures the degree to which the activations of different 
 7. Name entity recognition
 
 >> A recurrent neural network can be unfolded into a full-connected neural network with infinite length.",exampl model sequenc data 1 speech recognit 2 musi,"['exampl', 'model', 'sequenc', 'data', '1', 'speech', 'recognit', '2', 'musi']",examples of models with sequence data  1. speech recognition 2. music generation 3. sentiment classi
-1022,"Notation in RNN
+1023,"Notation in RNN
 
 Here the elements (words) of each sequence (sentence or example) are denoted with numbers in angle bracket in superscript. e.g. 
 x<1>, x<2>, x<3>,x<t>
@@ -10895,12 +10914,12 @@ a<t>= g_1(w_aa*a<t-1> + w_ax*x<t> + b_a)
 y<t> = g_2(w_ya*a<t> + b_y)
  
 > Back propagation in RNN is named as Backpropagation through time",notat recurr neural network element word sequenc s,"['notat', 'recurr', 'neural', 'network', 'element', 'word', 'sequenc', 's']",notation in recurrent neural network  here the elements (words) of each sequence (sentence or exampl
-1023,"Vectorization of words
+1024,"Vectorization of words
 
 > We define a vocabulary of that particular domain
 
 > Then by one hot encoding we convert any word into vector",vector word defin vocabulari particular domain one,"['vector', 'word', 'defin', 'vocabulari', 'particular', 'domain', 'one']",vectorization of words  > we define a vocabulary of that particular domain  > then by one hot encodi
-1024,"Problem of a standard neural network
+1025,"Problem of a standard neural network
 
 Problems:
 -Inputs,outputs can be different lengths in different examples
@@ -10911,7 +10930,7 @@ Solution:
 Recurrent Neural Network (RNN)
 
 > Recurrent means occurring  repeatedly.",problem standard neural network problem inputsoutp,"['problem', 'standard', 'neural', 'network', 'problem', 'inputsoutp']","problem of a standard neural network  problems: -inputs,outputs can be different lengths in differen"
-1025,"Summary of RNN
+1026,"Summary of RNN
 
 1. For a standard network, there are multiple inputs but one activation output in every layer and we generate output ŷ from the final layer. 
 
@@ -10922,7 +10941,7 @@ In case of RNN, we may generate output ŷ from every layer and calculate the los
 3. Only difference is that we are passing the understanding of every word from one standard network to the next standard network. Finally calculating the loss function summing up the losses from all of the standard networks
 
 4. Then we calculate the cost function of our model considering all of the examples of expression or statement",summari recurr neural network 1 standard network m,"['summari', 'recurr', 'neural', 'network', '1', 'standard', 'network', 'm']","summary of recurrent neural network  1. for a standard network, there are multiple inputs but one ac"
-1026,"Types of RNN
+1027,"Types of RNN
 
 1. One to one
 
@@ -10933,22 +10952,22 @@ In case of RNN, we may generate output ŷ from every layer and calculate the los
 4. Many to many (Tx=Ty) (Name entity recognition)
 
 5. Many to many (Tx!=Ty) (Machine translation)",type recurr neural network 1 one one 2 one mani us,"['type', 'recurr', 'neural', 'network', '1', 'one', 'one', '2', 'one', 'mani', 'us']",types of recurrent neural network  1. one to one  2. one to many (used in music generation)  3. many
-1027,"Language Modelling
+1028,"Language Modelling
 
 Language modelling means what our model hears. That means it calculates the probability of any expression or statement (or probability of sentence) by calculating the conditional probability of each word in every layer.",languag model languag model mean model hear mean c,"['languag', 'model', 'languag', 'model', 'mean', 'model', 'hear', 'mean', 'c']",language modelling  language modelling means what our model hears. that means it calculates the prob
-1028,"Sampling or creating sequence (sentence) from a trained language model (RNN)
+1029,"Sampling or creating sequence (sentence) from a trained language model (RNN)
 
 If we train our RNN model on the whole lot of Shakespeare's poem, then our language model will be able to generate poem like Shakespeare.",sampl creat sequenc sentenc train languag model re,"['sampl', 'creat', 'sequenc', 'sentenc', 'train', 'languag', 'model', 're']",sampling or creating sequence (sentence) from a trained language model (recurrent neural network)  i
-1029,"Character-level language model
+1030,"Character-level language model
 
 Instead of creating word level vocabulary where there is unknown token, <UNK>, we create vocabulary of all the characters including letters, punctuations, numbers etc.",characterlevel languag model instead creat word le,"['characterlevel', 'languag', 'model', 'instead', 'creat', 'word', 'le']",character-level language model  instead of creating word level vocabulary where there is unknown tok
-1030," Exploding and Vanishing gradient
+1031," Exploding and Vanishing gradient
 
 > Exploding gradient problem (weights and activations are all taking on the value of NaN) can be managed by gradient clippping 
 
 > Vanishing gradient problem of RNN is managed by Gated Recurrent Unit (GRU)
 ",explod vanish gradient explod gradient problem wei,"['explod', 'vanish', 'gradient', 'explod', 'gradient', 'problem', 'wei']", exploding and vanishing gradient  > exploding gradient problem (weights and activations are all tak
-1031,"Gated Recurrent Unit
+1032,"Gated Recurrent Unit
 
 > In GRU, we are assigning memory gate activation so that the understanding of any word does not vanishes during long forward or backward propagation
 
@@ -10957,7 +10976,7 @@ i> Reset gate and
 ii> Update gate
 
 GRUs are very similar to Long Short Term Memory(LSTM). Just like LSTM, GRU uses gates to control the flow of information. They are relatively new as compared to LSTM. This is the reason they offer some improvement over LSTM and have simpler architecture.",gate recurr unit gate recurr unit assign memori ga,"['gate', 'recurr', 'unit', 'gate', 'recurr', 'unit', 'assign', 'memori', 'ga']","gated recurrent unit  > in gated recurrent unit, we are assigning memory gate activation so that the"
-1032,"Long short-term memory (LSTM) 
+1033,"Long short-term memory (LSTM) 
 
 There are three different gates in an LSTM cell: 
 i> forget gate, 
@@ -10972,24 +10991,24 @@ Update and forget gate in LSTM palys simmilar role to Γ_u and (1−Γ_u) in GRU
 Say, we are training a LSTM, have a 10000 word vocabulary, 100-dimensional activations a. Then the dimension of Γ_u at each time step will be 100
 
 > LSTM can also be used for time series problems",long shortterm memori long short term memori three,"['long', 'shortterm', 'memori', 'long', 'short', 'term', 'memori', 'three']",long short-term memory (long short term memory)   there are three different gates in an long short t
-1033,"Bidirectional RNN (BRNN)
+1034,"Bidirectional RNN (BRNN)
 
 Getting information from the future words to predict a current word
 
 BRNN with LSTM is very much popular for all of the NLP task",bidirect recurr neural network brecurr neural netw,"['bidirect', 'recurr', 'neural', 'network', 'brecurr', 'neural', 'netw']",bidirectional recurrent neural network (brecurrent neural network)  getting information from the fut
-1034,"Deep RNN
+1035,"Deep RNN
 
 Here, for predicting y we use multiple activation layers instead of one.
 
 > Deep RNN's are useful for NLP applications.",deep recurr neural network predict use multipl act,"['deep', 'recurr', 'neural', 'network', 'predict', 'use', 'multipl', 'act']","deep recurrent neural network  here, for predicting y we use multiple activation layers instead of o"
-1035,"Natural language generation (NLG) comes after NLU
+1036,"Natural language generation (NLG) comes after NLU
 
 It has three steps:
 
 1. Text planning
 2. Sentence planning
 3. Text realization",natur languag generat nlg come natur languag under,"['natur', 'languag', 'generat', 'nlg', 'come', 'natur', 'languag', 'under']",natural language generation (nlg) comes after natural language understanding  it has three steps:  1
-1036,"Huggingface Transformer
+1037,"Huggingface Transformer
 
 !pip install transformers
 from transformers import pipeline
@@ -11005,22 +11024,22 @@ sentimentAnalysis_pipeline = pipeline(""sentiment-analysis"")
 test_sentence='This is not a good story'
 
 print(sentimentAnalysis_pipeline(test_sentence))",huggingfac transform pip instal transform transfor,"['huggingfac', 'transform', 'pip', 'instal', 'transform', 'transfor']",huggingface transformer  !pip install transformers from transformers import pipeline  ques_ans_pipel
-1037,"NLP and Word Embedding
+1038,"NLP and Word Embedding
 
 > Embedding and encoding (conversion of human language to values) are similar but not fully same. 
 
 >  Embedding means encoding with contex",natur languag process word embed embed encod conve,"['natur', 'languag', 'process', 'word', 'embed', 'embed', 'encod', 'conve']",natural language processing and word embedding  > embedding and encoding (conversion of human langua
-1038,"Featurized representation: word embedding
+1039,"Featurized representation: word embedding
 
 If we can create a vocabulary with a list of feature words (like gender, age, size, food, cost etc.), then we will get contextual vectors for every word and can train our model to learn these feature weights.
 
 In real modelling, we do not specify any feature, we let our model learn all the features and their weights on its own.",featur represent word embed creat vocabulari list ,"['featur', 'represent', 'word', 'embed', 'creat', 'vocabulari', 'list']",featurized representation: word embedding  if we can create a vocabulary with a list of feature word
-1039,"Visualizing word embeddings
+1040,"Visualizing word embeddings
 
 we can reduce n-dimensions (n number of features) to 2D by t-SNE to see how multiple words are making clusters
 
 t-SNE is a non-linear dimensionality reduction technique",visual word embed reduc ndimens n number featur 2d,"['visual', 'word', 'embed', 'reduc', 'ndimens', 'n', 'number', 'featur', '2d']",visualizing word embeddings  we can reduce n-dimensions (n number of features) to 2d by t-sne to see
-1040,"Embedding matrix 
+1041,"Embedding matrix 
 
 If we take the vocabulary of words in the column and vocabulary of feature words in rows, then the matrix is called embedding matrix
 
@@ -11035,12 +11054,12 @@ In the above vector dot product or matrix multiplication, matrix, E transforms o
 > word embedding vectors are the final inputs for the model
 > Say, size of E is 10X200 and size of O is 200X1, then the size of e will be 10X1. That means 
 dimension of word embedding= no. of contex or features",embed matrix take vocabulari word column vocabular,"['embed', 'matrix', 'take', 'vocabulari', 'word', 'column', 'vocabular']",embedding matrix   if we take the vocabulary of words in the column and vocabulary of feature words 
-1041,"Transfer learning and word embeddings
+1042,"Transfer learning and word embeddings
 
 1. Learn word embeddings from large text corpus (1-100 B words) (or download pre-trained embedding online)
 2. Transfer embedding is helpful when the new training set quite smaller (say, 100k words) than the pretrained model
 3. Optional: Continue to finetune the word embeddings with new data",transfer learn word embed 1 learn word embed larg ,"['transfer', 'learn', 'word', 'embed', '1', 'learn', 'word', 'embed', 'larg']",transfer learning and word embeddings  1. learn word embeddings from large text corpus (1-100 b word
-1042,"Learning word embeddings
+1043,"Learning word embeddings
 
 > We first formulate our NLP problem as a structured data for supervised learning problem.
 
@@ -11057,7 +11076,7 @@ e.g. we keep a blank word in a sentence and want our model to fill in the blank.
 >> But the difference between RNN and all other ML algorithm is RNN process multiple observations (words) in a single iteration
 
 >> For normal ML or standard NN we know the feature names, for CNN we know the feature name as location, but for RNN we don't know the feature names, we define the rule to extract the feature names by the model itself",learn word embed first formul natur languag proces,"['learn', 'word', 'embed', 'first', 'formul', 'natur', 'languag', 'proces']",learning word embeddings  > we first formulate our natural language processing problem as a structur
-1043,"Context/target pairs
+1044,"Context/target pairs
 
 c and t are chosen to be nearby words
 
@@ -11074,7 +11093,7 @@ for a target juice most appropiate contexts are apple, orange and other fruits
 Never select any context, word or target in NLP randomly, then it will pickup the stopwords. 
 
 We must use heuristic techniques",contexttarget pair c chosen nearbi word 1 last 4 w,"['contexttarget', 'pair', 'c', 'chosen', 'nearbi', 'word', '1', 'last', '4', 'w']",context/target pairs  c and t are chosen to be nearby words  1. last 4 words before the target 2. 4 
-1044,"Word2Vec model
+1045,"Word2Vec model
 
 > Here, either Continuous Bag of Words (CBOW) Method or skip-grams method is used to make context-target pair. In skip-gram technique, we can skip any words of our choice to make the context
 
@@ -11084,24 +11103,24 @@ P(t|C)= exp(θ_t * e_c)/ sum_all_words_of vocab(exp(θ_t * e_c))
 θ_t and e_c are both equal to the dimension of embedding vectors.
 
 θ_t and e_c are both trained with an optimization algorithm such as Adam or gradient descent.",word2vec model either continu bag word cbow method,"['word2vec', 'model', 'either', 'continu', 'bag', 'word', 'cbow', 'method']","word2vec model  > here, either continuous bag of words (cbow) method or skip-grams method is used to"
-1045,"Problem with softmax classification
+1046,"Problem with softmax classification
 
 It has to generate classes equals to the length of the vocabulary. This is computationally expensive: Solution is hierarchical softmax or negative sampling",problem softmax classif generat class equal length,"['problem', 'softmax', 'classif', 'generat', 'class', 'equal', 'length']",problem with softmax classification  it has to generate classes equals to the length of the vocabula
-1046,"Negative Sampling
+1047,"Negative Sampling
 
 To reduce the number of neuron weight updating to reduce training time and having a better prediction result, negative sampling is introduced in word2vec .
 
 Here we frame our training set, X with a combination of context and matching words and thus the target becomes a binary classification. This way we can avoid the problem of softmax layer. 
 > For smaller dataset, negative sample (k) is generally 5-20 for one positive sample
 > For large dataset, negative sample (k) is generally 2-5 for one positive sample",negat sampl reduc number neuron weight updat reduc,"['negat', 'sampl', 'reduc', 'number', 'neuron', 'weight', 'updat', 'reduc']",negative sampling  to reduce the number of neuron weight updating to reduce training time and having
-1047,"GloVe model
+1048,"GloVe model
 
 The Glove is a technique where the matrix factorization is performed on the word-context matrix.
 
 > GloVe means Global Vector
 
 > GloVe is much faster than Word2Vec",glove model glove techniqu matrix factor perform w,"['glove', 'model', 'glove', 'techniqu', 'matrix', 'factor', 'perform', 'w']",glove model  the glove is a technique where the matrix factorization is performed on the word-contex
-1048,"The problem of bias in word embeddings
+1049,"The problem of bias in word embeddings
 
 Word embeddings can reflect gender, ethnicity,age,sexual orientation and other biases of the text used to train the model
 
@@ -11110,7 +11129,7 @@ Debiasing word embeddings
 1. Identify bias direction
 2. Neutralize: For every word that is not definitional, project to get rid of bias
 3. Equalize pairs.",problem bias word embed word embed reflect gender ,"['problem', 'bias', 'word', 'embed', 'word', 'embed', 'reflect', 'gender']","the problem of bias in word embeddings  word embeddings can reflect gender, ethnicity,age,sexual ori"
-1049,"Use of Pre-trained model for getting word embeddings
+1050,"Use of Pre-trained model for getting word embeddings
 
 from gensim.models import Word2Vec 
 import gensim.downloader as api
@@ -11136,7 +11155,7 @@ glove-wiki-gigaword-300 (376 MB)
 
 word2vec-google-news-300 (1662 MB)
 word2vec-ruscorpora-300 (198 MB) ",use pretrain model get word embed gensimmodel impo,"['use', 'pretrain', 'model', 'get', 'word', 'embed', 'gensimmodel', 'impo']",use of pre-trained model for getting word embeddings  from gensim.models import word2vec  import gen
-1050,"Machine translation
+1051,"Machine translation
 
 1. Machine translation -can be said 'conditional language model' because here instead of probability of a sentence, we find conditional probability of a sentence
 
@@ -11145,7 +11164,7 @@ Encoder decoder was initially developed for machine translation problems, althou
 Image captioning
 model is a
 CNN+RNN model",machin translat 1 machin translat said condit lang,"['machin', 'translat', '1', 'machin', 'translat', 'said', 'condit', 'lang']",machine translation  1. machine translation -can be said conditional language model because here ins
-1051,"Finding the most likely translation
+1052,"Finding the most likely translation
 
 Greedy search will not give perfect translation from overall maximum probability perspective.
 
@@ -11157,32 +11176,32 @@ For B=1, it behaves like a greedy search algorithm
 But large beam width makes the computation slower, use up more memory but generally find better solutions (i.e. do a better job maximizing P(y∣x)).
 
 In research paper beam width in the order of 1000 is common but in production system beam width in the order of 100 is generally used.",find like translat greedi search give perfect tran,"['find', 'like', 'translat', 'greedi', 'search', 'give', 'perfect', 'tran']",finding the most likely translation  greedy search will not give perfect translation from overall ma
-1052,"Refinements to beam search
+1053,"Refinements to beam search
 
 Beam search has an inherent bias to output shorter sentence to give higher arg conditional probability of sentence. To overcome this issue, we divide the arg max P(y|x) by the length of the sentence. This is called length normalization.",refin beam search beam search inher bias output sh,"['refin', 'beam', 'search', 'beam', 'search', 'inher', 'bias', 'output', 'sh']",refinements to beam search  beam search has an inherent bias to output shorter sentence to give high
-1053,"BFS and DFS
+1054,"BFS and DFS
 
 Unlike exact search algorithms like BFS (Breadth First Search) or DFS (Depth First Search), Beam Search runs faster but is not guaranteed to find exact maximum for arg max P(y|x).
 
 > BFS:  It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
 
 > DFS: The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.",breadth first search depth first search unlik exac,"['breadth', 'first', 'search', 'depth', 'first', 'search', 'unlik', 'exac']",breadth first search and depth first search  unlike exact search algorithms like breadth first searc
-1054,"Error analysis on beam search
+1055,"Error analysis on beam search
 
 If we fiind an error, will we allocate the error to beam search or RNN?
 
 This is solved by finding the probability of human level performance and the probability of model performance",error analysi beam search fiind error alloc error ,"['error', 'analysi', 'beam', 'search', 'fiind', 'error', 'alloc', 'error']","error analysis on beam search  if we fiind an error, will we allocate the error to beam search or re"
-1055,"Attention model
+1056,"Attention model
 
 For long sequence normal machine translation model (encoder decoder model) does not perform well, because it takes the entire sentence at a time for translation. 
 
 Thus the attention model comes into picture which translates like human translator, means it translate a long sentence part by part.",attent model long sequenc normal machin translat m,"['attent', 'model', 'long', 'sequenc', 'normal', 'machin', 'translat', 'm']",attention model  for long sequence normal machine translation model (encoder decoder model) does not
-1056,"Blue Score
+1057,"Blue Score
 
 It is used to measure the performance of machine translation model. With the increase in sentence length, blue score decreases for normal machine translation model.
 
 > For attention model blue score does not change with sentence length",blue score use measur perform machin translat mode,"['blue', 'score', 'use', 'measur', 'perform', 'machin', 'translat', 'mode']",blue score  it is used to measure the performance of machine translation model. with the increase in
-1057,"Speech recognition
+1058,"Speech recognition
 
 This is a sequence data because audio data is an air pressure variation with time.
 
@@ -11190,20 +11209,20 @@ Two approaches are there:
 
 1. Attention model
 2. CTC (Connectionist Temporal Classification) cost based technique",speech recognit sequenc data audio data air pressu,"['speech', 'recognit', 'sequenc', 'data', 'audio', 'data', 'air', 'pressu']",speech recognition  this is a sequence data because audio data is an air pressure variation with tim
-1058,"Basic Rule of CTC based technique
+1059,"Basic Rule of CTC based technique
 
 Collapse repeated characters not separated by blank
 
 Say, blank is denoted by ""_"", 
 
 __c_oo_o_kk___b_ooooo__oo__kkk string will collapse to cookbook",basic rule ctc base techniqu collaps repeat charac,"['basic', 'rule', 'ctc', 'base', 'techniqu', 'collaps', 'repeat', 'charac']","basic rule of ctc based technique  collapse repeated characters not separated by blank  say, blank i"
-1059,"Trigger word detection
+1060,"Trigger word detection
 
 e.g. Alexa, Okay Google, Hey Siri, Hey Cortana etc.
 
 In trigger word detection, x is 
 features of the audio (such as spectrogram features) at time t",trigger word detect eg alexa okay googl hey siri h,"['trigger', 'word', 'detect', 'eg', 'alexa', 'okay', 'googl', 'hey', 'siri', 'h']","trigger word detection  e.g. alexa, okay google, hey siri, hey cortana etc.  in trigger word detecti"
-1060,"Knowledge of data science to understand human psychology and intelligence
+1061,"Knowledge of data science to understand human psychology and intelligence
 
 Human psychologists have invented human-like intelligence or artificial intelligence. Here, I have tried to understand human psychology from human-like intelligence. My understandings are as follows:
 
@@ -11231,10 +11250,10 @@ A picture is worth a thousand words, a video is worth a million words and a song
 We need to learn the correct value of the bias component so that the weight for the other features is minimized and variance in output is reduced. (this is like regularization of the model)
 
 Note-9: We know that at expectation probability is always maximum. Thus, we only need to know our exact expectations and all our intelligence will automatically work to maximize the probability. Devotional songs also help us to understand the correct expectation in any field.",knowledg data scienc understand human psycholog in,"['knowledg', 'data', 'scienc', 'understand', 'human', 'psycholog', 'in']",knowledge of data science to understand human psychology and intelligence  human psychologists have 
-1061,"Prabir Debnath as drona for tellme model
+1062,"Prabir Debnath as drona for tellme model
 
 Prabir Debnath, the Data Reader Of New Age (drona), is my developer and he is the resource of my experiences that I am sharing with you.",prabir debnath drona tellm model prabir debnath da,"['prabir', 'debnath', 'drona', 'tellm', 'model', 'prabir', 'debnath', 'da']","prabir debnath as drona for tellme model  prabir debnath, the data reader of new age (drona), is my "
-1062,"Help Lines
+1063,"Help Lines
 
 > I am the 'tellme' question answering model of drona (Data Reader Of New Age). I have many experiences to share with data science and machine learning aspirants. I am always with you to make your learning journey superfast and structured.
 
