@@ -48,7 +48,7 @@ In mathematics and computer science, the floor function is the function that tak
 5,"ceiling function
 
 The ceiling function maps x to the least integer greater than or equal to x, denoted ceil or ⌈x⌉",ceil function ceil function map x least integ grea,"['ceil', 'function', 'ceil', 'function', 'map', 'x', 'least', 'integ', 'grea']","ceiling function  the ceiling function maps x to the least integer greater than or equal to x, denot"
-6,"Variable
+6,"Understanding Variable
 
 Variable is the storing place in computer memory for a data (Integers, Floats, Booleans, string, datetime) or data structure (list, tuple, set, dictionary,np.array, pd.DataFrame etc.) and the data/data structure can be changed or varied
 
@@ -58,7 +58,7 @@ Variable name for data=x,y,z etc.
 
 Variable name for data structure=age_of_students, _students_age etc.
 
-case_sensitive (best naming practice), CASE_SENSITIVE, and Case_Sensitive are each a different variable",variabl variabl store place comput memori data int,"['variabl', 'variabl', 'store', 'place', 'comput', 'memori', 'data', 'int']","variable  variable is the storing place in computer memory for a data (integers, floats, booleans, s"
+case_sensitive (best naming practice), CASE_SENSITIVE, and Case_Sensitive are each a different variable",understand variabl variabl store place comput memo,"['understand', 'variabl', 'variabl', 'store', 'place', 'comput', 'memo']","understanding variable  variable is the storing place in computer memory for a data (integers, float"
 7,"commenting multiple lines in colab
 
 Ctrl + /",comment multipl line colab ctrl,"['comment', 'multipl', 'line', 'colab', 'ctrl']",commenting multiple lines in colab  ctrl + /
@@ -289,100 +289,173 @@ floats are not allowed in range function",rang function get sequenc list number 
 44,"Main Topics of Python
 
 > Integers, Floats and Booleans
+
 > Strings
+
 > Lists
+
 > Tuples, Sets and Dictionaries
+
 > Statements, Indentation and Conditionals
+
 > Loops and Iterations
+
 > List comprehension
+
 > Functions and Methods
+
 > Production Grade Programming
+
 > Competitive Coding
+
 > Numpy
+
 > Pandas
+
 > Data Wrangling
-> Data Visualization",main topic python integ float boolean string list ,"['main', 'topic', 'python', 'integ', 'float', 'boolean', 'string', 'list']","main topics of python  > integers, floats and booleans > strings > lists > tuples, sets and dictiona"
+
+> Data Visualization",main topic python integ float boolean string list ,"['main', 'topic', 'python', 'integ', 'float', 'boolean', 'string', 'list']","main topics of python  > integers, floats and booleans  > strings  > lists  > tuples, sets and dicti"
 45,"Main Topics of Analytics Framework
 
 > Excel
+
 > Tableau
+
 > Business KPI
-> SQL ",main topic analyt framework excel tableau busi kpi,"['main', 'topic', 'analyt', 'framework', 'excel', 'tableau', 'busi', 'kpi']",main topics of analytics framework  > excel > tableau > business kpi > structured query language 
+
+> SQL ",main topic analyt framework excel tableau busi kpi,"['main', 'topic', 'analyt', 'framework', 'excel', 'tableau', 'busi', 'kpi']",main topics of analytics framework  > excel  > tableau  > business kpi  > structured query language 
 46,"Main Topics of Mathematics
 
 > Calculus
+
 > Vector Algebra
+
 > Matrix Algebra
+
 > Probability Theory
+
 > Summarizing Data
+
 > Random Variables
+
 > Discrete Distributions
+
 > Continuous Distributions
+
 > Joint Distributions
+
 > Sampling & Statistical Inference
+
 > Confidence Intervals
-> Hypothesis Testing",main topic mathemat calculus vector algebra matrix,"['main', 'topic', 'mathemat', 'calculus', 'vector', 'algebra', 'matrix']",main topics of mathematics  > calculus > vector algebra > matrix algebra > probability theory > summ
+
+> Hypothesis Testing",main topic mathemat calculus vector algebra matrix,"['main', 'topic', 'mathemat', 'calculus', 'vector', 'algebra', 'matrix']",main topics of mathematics  > calculus  > vector algebra  > matrix algebra  > probability theory  > 
 47,"Main Topics of Machine Learning
 
 > Linear Regression
+
 > Bias variance tradeoff
+
 > Regularized Linear Regression
+
 > Cross validation and hyperparameter tuning
+
 > Logistic regression
+
 > Decision Trees
+
 > Ensembles of decision trees
+
 > Model Explainability
+
 > k-nearest neighbors
+
 > Naive Bayes Classifier
+
 > Support Vector Machines
+
 > General Modeling Techniques
+
 > K-means clustering
+
 > Hierarchical clustering
+
 > Principal Component Analysis
+
 > Anomaly Detection
+
 > Natural Language Processing 
+
 > Topic modeling
+
 > Recommender Systems
-> Time Series Analysis",main topic machin learn linear regress bias varian,"['main', 'topic', 'machin', 'learn', 'linear', 'regress', 'bias', 'varian']",main topics of machine learning  > linear regression > bias variance tradeoff > regularized linear r
+
+> Time Series Analysis",main topic machin learn linear regress bias varian,"['main', 'topic', 'machin', 'learn', 'linear', 'regress', 'bias', 'varian']",main topics of machine learning  > linear regression  > bias variance tradeoff  > regularized linear
 48,"Main Topics of Deep Learning
 
 > Neural Networks
+
 > Deep Neural Networks
+
 > Improving Deep Neural Networks
+
 > Structuring ML Projects
+
 > Convolutional Neural Networks
-> Recurrent Neural Network",main topic deep learn neural network deep neural n,"['main', 'topic', 'deep', 'learn', 'neural', 'network', 'deep', 'neural', 'n']",main topics of deep learning  > neural networks > deep neural networks > improving deep neural netwo
+
+> Recurrent Neural Network",main topic deep learn neural network deep neural n,"['main', 'topic', 'deep', 'learn', 'neural', 'network', 'deep', 'neural', 'n']",main topics of deep learning  > neural networks  > deep neural networks  > improving deep neural net
 49,"Main Topics of Industry Insights
 
 > Guesstimate
+
 > Case Study-ML in Heathcare
+
 > Case Study-ML in Fraud risk analytics
+
 > Case Study-ML in Credit Risk
-> Case Study-ML in E-commerce",main topic industri insight guesstim case studyml ,"['main', 'topic', 'industri', 'insight', 'guesstim', 'case', 'studyml']",main topics of industry insights  > guesstimate > case study-ml in heathcare > case study-ml in frau
+
+> Case Study-ML in E-commerce",main topic industri insight guesstim case studyml ,"['main', 'topic', 'industri', 'insight', 'guesstim', 'case', 'studyml']",main topics of industry insights  > guesstimate  > case study-ml in heathcare  > case study-ml in fr
 50,"Main Topics of Data Engineering
 
 > Linux basics and terminal commands
+
 > Python modules and project setup
+
 > Version control-Git
+
 > API basics with flask
+
 > Flask application and FastAPI
+
 > Docker
+
 > Microservices and streamlit
+
 > ML Lifecycle
+
 > Azure Fundamentals
+
 > MLOps-MLFlow
+
 > PySpark
-> Airflow",main topic data engin linux basic termin command p,"['main', 'topic', 'data', 'engin', 'linux', 'basic', 'termin', 'command', 'p']",main topics of data engineering  > linux basics and terminal commands > python modules and project s
+
+> Airflow",main topic data engin linux basic termin command p,"['main', 'topic', 'data', 'engin', 'linux', 'basic', 'termin', 'command', 'p']",main topics of data engineering  > linux basics and terminal commands  > python modules and project 
 51,"Subtopics of Integers, Floats and Booleans
 
-> python tokens
+> python tokens, Keywords, Identifiers, Literals, Punctuations, Operators
+
 > Python keywords
+
 > python data types
+
 > Arithmatic Operation 
+
 > floor function
+
 > ceiling function
-> Variable 
-> order of precedence in python",subtop integ float boolean python token python key,"['subtop', 'integ', 'float', 'boolean', 'python', 'token', 'python', 'key']","subtopics of integers, floats and booleans  > python tokens > python keywords > python data types > "
+
+> Understanding Variable 
+
+> order of precedence in python",subtop integ float boolean python token keyword id,"['subtop', 'integ', 'float', 'boolean', 'python', 'token', 'keyword', 'id']","subtopics of integers, floats and booleans  > python tokens, keywords, identifiers, literals, punctu"
 52,"Tuples basics
 
 Tuples, Sets and Dictionaries are data structures to store multiple items in a single variable
@@ -463,60 +536,93 @@ dict() function converts list of paired elements into dictionary",dictionari ope
 58,"Subtopics of Strings
 
 > Grabbing the element by index 
+
 > String Slicing
+
 > concatenate strings
+
 > String functions
+
 > String methods 
+
 >  way to embed expressions inside string literals
+
 > String duplication
-> safe bridge ",subtop string grab element index string slice conc,"['subtop', 'string', 'grab', 'element', 'index', 'string', 'slice', 'conc']",subtopics of strings  > grabbing the element by index  > string slicing > concatenate strings > stri
+
+> safe bridge ",subtop string grab element index string slice conc,"['subtop', 'string', 'grab', 'element', 'index', 'string', 'slice', 'conc']",subtopics of strings  > grabbing the element by index   > string slicing  > concatenate strings  > s
 59,"Subtopics of  Lists
 
 > List Basics
+
 > List functions
+
 > List methods
-> Nested List",subtop list list basic list function list method n,"['subtop', 'list', 'list', 'basic', 'list', 'function', 'list', 'method', 'n']",subtopics of  lists  > list basics > list functions > list methods > nested list
+
+> Nested List",subtop list list basic list function list method n,"['subtop', 'list', 'list', 'basic', 'list', 'function', 'list', 'method', 'n']",subtopics of  lists  > list basics  > list functions  > list methods  > nested list
 60,"Subtopics of Tuples, Sets and Dictionaries
 
 > Tuples basics
+
 > Set basics
+
 > Set methods
+
 > Dictionary Basics
+
 > Dictionary methods
-> Dictionary operations",subtop tupl set dictionari tupl basic set basic se,"['subtop', 'tupl', 'set', 'dictionari', 'tupl', 'basic', 'set', 'basic', 'se']","subtopics of tuples, sets and dictionaries  > tuples basics > set basics > set methods > dictionary "
+
+> Dictionary operations",subtop tupl set dictionari tupl basic set basic se,"['subtop', 'tupl', 'set', 'dictionari', 'tupl', 'basic', 'set', 'basic', 'se']","subtopics of tuples, sets and dictionaries  > tuples basics  > set basics  > set methods  > dictiona"
 61,"Subtopics of Statements, Indentation and Conditionals
 
 > Assignment statement, conditional statement
-> Expression
+
+> Understanding Expression
+
 > Multi-line statements
-> Comments
+
+> Understanding Comments
+
 > Auto indentation",subtop statement indent condit assign statement co,"['subtop', 'statement', 'indent', 'condit', 'assign', 'statement', 'co']","subtopics of statements, indentation and conditionals  > assignment statement, conditional statement"
 62,"Subtopics of Loops and Iterations
 
 > Loop basics
+
 > Two main loops in python
+
 > Enumerate function
-> break, continue, and pass statements ",subtop loop iter loop basic two main loop python e,"['subtop', 'loop', 'iter', 'loop', 'basic', 'two', 'main', 'loop', 'python', 'e']",subtopics of loops and iterations  > loop basics > two main loops in python > enumerate function > b
+
+> break, continue, and pass statements ",subtop loop iter loop basic two main loop python e,"['subtop', 'loop', 'iter', 'loop', 'basic', 'two', 'main', 'loop', 'python', 'e']",subtopics of loops and iterations  > loop basics  > two main loops in python  > enumerate function  
 63,"Subtopics of List comprehension
 
 > List comprehension basics
+
 > Set Comprehension 
-> Dictionary comprehension",subtop list comprehens list comprehens basic set c,"['subtop', 'list', 'comprehens', 'list', 'comprehens', 'basic', 'set', 'c']",subtopics of list comprehension  > list comprehension basics > set comprehension  > dictionary compr
+
+> Dictionary comprehension",subtop list comprehens list comprehens basic set c,"['subtop', 'list', 'comprehens', 'list', 'comprehens', 'basic', 'set', 'c']",subtopics of list comprehension  > list comprehension basics  > set comprehension   > dictionary com
 64,"Subtopics of Functions and Methods
 
 > Functions, Model and  Environment 
+
 > Defining a function 
+
 > Functions details 
+
 > Function and method 
-> Global variable",subtop function method function model environ defi,"['subtop', 'function', 'method', 'function', 'model', 'environ', 'defi']","subtopics of functions and methods  > functions, model and  environment  > defining a function  > fu"
+
+> Global variable",subtop function method function model environ defi,"['subtop', 'function', 'method', 'function', 'model', 'environ', 'defi']","subtopics of functions and methods  > functions, model and  environment   > defining a function   > "
 65,"Subtopics of Production Grade Programming
 
 > Production Grade Programming Basics
+
 > Object Oriented Programming
+
 >  Attribute and Object
+
 > Defining a class
-> Polymorphism
-> Exception handling",subtop product grade program product grade program,"['subtop', 'product', 'grade', 'program', 'product', 'grade', 'program']",subtopics of production grade programming  > production grade programming basics > object oriented p
+
+> Understanding Polymorphism
+
+> Exception handling",subtop product grade program product grade program,"['subtop', 'product', 'grade', 'program', 'product', 'grade', 'program']",subtopics of production grade programming  > production grade programming basics  > object oriented 
 66,"Subtopics of Competitive Coding
 
 > Competitive coding  basics ",subtop competit code competit code basic,"['subtop', 'competit', 'code', 'competit', 'code', 'basic']",subtopics of competitive coding  > competitive coding  basics 
@@ -525,284 +631,508 @@ dict() function converts list of paired elements into dictionary",dictionari ope
 Instructions that a Python interpreter can execute are called statements. A statement may or may not return a value. 
 
 Assignment statement (assign some data or data structure to a variable) & conditional statement (if, elif (used for nested if), else, while, for and import)",assign statement condit statement instruct python ,"['assign', 'statement', 'condit', 'statement', 'instruct', 'python']","assignment statement, conditional statement  instructions that a python interpreter can execute are "
-68,"Expression
+68,"Understanding Expression
 
 Expression needs to be executed and evaluated and returns a value. For example 2+3 returns 5 in python.  All functions and methods in python returns a value and hence they are expressions
 
-Thus we can conclude that all expressions are statements but all statements are not expressions",express express need execut evalu return valu exam,"['express', 'express', 'need', 'execut', 'evalu', 'return', 'valu', 'exam']",expression  expression needs to be executed and evaluated and returns a value. for example 2+3 retur
+Thus we can conclude that all expressions are statements but all statements are not expressions",understand express express need execut evalu retur,"['understand', 'express', 'express', 'need', 'execut', 'evalu', 'retur']",understanding expression  expression needs to be executed and evaluated and returns a value. for exa
 69,"Multi-line statements 
 
 line continuation by () or [] or {}. Large string can be broken in multi line by \
 
 We can also put multiple statements in a single line using semicolons. a = 1 ; b = 2 ; c = 3 or a,b,c=1,2,3",multilin statement line continu larg string broken,"['multilin', 'statement', 'line', 'continu', 'larg', 'string', 'broken']",multi-line statements   line continuation by () or [] or {}. large string can be broken in multi lin
-70,"Comments
+70,"Understanding Comments
 
-Comments (single line or multi line) are for programmers to better understand a program. Do comments by #. Another way of doing this is to use triple quotes, either ''' or """"""",comment comment singl line multi line programm bet,"['comment', 'comment', 'singl', 'line', 'multi', 'line', 'programm', 'bet']",comments  comments (single line or multi line) are for programmers to better understand a program. d
+Comments (single line or multi line) are for programmers to better understand a program. Do comments by #. Another way of doing this is to use triple quotes, either ''' or """"""",understand comment comment singl line multi line p,"['understand', 'comment', 'comment', 'singl', 'line', 'multi', 'line', 'p']",understanding comments  comments (single line or multi line) are for programmers to better understan
 71,"Auto indentation
 
 Auto indentation is done with: + enter or manually with tab to maintain is proper structure of the code",auto indent auto indent done enter manual tab main,"['auto', 'indent', 'auto', 'indent', 'done', 'enter', 'manual', 'tab', 'main']",auto indentation  auto indentation is done with: + enter or manually with tab to maintain is proper 
 72,"We use ""truthy"" and ""falsy"" to differentiate from the boolean values True and False.",use truthi falsi differenti boolean valu true fals,"['use', 'truthi', 'falsi', 'differenti', 'boolean', 'valu', 'true', 'fals']","we use ""truthy"" and ""falsy"" to differentiate from the boolean values true and false."
 73,"Subtopics of Numpy
 
-> Library, Package
-> Module
+> Understanding Library
+
+> Understanding Package
+
+> Understanding Module
+
 > Modular programming
+
 > N-dimensional array
+
 > Creating a two-dimensional array
+
 > attributes of numpy array
+
 > Advantages of numpy array
+
 > Functions of Numpy
+
 > Defining Array size
+
 > Conversion of list and tuple to ndarray
+
 > Array Manipulation
+
 > Important functions in numpy
+
 > Difference between view and copy in numpy
+
 > Basic Operations & Functions in numpy
-> Difference between list and numpy array",subtop numpi librari packag modul modular program ,"['subtop', 'numpi', 'librari', 'packag', 'modul', 'modular', 'program']","subtopics of numpy  > library, package > module > modular programming > n-dimensional array > creati"
+
+> Difference between list and numpy array",subtop numpi understand librari understand packag ,"['subtop', 'numpi', 'understand', 'librari', 'understand', 'packag']",subtopics of numpy  > understanding library  > understanding package  > understanding module  > modu
 74,"Subtopics of Pandas
 
 > Basics of Pandas Dataframe
+
 > Rows and columns of pandas dataframe
+
 > Pandas series
+
 > Convertion of numpy array to pandas dataframe
+
 > Methods and attributes of pandas DataFrame 
+
 > Connecting google drive to colab notebook
+
 > For uploading any file from local computer to the colab session
+
 > Converting a csv file to pandas DataFrame
+
 > Editing in pandas df and then save them to csv/excel
+
 > Slicing operation on Pandas DataFrame
+
 > Slicing operation on a particular column  in Pandas DataFrame
+
 > Conditional Slicing/Filtering in  Pandas DataFrame
+
 > Adding new column in existing df in  Pandas DataFrame
+
 > Removing one or multiple columns in  Pandas DataFrame
+
 > Setting a column as row index in  Pandas DataFrame
+
 > Methods for particular column in  Pandas DataFrame
+
 > Sort values in  Pandas DataFrame
+
 > Creating a new column with lambda function
+
 > Pandas data display options
+
 > Another way to convert dict to df
+
 > Converting pandas df to numpy array
+
 > String to numeric in  Pandas DataFrame
+
 > Slicing operation on Pandas DataFrame
+
 > Slicing operation on a particular column  in Pandas DataFrame
+
 > Conditional Slicing/Filtering in  Pandas DataFrame
+
 > Adding new column in existing df in  Pandas DataFrame
+
 > Removing one or multiple columns in  Pandas DataFrame
+
 > Setting a column as row index in  Pandas DataFrame
+
 > Methods for particular column in  Pandas DataFrame
+
 > Sort values in  Pandas DataFrame
+
 > Creating a new column with lambda function
+
 > Pandas data display options
+
 > Another way to convert dict to df
+
 > Converting pandas df to numpy array
+
 > String to numeric in  Pandas DataFrame
-> Numpy array or pandas df to matrix convertion",subtop panda basic panda datafram row column panda,"['subtop', 'panda', 'basic', 'panda', 'datafram', 'row', 'column', 'panda']",subtopics of pandas  > basics of pandas dataframe > rows and columns of pandas dataframe > pandas se
+
+> Numpy array or pandas df to matrix convertion",subtop panda basic panda datafram row column panda,"['subtop', 'panda', 'basic', 'panda', 'datafram', 'row', 'column', 'panda']",subtopics of pandas  > basics of pandas dataframe  > rows and columns of pandas dataframe  > pandas 
 75,"Subtopics of Data Wrangling
 
 > Basics of Data wrangling
+
 > Concatenating pandas DataFrame
+
 > DataFrame merging operation through joins
+
 > Groupby operation on pandas dataframe for data analysis
+
 > Detailed EDA
+
 > Quick EDA
+
 > Pandas profiling in colab notebook
+
 > EDA practice
+
 > Use of ast library
-> Use of explode function
-",subtop data wrangl basic data wrangl concaten pand,"['subtop', 'data', 'wrangl', 'basic', 'data', 'wrangl', 'concaten', 'pand']",subtopics of data wrangling  > basics of data wrangling > concatenating pandas dataframe > dataframe
+
+> Use of explode function",subtop data wrangl basic data wrangl concaten pand,"['subtop', 'data', 'wrangl', 'basic', 'data', 'wrangl', 'concaten', 'pand']",subtopics of data wrangling  > basics of data wrangling  > concatenating pandas dataframe  > datafra
 76,"Subtopics of Data Visualization
 
 > libraries for data visualization
+
 > Matplotlib library
+
 > Matplotlib pyplot function
+
 > Matplotlib Line Plot
+
 > Matplotlib Horizontal Bar Plot
+
 > Matplotlib Box plot and Scatter Plot
+
 > drawing a trend line in the scatter plot
+
 > drawing horizontal or vertial lines
+
 > Seaborn library
+
 > seaborn Line plot
+
 >  Scatter plot, Distribution/Density Plot
+
 > seaborn Joint Distribution Plot, Heatmap, Bar Plot
+
 > seaborn Histogram, Factor Plot, Box plot
+
 > Seaborn Pairplot
+
 > Ploting directly from pandas dataframe
+
 > Editing the plot area with matplotlib and seaborn
+
 > Combining two plots in a single graph
+
 > plot functions
-> saving the plot as png in google drive",subtop data visual librari data visual matplotlib ,"['subtop', 'data', 'visual', 'librari', 'data', 'visual', 'matplotlib']",subtopics of data visualization  > libraries for data visualization > matplotlib library > matplotli
+
+> saving the plot as png in google drive",subtop data visual librari data visual matplotlib ,"['subtop', 'data', 'visual', 'librari', 'data', 'visual', 'matplotlib']",subtopics of data visualization  > libraries for data visualization  > matplotlib library  > matplot
 77,"Subtopics of Excel
 
 > Excel basics
+
 > Data Handling in excel
+
 > sections in excel file (top to bottom)
+
 > Menu Bar Tabs in excel
+
 > circular reference
+
 > Data types in excel
+
 > To view the groupby statistics like pandas df in excel
+
 > Filter in excel
+
 > Conditional Formatting 
  in excel
+
 > Sorting in excel
+
 > Removing Duplicates in excel
+
 > Pivot and Slicers in excel
+
 > Refreshing all pivot tables
+
 > Charts in excel
+
 > Dashboard in excel
+
 > Waterfall or birdge graph analysis
+
 > Excel functions
-> Concatenation of text in excel",subtop excel excel basic data handl excel section ,"['subtop', 'excel', 'excel', 'basic', 'data', 'handl', 'excel', 'section']",subtopics of excel  > excel basics > data handling in excel > sections in excel file (top to bottom)
+
+> Concatenation of text in excel",subtop excel excel basic data handl excel section ,"['subtop', 'excel', 'excel', 'basic', 'data', 'handl', 'excel', 'section']",subtopics of excel  > excel basics  > data handling in excel  > sections in excel file (top to botto
 78,"Subtopics of Tableau
 
 > Tableau basics
+
 > Best practices for visualization
+
 > Panes of Tableau
+
 > Trend line models in Tableau
+
 > Creating Calculated field in Tableau
+
 > Chart area of Tableau
+
 > Chart types in Tableau Tableau Pills
+
 > TO PUBLISH THE WORKBOOK IN THE SERVER TO BE USED BY OTHERS
+
 >  Tableau Desktop applications
+
 > Components of a Dashboard
+
 > Reference line and Reference band
+
 > File extensions in Tableau
+
 > Filters in Tableau
+
 > Data blending
-> Data Types in Tableau",subtop tableau tableau basic best practic visual p,"['subtop', 'tableau', 'tableau', 'basic', 'best', 'practic', 'visual', 'p']",subtopics of tableau  > tableau basics > best practices for visualization > panes of tableau > trend
+
+> Data Types in Tableau",subtop tableau tableau basic best practic visual p,"['subtop', 'tableau', 'tableau', 'basic', 'best', 'practic', 'visual', 'p']",subtopics of tableau  > tableau basics  > best practices for visualization  > panes of tableau  > tr
 79,"Subtopics of Business KPI
 
 > KPI Basics
+
 > KPI vs Metric
+
 > Need of KPI for the company
+
 > Types of Indicators
+
 > Effectiveness and Efficiency
+
 > Ways to develop KPI
+
 > Three steps to a stronger KPI strategy
+
 > Key Performance Indicators in practice
+
 > Executive Dashboard
-> Possible dangers of industrial performance indicators ",subtop busi kpi kpi basic kpi vs metric need kpi c,"['subtop', 'busi', 'kpi', 'kpi', 'basic', 'kpi', 'vs', 'metric', 'need', 'kpi', 'c']",subtopics of business kpi  > kpi basics > kpi vs metric > need of kpi for the company > types of ind
+
+> Possible dangers of industrial performance indicators ",subtop busi kpi kpi basic kpi vs metric need kpi c,"['subtop', 'busi', 'kpi', 'kpi', 'basic', 'kpi', 'vs', 'metric', 'need', 'kpi', 'c']",subtopics of business kpi  > kpi basics  > kpi vs metric  > need of kpi for the company  > types of 
 80,"Subtopics of SQL
 
 > SQL Basics
+
 > List of Relational database
+
 > Difference between SQL and Python
+
 > Basics of Relational Database (RDBMS)
+
 > Basics of Non-Relational Database
+
 > Parts of SQL
+
 > SQL Statements
+
 > Practicing sql queries
+
 > To view all the table names
+
 >  To view all the column names along with datatype of a table
+
 > To check the shape of the table
+
 > To see the head of the table
+
 > SQL Query/ Statements/ commands
+
 > SELECT and SELECT DISTINT statements
+
 > Conditional operators
+
 > Reading SQLite Database file as pandas df
+
 > SQLite
+
 > File extensions
+
 > LIKE and ILIKE
+
 > ADVANCED SQL COMMANDS
+
 > TIMESTAMPS
+
 > Extracts YEAR/ MONTH/ DAY/ WEEK/ QUARTER
+
 > SUB-QUERY
+
 > DATA/ DATA STRUCTURE TYPES IN SQL
+
 > Primary Key
+
 > Foreign Key
+
 > CONSTRAINTS IN SQL
+
 > CREATING DATABASES & TABLES
+
 > CONDITIONAL EXPRESSIONS & PROCEDURES
+
 > Simple View and Complex View
+
 > Syntax for the CREATE VIEW
+
 > SQL queries in Python
+
 > SQL aliases
+
 > Different Types of SQL JOINs
+
 > CREATE DATABASE in SQL
+
 > CREATE TABLE in SQL, DELETE in SQL
+
 > SQL TRUNCATE TABLE
+
 > SQL ALTER TABLE
+
 > SQL string datatypes
+
 > INSERT INTO in SQL
+
 > UPDATE in SQL
+
 > SQL CHECK
+
 > UNION in SQL
+
 > SQL TIMESTAMP and DATETIME
+
 > SQL NOT IN
+
 > Operation with Null values in SQL
+
 > SQL CONCAT
+
 > SQL and String
+
 > Temporary table and Heap table
+
 > Sequence in SQL
-> Primary Key, Super Key and Candidate Key",subtop structur queri languag structur queri langu,"['subtop', 'structur', 'queri', 'languag', 'structur', 'queri', 'langu']",subtopics of structured query language  > structured query language basics > list of relational data
+
+> Primary Key, Super Key and Candidate Key",subtop structur queri languag structur queri langu,"['subtop', 'structur', 'queri', 'languag', 'structur', 'queri', 'langu']",subtopics of structured query language  > structured query language basics  > list of relational dat
 81,"Subtopics of Calculus
 
 > Main branches of pure mathematics
+
 > Application of mathematics in machine learning
+
 > Basics of Calculus
+
 > Machine Learning Use Cases of Calculus
+
 > Basics of derivative
+
 > The chain rule
+
 > Point of maxima and point of minima
+
 > Partial Derivatives
+
 > Ways to find the slope of f(x,y)
+
 > Jacobian Matrix
+
 > Derivatives Formulas
+
 >  Definite Integrals
+
 > Formulas for integration
+
 > Basics of Limit
-> Solution method of limit of indeterminate form",subtop calculus main branch pure mathemat applic m,"['subtop', 'calculus', 'main', 'branch', 'pure', 'mathemat', 'applic', 'm']",subtopics of calculus  > main branches of pure mathematics > application of mathematics in machine l
+
+> Solution method of limit of indeterminate form",subtop calculus main branch pure mathemat applic m,"['subtop', 'calculus', 'main', 'branch', 'pure', 'mathemat', 'applic', 'm']",subtopics of calculus  > main branches of pure mathematics  > application of mathematics in machine 
 82,"Subtopics of Vector Algebra
 
 > Sub-branches  of Algebra
+
 > Linear algebra
+
 > Scaler, Vector, Matrix and Tensor
+
 > Vector and Array
+
 > Dimension and Direction
+
 > position vector/ location vector/ radius vector
+
 > Applications of Linear Algebra in Data Science
+
 > Vector operations
+
 > Vector Dot Product
+
 > Vector Projection
+
 > Vector Cross product
+
 > L1 norm
+
 > Representing multivariable linear equation in vector space
+
 > Multivariable linear equations
-> Visualization of an experience",subtop vector algebra subbranch algebra linear alg,"['subtop', 'vector', 'algebra', 'subbranch', 'algebra', 'linear', 'alg']","subtopics of vector algebra  > sub-branches  of algebra > linear algebra > scaler, vector, matrix an"
+
+> Visualization of an experience",subtop vector algebra subbranch algebra linear alg,"['subtop', 'vector', 'algebra', 'subbranch', 'algebra', 'linear', 'alg']","subtopics of vector algebra  > sub-branches  of algebra  > linear algebra  > scaler, vector, matrix "
 83,"Subtopics of Matrix Algebra
 
 > Basics Matrix Algebra
+
 > Types of Matrices
+
 > Matrix operations
+
 > Matrix multiplication
+
 > Equation in matrix form
+
 > Identity matrix
+
 > Determinant of a matrix
+
 > Transpose of a matrix
+
 > Adjoint of a matrix
+
 > cofactor matrix
+
 > Inverse of a matrix
+
 > Eigenvalues and Eigenvectors of a square matrix
+
 > Use of eigen values and eigen vectors
-> Nilpotent matrix ",subtop matrix algebra basic matrix algebra type ma,"['subtop', 'matrix', 'algebra', 'basic', 'matrix', 'algebra', 'type', 'ma']",subtopics of matrix algebra  > basics matrix algebra > types of matrices > matrix operations > matri
+
+> Nilpotent matrix ",subtop matrix algebra basic matrix algebra type ma,"['subtop', 'matrix', 'algebra', 'basic', 'matrix', 'algebra', 'type', 'ma']",subtopics of matrix algebra  > basics matrix algebra  > types of matrices  > matrix operations  > ma
 84,"Subtopics of Probability Theory
 
 > Probability theory
+
 > Set theory in Probability Theory
+
 > Experiment, sample space, observation and experience
+
 > Set Theory
+
 > Venn Diagrams
+
 > Mutually exclusive sets
+
 > Permutation & Combination
+
 > Basic Probability
+
 > Probability Axiom#1
+
 > Probability Axiom#2
+
 > Probability Axiom#3 or Special Addition Rule
+
 > Addition Rule
+
 > Conditional Probability
+
 > Multiplication Rule
+
 > Bayes' Theorem
+
 > Solving any set or probability problem
-> Difference between mutually exclusive and independent events",subtop probabl theori probabl theori set theori pr,"['subtop', 'probabl', 'theori', 'probabl', 'theori', 'set', 'theori', 'pr']",subtopics of probability theory  > probability theory > set theory in probability theory > experimen
+
+> Difference between mutually exclusive and independent events",subtop probabl theori probabl theori set theori pr,"['subtop', 'probabl', 'theori', 'probabl', 'theori', 'set', 'theori', 'pr']",subtopics of probability theory  > probability theory  > set theory in probability theory  > experim
 85,"Loop basics
 
 Loops help us to execute a block of code repeatedly
@@ -843,182 +1173,325 @@ pass: Does nothing at all.",break continu pass statement loop add addit functi,"
 90,"Subtopics of Summarizing Data
 
 > Basics of Summarizing Data
+
 > Numerical, Categorical, Dichotomous, 
  and Ordinal Data
+
 > Measure of central tendency
+
 > Understanding Mean
+
 > Understanding Median
+
 > Understanding Mode
+
 > Measure of spread
+
 > Understanding Range
+
 > Understanding Variance
+
 > Understanding Standard Deviation
+
 > Understanding Interquartile Range
+
 > Steps to Calculate IQR
+
 > Outliers with respect to IQR
+
 > Measures of Symmetry
+
 > Understanding skewness
+
 > Libraries for Summarizing Data
-> Skewness and Kurtosis measurements",subtop summar data basic summar data numer categor,"['subtop', 'summar', 'data', 'basic', 'summar', 'data', 'numer', 'categor']","subtopics of summarizing data  > basics of summarizing data > numerical, categorical, dichotomous,  "
+
+> Skewness and Kurtosis measurements",subtop summar data basic summar data numer categor,"['subtop', 'summar', 'data', 'basic', 'summar', 'data', 'numer', 'categor']","subtopics of summarizing data  > basics of summarizing data  > numerical, categorical, dichotomous, "
 91,"Subtopics of Random Variables
 
 > Understanding random variable
+
 > Python Code Random Variables
+
 > Random seed
+
 > Types of Random Variables
+
 > Continuous and Discrete Random variables using numpy array
+
 > Discrete Random Variables
+
 > Continuous Random Variables
+
 > Mean of Random Variables
+
 > Variance of Random Variables
+
 > Point probability, cumulative probability
-> Formulas for expectation and variance",subtop random variabl understand random variabl py,"['subtop', 'random', 'variabl', 'understand', 'random', 'variabl', 'py']",subtopics of random variables  > understanding random variable > python code random variables > rand
+
+> Formulas for expectation and variance",subtop random variabl understand random variabl py,"['subtop', 'random', 'variabl', 'understand', 'random', 'variabl', 'py']",subtopics of random variables  > understanding random variable  > python code random variables  > ra
 92,"Subtopics of Discrete Distributions
 
 > Basics of Probability distribution
+
 > Types of Discrete Probability Distribution
+
 > Uniform Distribution
+
 > Bernoulli Distribution
+
 > Binomial Distribution
+
 > Geometric Distribution
+
 > Poisson Distribution
+
 > Moments of probability distribution
-> Moments in Physics",subtop discret distribut basic probabl distribut t,"['subtop', 'discret', 'distribut', 'basic', 'probabl', 'distribut', 't']",subtopics of discrete distributions  > basics of probability distribution > types of discrete probab
+
+> Moments in Physics",subtop discret distribut basic probabl distribut t,"['subtop', 'discret', 'distribut', 'basic', 'probabl', 'distribut', 't']",subtopics of discrete distributions  > basics of probability distribution  > types of discrete proba
 93,"Subtopics of Continuous Distributions
 
 > Basics of continuous distribution
+
 > Types of continuous probability distribution
+
 > Uniform Distribution
+
 > Normal Distribution
+
 > Standard Normal Distribution
+
 > Exponential Distribution
+
 > Gamma Function
+
 > Gamma Distribution
+
 > Chi-square Distribution
+
 >  t-Distribution
+
 > F-Distribution
+
 > log-normal distribution
+
 > Exponential expressions
+
 > Euler's number
+
 > Python Code for Continuous Distributions
+
 > Continuous distributions in ML
-> Most frequent types of distribution for data scientist",subtop continu distribut basic continu distribut t,"['subtop', 'continu', 'distribut', 'basic', 'continu', 'distribut', 't']",subtopics of continuous distributions  > basics of continuous distribution > types of continuous pro
+
+> Most frequent types of distribution for data scientist",subtop continu distribut basic continu distribut t,"['subtop', 'continu', 'distribut', 'basic', 'continu', 'distribut', 't']",subtopics of continuous distributions  > basics of continuous distribution  > types of continuous pr
 94,"Subtopics of Joint Distributions
 
 > Basics of Joint Distribution
+
 > Two dimensional random vector
+
 > Types of Joint 
 Probability Distributions
+
 > Independent Random Variables
+
 > Probability mass function
+
 > Degree of association
+
 > Understanding of Covariance
-> Understanding of Correlation",subtop joint distribut basic joint distribut two d,"['subtop', 'joint', 'distribut', 'basic', 'joint', 'distribut', 'two', 'd']",subtopics of joint distributions  > basics of joint distribution > two dimensional random vector > t
+
+> Understanding of Correlation",subtop joint distribut basic joint distribut two d,"['subtop', 'joint', 'distribut', 'basic', 'joint', 'distribut', 'two', 'd']",subtopics of joint distributions  > basics of joint distribution  > two dimensional random vector  >
 95,"Subtopics of Sampling & Statistical Inference
 
 > Basics of Sampling & Statistical Inference
+
 > Random sample
 > Understanding of Statistics
+
 > Statistical Inference
+
 > Sample Mean and Sample Variance
+
 > Independent and indentically distributed random variables
+
 > Sampling with Replacement
+
 > Central Limit Theorem (CLT) or z-results or z-score
+
 > t Result or t Score
+
 > F result or F Score
+
 > Point Estimation
-> Mean and Expectation",subtop sampl statist infer basic sampl statist inf,"['subtop', 'sampl', 'statist', 'infer', 'basic', 'sampl', 'statist', 'inf']",subtopics of sampling & statistical inference  > basics of sampling & statistical inference > random
+
+> Mean and Expectation",subtop sampl statist infer basic sampl statist inf,"['subtop', 'sampl', 'statist', 'infer', 'basic', 'sampl', 'statist', 'inf']",subtopics of sampling & statistical inference  > basics of sampling & statistical inference  > rando
 96,"Subtopics of Confidence Intervals
 
 > Basics of Confidence interval
+
 > Calculating population parameters for one sample
+
 > Population proportion
+
 > Calculating population parameters for two samples from difference population
+
 > Pooled variance
+
 > Confidence limits
-> Sampling schemes from best to worst",subtop confid interv basic confid interv calcul po,"['subtop', 'confid', 'interv', 'basic', 'confid', 'interv', 'calcul', 'po']",subtopics of confidence intervals  > basics of confidence interval > calculating population paramete
+
+> Sampling schemes from best to worst",subtop confid interv basic confid interv calcul po,"['subtop', 'confid', 'interv', 'basic', 'confid', 'interv', 'calcul', 'po']",subtopics of confidence intervals  > basics of confidence interval  > calculating population paramet
 97,"Subtopics of Hypothesis Testing
 
 > Basics of Hypothesis Testing
+
 > Rare Event Rule for Inferential Statistics
+
 > Components of a formal hypothesis test
+
 > Null Hypothesis
+
 > Alternative Hypothesis
+
 > Identifying the null and alternative hypothesis
+
 > Test Statistic
+
 > Significance Level
+
 > Critical Region
+
 > Critical Value
+
 > Two-tailed, Right-tailed, Left-tailed Tests
+
 > P-value or probability value
+
 > Conclusions in Hypothesis Testing based on P-value
+
 > Type - I error
+
 > Type - II error
-> Power of a hypothesis test",subtop hypothesi test basic hypothesi test rare ev,"['subtop', 'hypothesi', 'test', 'basic', 'hypothesi', 'test', 'rare', 'ev']",subtopics of hypothesis testing  > basics of hypothesis testing > rare event rule for inferential st
+
+> Power of a hypothesis test",subtop hypothesi test basic hypothesi test rare ev,"['subtop', 'hypothesi', 'test', 'basic', 'hypothesi', 'test', 'rare', 'ev']",subtopics of hypothesis testing  > basics of hypothesis testing  > rare event rule for inferential s
 98,"Subtopics of Linear Regression
 
 > Understanding computer science
+
 > Understanding convensional programming
+
 >  Types of Computer languages
+
 > Programming language  vs scripting language
+
 > AI technique
+
 > Basics of machine learning
+
 > Basics of deep learning
+
 > Basics of data science
+
 > Role of a data scientist
+
 > Difference between Business Analyst and Data Scientist
+
 > Predictive ML model
+
 > Meaning of heuristic technique
+
 > Comparison between Heuristic technique and ML technique
+
 > Types of learning models
+
 > Application of regression model
+
 > Application of classification model
+
 > Application of Clustering model
+
 > Components of reinforcement learning
+
 > Application of Reinforcement learning model
+
 > Supervised, parametric, regression algorithm
+
 > Basics of linear regression
+
 > Error or residuals
+
 > Loss function or cost function
+
 > Types of loss function
+
 > OLS method for finding out the model parameters
+
 > Gradient Descent Fundamentals
+
 > Assumptions of regression
+
 > Multicollinearity issue
+
 > Heteroscedasticity issue
+
 > Properties of regression line
+
 > Advantages of linear regression
+
 > Limitations of linear regression
+
 > Data preparation for linear regression
+
 > Omission of relevant variable from a regression equation
+
 > Visualizing Linear Regression
+
 > Understanding of Feature scaling
+
 > Difference bwteen Matrix and metric
+
 > Libraries for linear regression
+
 > Importance of csv file
+
 > Implementation Steps of Linear Regression
-> transform and fit_transform",subtop linear regress understand comput scienc und,"['subtop', 'linear', 'regress', 'understand', 'comput', 'scienc', 'und']",subtopics of linear regression  > understanding computer science > understanding convensional progra
+
+> transform and fit_transform",subtop linear regress understand comput scienc und,"['subtop', 'linear', 'regress', 'understand', 'comput', 'scienc', 'und']",subtopics of linear regression  > understanding computer science  > understanding convensional progr
 99,"Subtopics of Bias variance tradeoff
 
 > Optimal Model
+
 > Underfit Model
+
 > Overfit Model
+
 > Understanding Estimator
+
 > Bias and Variance of an Estimator or ML Model
+
 > Polynomial model
+
 > Conversion of Categorical column to numerical
+
 > Multi Label columns to Binary
+
 > Number-String to numerical value
-> Noise, Underfittiing, Overfitting and Overgeneralizing",subtop bias varianc tradeoff optim model underfit ,"['subtop', 'bias', 'varianc', 'tradeoff', 'optim', 'model', 'underfit']",subtopics of bias variance tradeoff  > optimal model > underfit model > overfit model > understandin
+
+> Noise, Underfittiing, Overfitting and Overgeneralizing",subtop bias varianc tradeoff optim model underfit ,"['subtop', 'bias', 'varianc', 'tradeoff', 'optim', 'model', 'underfit']",subtopics of bias variance tradeoff  > optimal model  > underfit model  > overfit model  > understan
 100,"Subtopics of Regularized Linear Regression
 
 > Basics of Regularized Linear Regression
+
 > Types of Regularization
+
 > Ridge Regression (L2 Regularization)
+
 > Lasso Regression (L1 Regularization)
+
 > Libraries for Regularized Linear Regression
+
 > Alpha value
-> Variance Inflation Factor (VIF)",subtop regular linear regress basic regular linear,"['subtop', 'regular', 'linear', 'regress', 'basic', 'regular', 'linear']",subtopics of regularized linear regression  > basics of regularized linear regression > types of reg
+
+> Variance Inflation Factor (VIF)",subtop regular linear regress basic regular linear,"['subtop', 'regular', 'linear', 'regress', 'basic', 'regular', 'linear']",subtopics of regularized linear regression  > basics of regularized linear regression  > types of re
 101,"list comprehension basics
 
 A list comprehension is a syntax for creating a list based on an existing list
@@ -1044,186 +1517,321 @@ Domain is defined as all the possible values which  x  can take.",function rang 
 105,"Subtopics of Cross validation and hyperparameter tuning
 
 >  Cross validation Basics
+
 > Simple Validation vs Cross Validation
+
 > k-fold CV
+
 > Python coding for CV
+
 > yellowbrick CVScores
+
 > Fundamentals of hyperparameters
+
 > Hyperparameters tuning
+
 > Coding for Hyperparameters tuning
+
 > Steps of ML modelling
+
 > Understanding Warnings
+
 > Data preparation or data preprocessing
+
 > Linear Transformation or Scaling
-> Non-linear Transformations",subtop cross valid hyperparamet tune cross valid b,"['subtop', 'cross', 'valid', 'hyperparamet', 'tune', 'cross', 'valid', 'b']",subtopics of cross validation and hyperparameter tuning  >  cross validation basics > simple validat
+
+> Non-linear Transformations",subtop cross valid hyperparamet tune cross valid b,"['subtop', 'cross', 'valid', 'hyperparamet', 'tune', 'cross', 'valid', 'b']",subtopics of cross validation and hyperparameter tuning  >  cross validation basics  > simple valida
 106,"Subtopics of Logistic regression
 
 > Basics of Logistic regression
+
 > Meaning of odds and logit function in probability
+
 > Logistic function or sigmoid function
+
 > Working of parametric model
+
 > Benefits of Parametric ML models
+
 > Limitations of Parametric ML Models
+
 > Classification model and probability
+
 > Generative models  and Discriminative models
+
 > Libraries for Logistic regression
+
 > Training Logistic regression model
+
 > Evaluating the performance of Logistic regression model
+
 > Confusion Matrix
+
 > Evaluation through confusion matrix
+
 > Accuracy, Precision, Recall and F1-Score
+
 > Importance of F1 Score
-> Checking Cross-validation scores",subtop logist regress basic logist regress mean od,"['subtop', 'logist', 'regress', 'basic', 'logist', 'regress', 'mean', 'od']",subtopics of logistic regression  > basics of logistic regression > meaning of odds and logit functi
+
+> Checking Cross-validation scores",subtop logist regress basic logist regress mean od,"['subtop', 'logist', 'regress', 'basic', 'logist', 'regress', 'mean', 'od']",subtopics of logistic regression  > basics of logistic regression  > meaning of odds and logit funct
 107,"Subtopics of Decision Trees
 
 > Types of ML models
+
 > Important Terminology in Decision Tree ML Model
+
 > Steps of Decision tree algorithm
+
 > Methods to measure the similarity of child nodes
+
 > Fitting Decision tree classifier
+
 > Fitting Decision tree regressor
+
 > Coding for Visualizing Decision Tree
+
 > Advantages of Decision tree
-> Disadvantages of Decision tree",subtop decis tree type machin learn model import t,"['subtop', 'decis', 'tree', 'type', 'machin', 'learn', 'model', 'import', 't']",subtopics of decision trees  > types of machine learning models > important terminology in decision 
+
+> Disadvantages of Decision tree",subtop decis tree type machin learn model import t,"['subtop', 'decis', 'tree', 'type', 'machin', 'learn', 'model', 'import', 't']",subtopics of decision trees  > types of machine learning models  > important terminology in decision
 108,"Subtopics of Ensembles of decision trees
 
 > Basics of Ensembles of decision trees
+
 > Ensemble techniques
+
 > Bagging technique
+
 > Boosting technique
+
 > Extreme Gradient Boosting
+
 > Stacking technique
+
 > Python coding for Ensembles of decision trees
+
 > Finding feature importance
+
 > Classification report
-> Ways to improve random forest accuracy",subtop ensembl decis tree basic ensembl decis tree,"['subtop', 'ensembl', 'decis', 'tree', 'basic', 'ensembl', 'decis', 'tree']",subtopics of ensembles of decision trees  > basics of ensembles of decision trees > ensemble techniq
+
+> Ways to improve random forest accuracy",subtop ensembl decis tree basic ensembl decis tree,"['subtop', 'ensembl', 'decis', 'tree', 'basic', 'ensembl', 'decis', 'tree']",subtopics of ensembles of decision trees  > basics of ensembles of decision trees  > ensemble techni
 109,"Subtopics of Model Explainability
 
 > Basics of Model Explainability
+
 > Black Box Model vs. White Box Model
+
 > Explainable AI
+
 >  Importance of explainability
+
 >  Scope of explainability
+
 >  Approach of explainability
+
 > Techniques or Libraries for Explainability in ML
+
 > Local Interpretable Model-Agnostic Explanations
+
 > Shapley Additive Explanations
+
 > Implementing SHAP
+
 > Explain Like I'm 5
+
 > Other techniques for Explainability in ML",subtop model explartifici intelligencen basic mode,"['subtop', 'model', 'explartifici', 'intelligencen', 'basic', 'mode']",subtopics of model explartificial intelligencenability  > basics of model explartificial intelligenc
 110,"Subtopics of k-nearest neighbors
 
 > Basics of KNN
+
 > Euclidean Distance
+
 > Working of kNN
+
 > Ways to select the value of k in the kNN Algorithm
+
 > Disadvantages of kNN Algorithm
+
 > Python coding for KNN
+
 > Receiver operating characteristic and AUC
+
 > Knn for recommender system
-> Sparse matrix and Dense matrix",subtop knearest neighbor basic knearest neighbor e,"['subtop', 'knearest', 'neighbor', 'basic', 'knearest', 'neighbor', 'e']",subtopics of k-nearest neighbors  > basics of k-nearest neighbors > euclidean distance > working of 
+
+> Sparse matrix and Dense matrix",subtop knearest neighbor basic knearest neighbor e,"['subtop', 'knearest', 'neighbor', 'basic', 'knearest', 'neighbor', 'e']",subtopics of k-nearest neighbors  > basics of k-nearest neighbors  > euclidean distance  > working o
 111,"Subtopics of Naive Bayes Classifier
 
 > Basics of Naive Bayes
+
 > Bayes theorem
+
 > Understanding of Naive Bayes
+
 > Generative model vs Discriminative model
+
 > Text Pre-processing
+
 > Steps of Text Pre-processing
+
 > One hot encoding
+
 > Vectorization techniques
-> Python coding for Naive Bayes",subtop naiv bay classifi basic naiv bay bay theore,"['subtop', 'naiv', 'bay', 'classifi', 'basic', 'naiv', 'bay', 'bay', 'theore']",subtopics of naive bayes classifier  > basics of naive bayes > bayes theorem > understanding of naiv
+
+> Python coding for Naive Bayes",subtop naiv bay classifi basic naiv bay bay theore,"['subtop', 'naiv', 'bay', 'classifi', 'basic', 'naiv', 'bay', 'bay', 'theore']",subtopics of naive bayes classifier  > basics of naive bayes  > bayes theorem  > understanding of na
 112,"Subtopics of Support Vector Machines
 
 > Basics of SVM
+
 > Kernel function
+
 > Hinge loss function, hypersurface and hyperplane
+
 > Python coding for SVM
+
 > Tuning the SVM
+
 > Advantages of SVM
-> Disadvantages of SVM",subtop support vector machin basic support vector ,"['subtop', 'support', 'vector', 'machin', 'basic', 'support', 'vector']",subtopics of support vector machines  > basics of support vector machine > kernel function > hinge l
+
+> Disadvantages of SVM",subtop support vector machin basic support vector ,"['subtop', 'support', 'vector', 'machin', 'basic', 'support', 'vector']",subtopics of support vector machines  > basics of support vector machine  > kernel function  > hinge
 113,"Subtopics of General Modeling Techniques
 
 > Understanding Feature engineering
+
 > Importance of Feature Engineering
+
 > Basic EDA
+
 > Understanding Outliers
-> Time Complexity and  Space Complexity",subtop general model techniqu understand featur en,"['subtop', 'general', 'model', 'techniqu', 'understand', 'featur', 'en']",subtopics of general modeling techniques  > understanding feature engineering > importance of featur
+
+> Time Complexity and  Space Complexity",subtop general model techniqu understand featur en,"['subtop', 'general', 'model', 'techniqu', 'understand', 'featur', 'en']",subtopics of general modeling techniques  > understanding feature engineering  > importance of featu
 114,"Subtopics of K-means clustering
 
 > Understanding Clustering Algorithm
+
 > Python coding for Kmeans
+
 > Few issues of Kmeans
+
 > Silhouette score for finding best no. of clusters
+
 > Elbow method for finding best no. of clusters
+
 > Plotting Clusters
+
 > Features of KMeans model
-> Other Clustering models",subtop kmean cluster understand cluster algorithm ,"['subtop', 'kmean', 'cluster', 'understand', 'cluster', 'algorithm']",subtopics of k-means clustering  > understanding clustering algorithm > python coding for kmeans > f
+
+> Other Clustering models",subtop kmean cluster understand cluster algorithm ,"['subtop', 'kmean', 'cluster', 'understand', 'cluster', 'algorithm']",subtopics of k-means clustering  > understanding clustering algorithm  > python coding for kmeans  >
 115,"Subtopics of Hierarchical clustering
 
 > Basics of Hierarchical clustering
+
 > Types of hierarchical clustering
+
 > Proximity matrix
+
 >  Understanding Linkage
+
 > Finding out no. of clusters from visualization
-> Python coding for Hierarchical clustering",subtop hierarch cluster basic hierarch cluster typ,"['subtop', 'hierarch', 'cluster', 'basic', 'hierarch', 'cluster', 'typ']",subtopics of hierarchical clustering  > basics of hierarchical clustering > types of hierarchical cl
+
+> Python coding for Hierarchical clustering",subtop hierarch cluster basic hierarch cluster typ,"['subtop', 'hierarch', 'cluster', 'basic', 'hierarch', 'cluster', 'typ']",subtopics of hierarchical clustering  > basics of hierarchical clustering  > types of hierarchical c
 116,"Subtopics of Principal Component Analysis
 
 > Basics of PCA
+
 > Drawback of PCA
+
 > Python Coding of PCA
+
 > Understanding the important features in PCA
+
 > Deeper Understanding of PCA
+
 > Math behind PCA
+
 > TruncatedSVD
+
 > PCA Visualization
-> Trace of matrix",subtop princip compon analysi basic princip compon,"['subtop', 'princip', 'compon', 'analysi', 'basic', 'princip', 'compon']",subtopics of principal component analysis  > basics of principal component analysis > drawback of pr
+
+> Trace of matrix",subtop princip compon analysi basic princip compon,"['subtop', 'princip', 'compon', 'analysi', 'basic', 'princip', 'compon']",subtopics of principal component analysis  > basics of principal component analysis  > drawback of p
 117,"Subtopics of Anomaly Detection
 
 > Basics of Anomaly detection
+
 > Assumptions in Anomaly detection
+
 > Finding global outliers-Isolation Forest
+
 > Univariate Anomaly Detection
+
 > Python coding for Isolation forest
+
 > Multivariate Anomaly Detection
+
 > Finding local outliers-LOF
+
 > Visual representation of univariate anomalies
+
 > Deeper Understanding of Anomalies
-> Data types of anomaly detection",subtop anomali detect basic anomali detect assumpt,"['subtop', 'anomali', 'detect', 'basic', 'anomali', 'detect', 'assumpt']",subtopics of anomaly detection  > basics of anomaly detection > assumptions in anomaly detection > f
+
+> Data types of anomaly detection",subtop anomali detect basic anomali detect assumpt,"['subtop', 'anomali', 'detect', 'basic', 'anomali', 'detect', 'assumpt']",subtopics of anomaly detection  > basics of anomaly detection  > assumptions in anomaly detection  >
 118,"Subtopics of Natural Language Processing 
 
 > Natural Language Understanding
+
 > Important Applications of NLP
+
 > Feature engineering in NLP
+
 > n-gram in NLP
+
 > Understanding TF-IDF
+
 > RNN or LSTM
+
 > Libraries for NLP
+
 > Right order for a text classification
-> Measuring the complexity of a sentence",subtop natur languag process natur languag underst,"['subtop', 'natur', 'languag', 'process', 'natur', 'languag', 'underst']",subtopics of natural language processing   > natural language understanding > important applications
+
+> Measuring the complexity of a sentence",subtop natur languag process natur languag underst,"['subtop', 'natur', 'languag', 'process', 'natur', 'languag', 'underst']",subtopics of natural language processing   > natural language understanding  > important application
 119,"Subtopics of Topic modeling
 
 > Basics of Topic modeling
+
 > Basic assumptions of all topic models
+
 > Libraries for Topic Modeling
+
 > Understanding LDA
+
 > Plate Notation
+
 > Python coding of LDA model
+
 > Visualization of LDA
-> Cosine Similarity",subtop topic model basic topic model basic assumpt,"['subtop', 'topic', 'model', 'basic', 'topic', 'model', 'basic', 'assumpt']",subtopics of topic modeling  > basics of topic modeling > basic assumptions of all topic models > li
+
+> Cosine Similarity",subtop topic model basic topic model basic assumpt,"['subtop', 'topic', 'model', 'basic', 'topic', 'model', 'basic', 'assumpt']",subtopics of topic modeling  > basics of topic modeling  > basic assumptions of all topic models  > 
 120,"Subtopics of Recommender Systems
 
 > Basics of Recommender System
+
 > Popular Recommender Systems
+
 > Collaborative Filtering
+
 > Content-Based Filtering
+
 > Hybrid Approach
+
 > Implementation strategies of Collaborative Filtering
+
 > Latent factor models
+
 > Matrix Factorization
+
 > Implementation of SVD
+
 > Metrices used for evaluation of Recommender systems
-> Shortcoming of content-based recommender systems",subtop recommend system basic recommend system pop,"['subtop', 'recommend', 'system', 'basic', 'recommend', 'system', 'pop']",subtopics of recommender systems  > basics of recommender system > popular recommender systems > col
+
+> Shortcoming of content-based recommender systems",subtop recommend system basic recommend system pop,"['subtop', 'recommend', 'system', 'basic', 'recommend', 'system', 'pop']",subtopics of recommender systems  > basics of recommender system  > popular recommender systems  > c
 121,"Functions, Model and  Environment
 
 Functions are to view the properties of a data or data structure and methods are to perform some actions on data or data structure. 
@@ -1281,266 +1889,485 @@ Then, change() will return 10",global variabl isid function call global variabl 
 126,"Subtopics of Time Series Analysis
 
 > Basics of Time Series
+
 > Components of Time Series
+
 > Multiplicative Model
+
 > Ways to approach a Time Series Prediction Problem
+
 > Naive Forecast
+
 > Moving Average
+
 > Weighted average
+
 > Exponential smoothing
+
 > Double exponential smoothing
+
 > Statistical technique in Time Series
+
 > Econometric approach
+
 > Understanding ARIMA
+
 > Understanding SARIMA
+
 > Libraries for Time Series Analysis
+
 > Machine learning approach in Time series
+
 > Downside of SARIMA
+
 > Understanding Leakage
+
 > Prophet or Facebook Prophet
+
 > Cross Validation in Time Series
+
 > Demand pattern classification for choosing the right model in time series
-> Product forecastability
-",subtop time seri analysi basic time seri compon ti,"['subtop', 'time', 'seri', 'analysi', 'basic', 'time', 'seri', 'compon', 'ti']",subtopics of time series analysis  > basics of time series > components of time series > multiplicat
+
+> Product forecastability",subtop time seri analysi basic time seri compon ti,"['subtop', 'time', 'seri', 'analysi', 'basic', 'time', 'seri', 'compon', 'ti']",subtopics of time series analysis  > basics of time series  > components of time series  > multiplic
 127,"Subtopics of Neural Networks
 
 > Basics of Artificial Neural Network
+
 > Perceptron, neuron, node, unit
+
 > Activation function
+
 > Model coefficients
+
 > The components of neural network
+
 > Backward propagation
+
 > Understanding epochs
+
 > Understanding of batch size
+
 > Optimal accuracy in Neural Network
+
 > Applications of Neural Networks
+
 > Steps of ANN
+
 > Libraries for ANN model
+
 > Define, Create and Compile ANN model
+
 > fit the ANN model on the dataset
+
 > evaluate the ANN model
+
 > Plotting roc_curve
-> Plotting precision_recall_curve",subtop neural network basic artifici neural networ,"['subtop', 'neural', 'network', 'basic', 'artifici', 'neural', 'networ']","subtopics of neural networks  > basics of artificial neural network > perceptron, neuron, node, unit"
+
+> Plotting precision_recall_curve",subtop neural network basic artifici neural networ,"['subtop', 'neural', 'network', 'basic', 'artifici', 'neural', 'networ']","subtopics of neural networks  > basics of artificial neural network  > perceptron, neuron, node, uni"
 128,"Subtopics of Deep Neural Networks
 
 > Basic of Deep Neural Networks
+
 > SNN, CNN and RNN
+
 > Channels of RGB image
+
 > Deeper understanding of deep neural network
+
 > Loss function and Cost Function in DNN
+
 > Coputation graph
+
 > Calculation behind gradient descent
+
 > Understanding vectorization
+
 > Vectorized implementation of forward propagation for layer l
+
 > Notations in DNN
+
 >  Vector dot product
+
 > Element-wise matrix multiplication
+
 > Notation for multiple layers
+
 > Activation functions
+
 > Linear and nonlinear activation function
+
 > Keras and TensorFlow
+
 > Problem of zero initialization
+
 > Initializing parameters for the model
+
 >  Deep Learning capabilities
+
 > Mathematics behind 4L neural network for multiple observation
+
 > Layer dimension notation in Neural Network
+
 > Weight notation in Neural Network
+
 > Bias notation in vectorized form in Neural Network
+
 > Network notation for i th experience
+
 > Forward propagation and backpropagation
-> shallow neural network",subtop deep neural network basic deep neural netwo,"['subtop', 'deep', 'neural', 'network', 'basic', 'deep', 'neural', 'netwo']","subtopics of deep neural networks  > basic of deep neural networks > snn, convolutional neural netwo"
+
+> shallow neural network",subtop deep neural network basic deep neural netwo,"['subtop', 'deep', 'neural', 'network', 'basic', 'deep', 'neural', 'netwo']","subtopics of deep neural networks  > basic of deep neural networks  > snn, convolutional neural netw"
 129,"Subtopics of Improving Deep Neural Networks
 
 > Basics of Improving Deep Neural Networks
+
 > Basic 'recipe' for all machine learning models
+
 > DNN model complexity
+
 > Dropout regularization
+
 > Implementing dropout
+
 > Data Augmentation
+
 > Early stopping technique to stop overfitting
+
 > Importance of normalized inputs
+
 > Vanishing/exploding gradients
+
 > Batch size and iteration
+
 > Optimization Algorithms
+
 > Mini-Batch gradient descent
+
 > Notation of Mini-batch
+
 > Choosing our mini-batch size
+
 > Gradient Descent with momentum
+
 > Exponentially weighted averages
+
 > RMSprop
+
 > Adam Optimization Algorithm
+
 > Learning rate decay
+
 > Problem of local optima
+
 > Hyperparameters tuning in DNN
+
 > Batch normalization
+
 > Multi-class classification
+
 > Deep learning programming framework
+
 > Python coding for DNN
+
 > Different vector operations in tensor flow
+
 > Cross entropy loss function
-> Computational graph",subtop improv deep neural network basic improv dee,"['subtop', 'improv', 'deep', 'neural', 'network', 'basic', 'improv', 'dee']",subtopics of improving deep neural networks  > basics of improving deep neural networks > basic reci
+
+> Computational graph",subtop improv deep neural network basic improv dee,"['subtop', 'improv', 'deep', 'neural', 'network', 'basic', 'improv', 'dee']",subtopics of improving deep neural networks  > basics of improving deep neural networks  > basic rec
 130,"Subtopics of Structuring ML Projects
 
 > Basics Structuring ML project
+
 > Orthogonalization Basics
+
 > Fundamental assumptions of supervised learning
+
 > Setting up our goal
+
 > Train/dev/test distribution
+
 > Changing dev/test sets and metrics
+
 > Bias/Variance Analysis
+
 > Human level error and avoidable bias
+
 > Error Analysis
+
 > Mislabeled data
+
 > Mismatched training and dev/test data
+
 > Learning from multiple tasks
+
 > Transfer learning
+
 > Multi-task learning
+
 > End to end deep learning
+
 > Pros and cons of end to end deep learning
+
 > Difference between Multi-class and multi-task learning
-> Testing the model for the entire dataset",subtop structur machin learn project basic structu,"['subtop', 'structur', 'machin', 'learn', 'project', 'basic', 'structu']",subtopics of structuring machine learning projects  > basics structuring machine learning project > 
+
+> Testing the model for the entire dataset",subtop structur machin learn project basic structu,"['subtop', 'structur', 'machin', 'learn', 'project', 'basic', 'structu']",subtopics of structuring machine learning projects  > basics structuring machine learning project  >
 131,"Subtopics of Convolutional Neural Networks
 
 > Perceptual task
+
 > Basics of Pixel
+
 > Convolution on Black-and-white Image
+
 > Convolution operation
+
 > Padding in CNN
+
 > Strided Convolution
+
 > Convolution on RGB image
+
 > Types of layer in a convolutional network
+
 > Pooling Layer
+
 > Necessity of Convolution
+
 > Calulating the size of output volume for convolution or pooling
+
 > Notation for multiple CONV layers
+
 > Common behavior of all the CNN architecture
+
 > LeNet-5 architecture
+
 > AlexNet architecture
+
 > VGG-16 architecture
+
 > ResNet and Inception architecture
+
 > Network in Network
+
 > Using open-source implementation
+
 > Common Augmentation methods
+
 > Sources of data for any ML model
+
 > Object detection
+
 > Tips for winning competitions
+
 > Difference between image classification and object detection
+
 > Image Classification with Localization
+
 > Landmark detection
+
 > Object detection
+
 > Object detection algorithm
+
 > YOLO algorithm
+
 > Steps in YOLO algorithm
+
 > Intersection over union  algorithm
+
 > Non-max supression
+
 > anchor box algorithm
+
 > Face Verification
+
 > Face Recognition
+
 > Siamese network
+
 > Training set for calculating Triplet loss
+
 > Neural Style Transfer
+
 > Finding generated image
-> Style and style matrix ",subtop convolut neural network perceptu task basic,"['subtop', 'convolut', 'neural', 'network', 'perceptu', 'task', 'basic']",subtopics of convolutional neural networks  > perceptual task > basics of pixel > convolution on bla
+
+> Style and style matrix ",subtop convolut neural network perceptu task basic,"['subtop', 'convolut', 'neural', 'network', 'perceptu', 'task', 'basic']",subtopics of convolutional neural networks  > perceptual task  > basics of pixel  > convolution on b
 132,"Subtopics of Recurrent Neural Network
 
 > Examples of Models with sequence data
+
 > Notation in RNN
+
 > Vectorization of words
+
 > Problem of a standard neural network
+
 > Summary of RNN
+
 > Types of RNN
+
 > Language Modelling
+
 > Sampling or creating sequence
+
 > Character-level language model
+
 > Exploding and Vanishing gradient
+
 > Gated Recurrent Unit
+
 > Long short-term memory
+
 > Bidirectional RNN
+
 > Deep RNN
+
 > Natural language generation
+
 > Huggingface Transformer
+
 > NLP and Word Embedding
+
 > Featurized representation
+
 > Visualizing word embeddings
+
 > Embedding matrix
+
 > Transfer learning and word embeddings
+
 > Learning word embeddings
+
 > Context/target pairs
+
 > Word2Vec model
+
 > Problem with softmax classification
+
 > Negative Sampling
+
 > GloVe model
+
 > The problem of bias in word embeddings
+
 > Use of Pre-trained model for getting word embeddings
+
 > Machine translation
+
 > Finding the most likely translation
+
 > Refinements to beam search
+
 > BFS and DFS
+
 > Error analysis on beam search
+
 > Attention model
+
 > Blue Score
+
 > Speech recognition
+
 > Basic Rule of CTC based technique
-> Trigger word detection",subtop recurr neural network exampl model sequenc ,"['subtop', 'recurr', 'neural', 'network', 'exampl', 'model', 'sequenc']",subtopics of recurrent neural network  > examples of models with sequence data > notation in recurre
+
+> Trigger word detection",subtop recurr neural network exampl model sequenc ,"['subtop', 'recurr', 'neural', 'network', 'exampl', 'model', 'sequenc']",subtopics of recurrent neural network  > examples of models with sequence data  > notation in recurr
 133,"Subtopics of Guesstimate
 
 > Basics of case interview
+
 > Categorization of case studies
-> Guesstimate (Problem Solving Approach)",subtop guesstim basic case interview categor case ,"['subtop', 'guesstim', 'basic', 'case', 'interview', 'categor', 'case']",subtopics of guesstimate  > basics of case interview > categorization of case studies > guesstimate 
+
+> Guesstimate (Problem Solving Approach)",subtop guesstim basic case interview categor case ,"['subtop', 'guesstim', 'basic', 'case', 'interview', 'categor', 'case']",subtopics of guesstimate  > basics of case interview  > categorization of case studies  > guesstimat
 134,"Subtopics of Case Study-ML in Heathcare
 
 > Meaning of Diagnosis
+
 > ML in Healthcare
+
 > Geometric Mean Length of Stay
-> Features for the prediction of LOS",subtop case studymachin learn heathcar mean diagno,"['subtop', 'case', 'studymachin', 'learn', 'heathcar', 'mean', 'diagno']",subtopics of case study-machine learning in heathcare  > meaning of diagnosis > machine learning in 
+
+> Features for the prediction of LOS",subtop case studymachin learn heathcar mean diagno,"['subtop', 'case', 'studymachin', 'learn', 'heathcar', 'mean', 'diagno']",subtopics of case study-machine learning in heathcare  > meaning of diagnosis  > machine learning in
 135,"Subtopics of Case Study-ML in Fraud risk analytics
 
 > Understanding Fraud
+
 > WAYS TO CAPTURE FRAUDULENT BEHAVIOURS
+
 > Social Engineering Scams
-> Synthetic Minority Over-sampling Technique",subtop case studyml fraud risk analyt understand f,"['subtop', 'case', 'studyml', 'fraud', 'risk', 'analyt', 'understand', 'f']",subtopics of case study-ml in fraud risk analytics  > understanding fraud > ways to capture fraudule
+
+> Synthetic Minority Over-sampling Technique",subtop case studyml fraud risk analyt understand f,"['subtop', 'case', 'studyml', 'fraud', 'risk', 'analyt', 'understand', 'f']",subtopics of case study-ml in fraud risk analytics  > understanding fraud  > ways to capture fraudul
 136,"Subtopics of Case Study-ML in Credit Risk
 
 > Curious Case of Customer Credit
+
 > Overall Objective of Credit Risk
+
 > Predictive Analytics of Credit Risk
+
 > Prescriptive Analytics
+
 > Metrics that help in evaluating our model’s accuracy
+
 > Model Health using KS Scores
-> Decision Making using Risk Bins",subtop case studyml credit risk curious case custo,"['subtop', 'case', 'studyml', 'credit', 'risk', 'curious', 'case', 'custo']",subtopics of case study-ml in credit risk  > curious case of customer credit > overall objective of 
+
+> Decision Making using Risk Bins",subtop case studyml credit risk curious case custo,"['subtop', 'case', 'studyml', 'credit', 'risk', 'curious', 'case', 'custo']",subtopics of case study-ml in credit risk  > curious case of customer credit  > overall objective of
 137,"Subtopics of Case Study-ML in E-commerce
 
 > Curious Case of Customer Contacts
+
 > Important Features in E-commerce
->  Predictive Analytics in  E-commerce",subtop case studyml ecommerc curious case custom c,"['subtop', 'case', 'studyml', 'ecommerc', 'curious', 'case', 'custom', 'c']",subtopics of case study-ml in e-commerce  > curious case of customer contacts > important features i
+
+>  Predictive Analytics in  E-commerce",subtop case studyml ecommerc curious case custom c,"['subtop', 'case', 'studyml', 'ecommerc', 'curious', 'case', 'custom', 'c']",subtopics of case study-ml in e-commerce  > curious case of customer contacts  > important features 
 138,"Subtopics of Linux basics and terminal commands
 
 > Understanding UNIX Operating System
+
 > Kernel and shell of UNIX
+
 > Understanding LINUX Operating System
+
 > Ways to connect to an EC2 instance
+
 > Security of Remote Computer
+
 > Git Bash Understanding
+
 > Introduction to Repository
+
 > Steps to connect to AWS EC2 instance with git bash
+
 > Understanding IP address
-> Basic Bash or Linux commands",subtop linux basic termin command understand unix ,"['subtop', 'linux', 'basic', 'termin', 'command', 'understand', 'unix']",subtopics of linux basics and terminal commands  > understanding unix operating system > kernel and 
+
+> Basic Bash or Linux commands",subtop linux basic termin command understand unix ,"['subtop', 'linux', 'basic', 'termin', 'command', 'understand', 'unix']",subtopics of linux basics and terminal commands  > understanding unix operating system  > kernel and
 139,"Subtopics of Python modules and project setup
 
 > Few UNIX commands during project setup
+
 > File Permission Handling for security
+
 > UNIX command in colab notebook
+
 > Creating a Simple Module
+
 > Basics of modular programming
+
 > One-Off Script Layout
+
 > Installable Package Layout
+
 > App with Internal Packages Layout
+
 > Data Science Project Layout
+
 > Using cookiecutter for packaging
+
 > stdin, stdout and stderr
+
 > Reading a static data file from inside a Python package
+
 > Code for Creating python library
-> Testing during packaging of our own python library",subtop python modul project setup unix command pro,"['subtop', 'python', 'modul', 'project', 'setup', 'unix', 'command', 'pro']",subtopics of python modules and project setup  > few unix commands during project setup > file permi
+
+> Testing during packaging of our own python library",subtop python modul project setup unix command pro,"['subtop', 'python', 'modul', 'project', 'setup', 'unix', 'command', 'pro']",subtopics of python modules and project setup  > few unix commands during project setup  > file perm
 140,"Production Grade Programming Basics
 
 Production environment is the setting where  products are actually put into operation for their intended uses by end users.
@@ -1582,9 +2409,9 @@ class Cylinder:
 _init_ is used to define the attribute
 
 radius=1, height=1 are the default values of the variables to avoid null error.",defin class apart standard class creat new class r,"['defin', 'class', 'apart', 'standard', 'class', 'creat', 'new', 'class', 'r']","defining a class  apart from these standard classes, we can create new class as and when required. w"
-144,"Polymorphism
+144,"Understanding Polymorphism
 
-polymorphism refers to the way in which different object classes can share the same method name",polymorph polymorph refer way differ object class ,"['polymorph', 'polymorph', 'refer', 'way', 'differ', 'object', 'class']",polymorphism  polymorphism refers to the way in which different object classes can share the same me
+polymorphism refers to the way in which different object classes can share the same method name",understand polymorph polymorph refer way differ ob,"['understand', 'polymorph', 'polymorph', 'refer', 'way', 'differ', 'ob']",understanding polymorphism  polymorphism refers to the way in which different object classes can sha
 145,"Exception handling   
 
 Errors detected during execution are called exceptions. There is full list of built in python exceptions-
@@ -1621,65 +2448,109 @@ CRUD Meaning: CRUD is an acronym that comes from the world of computer programmi
 149,"Subtopics of Version control-Git
 
 > CVCS and DVCS
+
 > Introduction to GitHub
+
 > GitHub workflow
+
 > Steps of creating local git repository
+
 > Concept of Branch
+
 > Synchronising local git repository with Github
+
 > Merge Conflict
+
 > Continuous Integration/ Continuous Deployment or Delivery",subtop version controlgit central version control ,"['subtop', 'version', 'controlgit', 'central', 'version', 'control']",subtopics of version control-git  > central version control system and distributed version control s
 150,"Subtopics of API basics with flask
 
 > Understanding API
+
 > Types of web pages
+
 > Machine Learning Services
+
 > Types of API
+
 > Basics of Flask
+
 > Benefits of using the Flask framework
+
 > Popular HTTP Requests
+
 > Use of Virtual Environment
+
 > Creating a virtual environment
+
 > Understanding pip install
+
 > Creating a Web App in Flask
+
 > Jinja techniques
+
 > Ways to a edit script code in Colab notebook
+
 > Flaskr as a basic blog application
+
 > Hyper Text Markup Language",subtop applic program interfac basic flask underst,"['subtop', 'applic', 'program', 'interfac', 'basic', 'flask', 'underst']",subtopics of application programming interface basics with flask  > understanding application progra
 151,"Subtopics of Flask application and FastAPI
 
 > Understanding FastAPI
+
 > WSGI vs ASGI
+
 > Features of FastAPI
+
 > Pydantic Data Model
-> FastAPI Working with SQL",subtop flask applic fastapi understand fastapi web,"['subtop', 'flask', 'applic', 'fastapi', 'understand', 'fastapi', 'web']",subtopics of flask application and fastapi  > understanding fastapi > web server gateway interface v
+
+> FastAPI Working with SQL",subtop flask applic fastapi understand fastapi web,"['subtop', 'flask', 'applic', 'fastapi', 'understand', 'fastapi', 'web']",subtopics of flask application and fastapi  > understanding fastapi  > web server gateway interface 
 152,"Subtopics of Docker
 
 > Docker Basics
+
 > Image or Docker Image
+
 > Container or Docker Container
+
 > Introduction to dockerhub
+
 > Ways to install docker in EC2 instance
+
 > Basic Docker Commands
+
 > Docker or Container volume
+
 > Docker Bridge Networking and Port Mapping
+
 > Docker Compose
-> Docker swarm",subtop docker docker basic imag docker imag contai,"['subtop', 'docker', 'docker', 'basic', 'imag', 'docker', 'imag', 'contai']",subtopics of docker  > docker basics > image or docker image > container or docker container > intro
+
+> Docker swarm",subtop docker docker basic imag docker imag contai,"['subtop', 'docker', 'docker', 'basic', 'imag', 'docker', 'imag', 'contai']",subtopics of docker  > docker basics  > image or docker image  > container or docker container  > in
 153,"Subtopics of Microservices and streamlit
 
 > Understanding Microservices
+
 > API Gateway
+
 > Development of Microservices
+
 > Python code for creating a Streamlit file
+
 > Creating a file for streamlit inside the session
+
 > Creating a Streamlit Project
-> Deploying streamlit app in Google Cloud",subtop microservic streamlit understand microservi,"['subtop', 'microservic', 'streamlit', 'understand', 'microservi']",subtopics of microservices and streamlit  > understanding microservices > application programming in
+
+> Deploying streamlit app in Google Cloud",subtop microservic streamlit understand microservi,"['subtop', 'microservic', 'streamlit', 'understand', 'microservi']",subtopics of microservices and streamlit  > understanding microservices  > application programming i
 154,"Subtopics of ML Lifecycle
 
 > Machine learning engineering
+
 > 4 Phases to ML Lifecycle
+
 > Challenges with ML during development
+
 > Challenges with ML in production
-> Data drift and Model drift",subtop machin learn lifecycl machin learn engin 4 ,"['subtop', 'machin', 'learn', 'lifecycl', 'machin', 'learn', 'engin', '4']",subtopics of machine learning lifecycle  > machine learning engineering > 4 phases to machine learni
+
+> Data drift and Model drift",subtop machin learn lifecycl machin learn engin 4 ,"['subtop', 'machin', 'learn', 'lifecycl', 'machin', 'learn', 'engin', '4']",subtopics of machine learning lifecycle  > machine learning engineering  > 4 phases to machine learn
 155,"Competitive coding  basics 
 
 Competitive coding is important for interview to test coding aptitude
@@ -1751,46 +2622,76 @@ A collaboration site is used to support project teams, research groups, and othe
 169,"Subtopics of Azure Fundamentals
 
 > Cloud computing advantages
+
 > Cloud service models
+
 > Runtime system
+
 > CPU vs GPU
+
 > Azure machine learning platform
+
 > Azure ML Workspace and Azure ML piplines
+
 > Connecting to azure ml
-> Different cloud deployment models",subtop azur fundament cloud comput advantag cloud ,"['subtop', 'azur', 'fundament', 'cloud', 'comput', 'advantag', 'cloud']",subtopics of azure fundamentals  > cloud computing advantages > cloud service models > runtime syste
+
+> Different cloud deployment models",subtop azur fundament cloud comput advantag cloud ,"['subtop', 'azur', 'fundament', 'cloud', 'comput', 'advantag', 'cloud']",subtopics of azure fundamentals  > cloud computing advantages  > cloud service models  > runtime sys
 170,"Subtopics of MLOps-MLFlow
 
 > ML Lifecycle management
+
 > MLOps and DevOps
+
 > Agile software development
+
 > Key components of MLOps
+
 > Advantages of MLOps
+
 > Key outcomes of MLOps
+
 > Model registry and Metadata
-> MLFLow Basics",subtop machin learningopsmachin learningflow machi,"['subtop', 'machin', 'learningopsmachin', 'learningflow', 'machi']",subtopics of machine learningops-machine learningflow  > machine learning lifecycle management > mac
+
+> MLFLow Basics",subtop machin learningopsmachin learningflow machi,"['subtop', 'machin', 'learningopsmachin', 'learningflow', 'machi']",subtopics of machine learningops-machine learningflow  > machine learning lifecycle management  > ma
 171,"Subtopics of PySpark
 
 > Apache Spark (PySpark)
+
 > Advantages of Spark
+
 > Spark Modules
+
 > RDD operations
+
 > Anatomy of Spark Application
+
 > Spark application coding
+
 > Directed Acyclic Graph
+
 > Azure Databricks
-> Spark application deploy modes",subtop pyspark apach spark pyspark advantag spark ,"['subtop', 'pyspark', 'apach', 'spark', 'pyspark', 'advantag', 'spark']",subtopics of pyspark  > apache spark (pyspark) > advantages of spark > spark modules > resilient dis
+
+> Spark application deploy modes",subtop pyspark apach spark pyspark advantag spark ,"['subtop', 'pyspark', 'apach', 'spark', 'pyspark', 'advantag', 'spark']",subtopics of pyspark  > apache spark (pyspark)  > advantages of spark  > spark modules  > resilient 
 172,"Subtopics of Airflow
 
 > Apache Airflow
+
 > Introduction to Jenkins
+
 > Use of Apache Airflow
+
 > Airflow Components
+
 > Web Server and Scheduler
+
 > Executor, Worker and Operator
+
 > Metadata Database
+
 > Applications of Airflow
-> Understanding Celery",subtop airflow apach airflow introduct jenkin use ,"['subtop', 'airflow', 'apach', 'airflow', 'introduct', 'jenkin', 'use']",subtopics of airflow  > apache airflow > introduction to jenkins > use of apache airflow > airflow c
-173,"Library
+
+> Understanding Celery",subtop airflow apach airflow introduct jenkin use ,"['subtop', 'airflow', 'apach', 'airflow', 'introduct', 'jenkin', 'use']",subtopics of airflow  > apache airflow  > introduction to jenkins  > use of apache airflow  > airflo
+173,"Understanding Library
 
 A library is a collection of python packages with multiple programming blocks
 Library means main folder
@@ -1805,15 +2706,15 @@ Keras (in 2015),
 Theano, 
 PyTorch,  
 sys, 
-time",librari librari collect python packag multipl prog,"['librari', 'librari', 'collect', 'python', 'packag', 'multipl', 'prog']",library  a library is a collection of python packages with multiple programming blocks library means
-174,"Package
+time",understand librari librari collect python packag m,"['understand', 'librari', 'librari', 'collect', 'python', 'packag', 'm']",understanding library  a library is a collection of python packages with multiple programming blocks
+174,"Understanding Package
 
 A package is a collection of Python modules
 
 Package means sub folder
 
-We may import the entire library (the main folder) or a particular package (a sub folder) or a particular module (a file) with dot(.) operator",packag packag collect python modul packag mean sub,"['packag', 'packag', 'collect', 'python', 'modul', 'packag', 'mean', 'sub']",package  a package is a collection of python modules  package means sub folder  we may import the en
-175,"Module
+We may import the entire library (the main folder) or a particular package (a sub folder) or a particular module (a file) with dot(.) operator",understand packag packag collect python modul pack,"['understand', 'packag', 'packag', 'collect', 'python', 'modul', 'pack']",understanding package  a package is a collection of python modules  package means sub folder  we may
+175,"Understanding Module
 
  A module is a single Python file that consists of classes, functions, attributes and methods
 
@@ -1829,7 +2730,7 @@ some popular categories of Python modules are:
 1. operating system
 2. math
 3. time
-4. data visualization ",modul modul singl python file consist class functi,"['modul', 'modul', 'singl', 'python', 'file', 'consist', 'class', 'functi']","module   a module is a single python file that consists of classes, functions, attributes and method"
+4. data visualization ",understand modul modul singl python file consist c,"['understand', 'modul', 'modul', 'singl', 'python', 'file', 'consist', 'c']","understanding module   a module is a single python file that consists of classes, functions, attribu"
 176,"Modular programming 
 
 Modular programming refers to the process of breaking a large, unwieldy programming task into separate, smaller, more manageable subtasks or modules. 
@@ -11255,9 +12156,9 @@ Note-9: We know that at expectation probability is always maximum. Thus, we only
 Prabir Debnath, the Data Reader Of New Age (drona), is my developer and he is the resource of my experiences that I am sharing with you.",prabir debnath drona tellm model prabir debnath da,"['prabir', 'debnath', 'drona', 'tellm', 'model', 'prabir', 'debnath', 'da']","prabir debnath as drona for tellme model  prabir debnath, the data reader of new age (drona), is my "
 1063,"Help Lines
 
-> I am the 'tellme' question answering model of drona (Data Reader Of New Age). I have many experiences to share with data science and machine learning aspirants. I am always with you to make your learning journey superfast and structured.
+I am the 'tellme' question answering model of drona (Data Reader Of New Age). I have many experiences to share with data science and machine learning aspirants. I am always with you to make your learning journey superfast and structured.
 
-> Freshers may ask questions in following sequence
+Freshers may ask questions in following sequence
 
 ""What are the main subjects of data science?""
 
@@ -11271,4 +12172,4 @@ Prabir Debnath, the Data Reader Of New Age (drona), is my developer and he is th
 
 and finally,
 
-Can the knowledge of data science help us to understand human psychology?",help line tellm question answer model drona data r,"['help', 'line', 'tellm', 'question', 'answer', 'model', 'drona', 'data', 'r']",help lines  > i am the tellme question answering model of drona (data reader of new age). i have man
+""Can the knowledge of data science help us to understand human psychology?""",help line tellm question answer model drona data r,"['help', 'line', 'tellm', 'question', 'answer', 'model', 'drona', 'data', 'r']",help lines  i am the tellme question answering model of drona (data reader of new age). i have many 
