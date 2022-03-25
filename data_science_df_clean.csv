@@ -367,7 +367,7 @@ floats are not allowed in range function",rang function get sequenc list number 
 > API basics with flask
 > Flask application and FastAPI
 > Docker
-> Microservices-Basics & streamlit
+> Microservices and streamlit
 > ML Lifecycle
 > Azure Fundamentals
 > MLOps-MLFlow
@@ -1664,7 +1664,7 @@ CRUD Meaning: CRUD is an acronym that comes from the world of computer programmi
 > Docker Bridge Networking and Port Mapping
 > Docker Compose
 > Docker swarm",subtop docker docker basic imag docker imag contai,"['subtop', 'docker', 'docker', 'basic', 'imag', 'docker', 'imag', 'contai']",subtopics of docker  > docker basics > image or docker image > container or docker container > intro
-153,"Subtopics of Microservices-Basics & streamlit
+153,"Subtopics of Microservices and streamlit
 
 > Understanding Microservices
 > API Gateway
@@ -1672,7 +1672,7 @@ CRUD Meaning: CRUD is an acronym that comes from the world of computer programmi
 > Python code for creating a Streamlit file
 > Creating a file for streamlit inside the session
 > Creating a Streamlit Project
-> Deploying streamlit app in Google Cloud",subtop microservicesbas streamlit understand micro,"['subtop', 'microservicesbas', 'streamlit', 'understand', 'micro']",subtopics of microservices-basics & streamlit  > understanding microservices > application programmi
+> Deploying streamlit app in Google Cloud",subtop microservic streamlit understand microservi,"['subtop', 'microservic', 'streamlit', 'understand', 'microservi']",subtopics of microservices and streamlit  > understanding microservices > application programming in
 154,"Subtopics of ML Lifecycle
 
 > Machine learning engineering
