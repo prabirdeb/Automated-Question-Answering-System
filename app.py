@@ -94,7 +94,7 @@ def abbreviation_process(text):
           if k==i:
             text=text.replace(k,abbreviation_dict.get(i))
     except:
-      print("Sorry..")
+      text= "Sorry.."
 
     return text
 
@@ -111,7 +111,7 @@ def text_process(text):
       text = ' '.join(text)
 
     except:
-      print("Please check your statement..")
+      text= "Please check your statement.."
                       
     return text
 
@@ -136,13 +136,13 @@ def tellme(question):
     
      
     if topic_match.max()<0.25:  # Deciding the margins through hit and trial for perfect answer
-      answer=print("Sorry ! I have no experience for this question.\n\n::BEGINNERS MAY TYPE 'HELP LINES'")
+      answer="Sorry ! I have no experience for this question.\n\n::BEGINNERS MAY TYPE 'HELP LINES'"
               
     else:
-      answer=print(f"{data_science_df_clean.documents[np.where(topic_match == topic_match.max())[0][0]]}\n\n::BEGINNERS MAY TYPE 'HELP LINES'")
+      answer= data_science_df_clean.documents[np.where(topic_match == topic_match.max())[0][0]]
               
   except:
-    answer=print("I can't understand\n\n::BEGINNERS MAY TYPE 'HELP LINES'")
+    answer="I can't understand\n\n::BEGINNERS MAY TYPE 'HELP LINES'"
     
   return answer
 
