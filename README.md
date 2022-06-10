@@ -24,6 +24,14 @@ Link:
 
 https://pypi.org/project/drona/
 
+# Potential Impact and Future Scope:
+
+Generally during the data science learning journey, we do a google search. But 'drona' gives answer within the python environment so that learning and coding can happen in the same place.
+
+As I am simplifying the concepts of data science as a continuous learning process, the same is shared with ‘drona’ for the benefit of the mass.
+
+Day by day, 'drona' will surely make the field of data science more interesting, useful, and simple to more and more data science aspirants
+
 # Installation:
 
 In python environment, you can call 'drona' with following two lines
