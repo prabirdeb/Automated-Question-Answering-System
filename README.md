@@ -14,11 +14,11 @@ The task was to build a data science related automated question answering model 
 
 Did text pre-processing through two different functions: ‘abbreviation_process’ and ‘text_process’.
 
-CountVec ngram model was the final model for question answering due to its excellent performance over LDA, tfidf, word2vec and countvec unigram model. Deployed the final model as streamlit demo in AWS.
+CountVec ngram model was the final model for question answering due to its excellent performance over LDA, tfidf, word2vec and countvec unigram model. Deployed the final model as streamlit demo in Heroku.
 
 Link:
 
-http://65.2.143.27:8502/
+https://dronademo.herokuapp.com/
 
 This model was structured in such a way so that any fresher can get a complete guideline of asking questions to learn data science and machine learning.
 
