@@ -156,6 +156,8 @@ question=quest.title() # .title() is used to get the input question string
 
 ans = tellme(question)
 
+add_bg_from_local('drona.jpg') 
+
 if(st.button('tellme')):   # display the ans when the submit button is clicked
   st.success(ans)
 
